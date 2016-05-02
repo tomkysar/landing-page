@@ -100,14 +100,6 @@ a:focus {
     font-weight: 400;
 }
 
-.join-augur-beta {
-    border: 2px solid #ccc;
-    border-radius: 50px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-left: 10px;
-    margin-right: 50px;
-}
 .join-augur-beta-button {
     background-color: #40A2CB;
     max-width: 200px;
@@ -250,6 +242,13 @@ a:focus {
     color: #fff;
 }
 
+@media(max-width:768px) {
+    .navbar-custom {
+        padding: 15px 0 0 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+    }
+}
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -273,6 +272,14 @@ a:focus {
     }
     .augur-logo {
         margin-top: 8px;
+    }
+    .join-augur-beta {
+        border: 2px solid #ccc;
+        border-radius: 50px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 10px;
+        margin-right: 50px;
     }
     .join-augur-beta {
         border: 1px solid rgba(255,255,255,.5);
