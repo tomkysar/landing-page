@@ -263,7 +263,8 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: url(../img/mountains.jpg) no-repeat top center scroll;
+        background: url(../img/mountains.jpg) no-repeat center center scroll;
+        background-size: cover;
         border-bottom: 1px solid rgba(255,255,255,.25);
     }
 
