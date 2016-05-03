@@ -25,6 +25,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    handleVideoPlayback();
 });
 
 // Closes the Responsive Menu on Menu Item Click
@@ -49,3 +51,22 @@ $('#mailinglist-form').submit(function (event) {
     event.preventDefault();
     mailinglistSignup();
 });
+
+/**
+ * Takes care of stopping video when modal is closed. This restarts the video every time modal is shown
+ *
+ * Based on http://www.tutorialrepublic.com/faq/how-to-embed-youtube-video-inside-bootstrap-modal.php
+ */
+function handleVideoPlayback() {
+    var $modal = $("#video-modal");
+    var $videoIframe = $modal.find("iframe");
+    var originalUrl = $videoIframe.attr('src');
+
+    $modal.on('hide.bs.modal', function() {
+        $videoIframe.attr('src', '');
+    });
+
+    $modal.on('show.bs.modal', function() {
+        $videoIframe.attr('src', originalUrl);
+    });
+}
