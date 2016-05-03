@@ -34,6 +34,8 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -103,7 +105,7 @@
                 <h2>Get rewarded for your knowledge and insight</h2>
                 <p>Augur is a prediction market platform that rewards you for correctly predicting future real-world events.</p>
                 <h3>Predict the outcome of real-world events</h3>
-                <p>You make your predictions by trading virtual shares in the outcome of events happening in the real-world. If you think Hillary Clinton will be elected President, the Yankees will the win the World Series, or Leonardo DiCaprio will win another Oscar, then you’ll buy shares in those outcomes. If you buy shares in the correct outcomes, you'll win real money profits.</p>
+                <p>You make your predictions by trading virtual shares in the outcome of events happening in the real-world. If you think Hillary Clinton will be elected President, the Yankees will the win the World Series, or Leonardo DiCaprio will win another Oscar, then you'll buy shares in those outcomes. If you buy shares in the correct outcomes, you'll win real money profits.</p>
                 <h3>Earn real-money trading profits</h3>
                 <p>The prices of the shares you trade in any event adds up to one dollar - so if you buy a share at even odds it will cost you 50 cents. If you end up being right, you'll get back one dollar for every share you bought. If you're wrong then you've lost the money used to buy your shares. As with any market, the price of shares fluctuates over time. As more people buy shares in an outcome, the price of that outcome will rise while the price of other outcomes will fall. This gives you further opportunities for profit - by buying low and selling high, before the final result of the market is known.</p>
             </div>
@@ -115,8 +117,8 @@
             <div class="container">
                 <div class="col-md-12">
                     <h2>Stunningly accurate forecasts on any topic</h2>
-                    <p>Augur’s prediction markets provide powerful predictive data - you can think ofthe current market price of any share in any market as an estimate of the probability of that outcome actually occurring in the real world. For example, a share priced a 64 cents has a 64% probability of happening.</p>
-                    <p>The accuracy of prediction markets rests in the scientific theory of "The Wisdom of Crowds". This states that the average prediction made by a group is superior to that made by any of the individuals in that group. Markets are the perfect way to aggregate this collective wisdom - which is made up of all the information, analysis and opinion held by members of the group. With these individuals buying and selling shares in the outcome of real-world events, based on their personal knowledge and opinion, the market prices reach an equilibrium that reflect the opinion of the entire group.</p>
+                    <p>Augur's prediction markets provide powerful predictive data - you can think of the current market price of any share in any market as an estimate of the probability of that outcome actually occurring in the real world. For example, a share priced at 64 cents has a 64% probability of happening.</p>
+                    <p>The accuracy of prediction markets rests in the idea of the "The Wisdom of the Crowd". This states that the average prediction made by a group is superior to that made by any of the individuals in that group. Markets are the perfect way to aggregate this collective wisdom - which is made up of all the information, analysis and opinion held by members of the group. With these individuals buying and selling shares in the outcome of real-world events, based on their personal knowledge and opinion, the market prices reach an equilibrium that reflect the opinion of the entire group.</p>
                     <p>Prediction markets have proven to be more accurate at forecasting the future than individual experts, surveys or traditional opinion polling. They provide real-time predictive data and are traded using real money - which incentivises market participants to reveal what they think will happen, rather than what they hope will happen. Traders are putting their money where their mouths are.</p>
                 </div>
             </div>
@@ -132,11 +134,11 @@
                     <h3>No central servers</h3>
                     <p>Augur is a decentralized platform built on the Ethereum blockchain - which means no central servers that can be switched off.</p>
                     <h3>Create your own markets</h3>
-                    <p>Using Augur, anyone, anywhere in the world can quickly and easily create a prediction market asking a question about anything. As a market creator you’ll provide some initial funding for the market and in return receive half of all trading fees collected during the lifetime of that market.</p>
+                    <p>Using Augur, anyone, anywhere in the world can quickly and easily create a prediction market asking a question about anything. As a market creator you'll provide some initial funding for the market and in return receive half of all trading fees collected during the lifetime of that market.</p>
                     <h3>Crowdsourced reporting</h3>
-                    <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we’ll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation.</p>
+                    <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we'll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation.</p>
                     <h3>Safe, automated payments</h3>
-                    <p>All funds are stored in smart contracts - eliminating counterparty risk and allowing fast, automated payments to winning traders. Depositing and withdrawing funds are also completely automated using the blockchain. With no human intervention required, there’s no human error.</p>
+                    <p>All funds are stored in smart contracts - eliminating counterparty risk and allowing fast, automated payments to winning traders. Depositing and withdrawing funds are also completely automated using the blockchain. With no human intervention required, there's no human error.</p>
                 </div>
             </div>
         </div>
@@ -166,7 +168,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" id="usr" placeholder="Your email address" />
                         <span class="input-group-btn">
-                            <button class="btn btn-info" type="button">
+                            <button id="mailinglist-signup" class="btn btn-info" type="button">
                                 <i class="fa fa-angle-right fa-1x"></i>
                             </button>
                         </span>
