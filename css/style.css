@@ -216,6 +216,20 @@ a:focus {
     color: #fff;
 }
 
+#signed-up {
+    padding-top: 10px;
+}
+#signed-up p {
+    font-size: 16pt;
+}
+
+.intro-video {
+    cursor: pointer;
+}
+.video-modal-content {
+    background: transparent;
+}
+
 @media(max-width:768px) {
     .intro .intro-body .intro-text {
         font-size: 14pt !important;

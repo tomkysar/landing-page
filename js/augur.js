@@ -29,7 +29,16 @@ $(function() {
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
-  if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
-    $('.navbar-toggle:visible').click();
-  }
+    if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
+        $('.navbar-toggle:visible').click();
+    }
+});
+
+$('#mailinglist-signup').click(function () {
+    new Firebase('https://augur.firebaseio.com').child('mailing-list').push().set({
+        handle: $('#email-address').val(),
+        timestamp: new Date().getTime()
+    }).then(function () {
+        $('#signed-up').html('<p>Thanks for signing up!</p>');
+    });
 });

@@ -89,11 +89,10 @@
                 <div class="col-md-12">
                     <h1 class="brand-heading">Welcome to the future of forecasting</h1>
                     <p class="intro-text">Augur combines the magic of prediction markets with the power of a decentralized network to create a stunningly accurate forecasting tool - and the chance for real money trading profits</p>
-                    <a href="https://www.youtube.com/watch?v=yegyih591Jo">
-                        <div class="intro-video">
-                            <span class="video-label">What is Augur?</span> <i class="fa fa-play-circle-o fa-1x"></i>
-                        </div>
-                    </a>
+                    <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#video-modal"> -->
+                    <div class="intro-video" data-toggle="modal" data-target="#video-modal">
+                        <span class="video-label">What is Augur?</span> <i class="fa fa-play-circle-o fa-1x"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,13 +165,14 @@
                 <h1>Subscribe for updates about Augur</h1>
                 <div class="form-group">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="usr" placeholder="Your email address" />
+                        <input type="text" class="form-control" id="email-address" placeholder="Your email address" />
                         <span class="input-group-btn">
                             <button id="mailinglist-signup" class="btn btn-info" type="button">
                                 <i class="fa fa-angle-right fa-1x"></i>
                             </button>
                         </span>
                     </div>
+                    <div id="signed-up"></div>
                 </div>
                 <p class="no-sharing">We won't share your email address or send you any spam - we promise!</p>
             </div>
@@ -234,6 +234,16 @@
             </div>
         </div>
     </footer>
+
+    <div id="video-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="video-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content video-modal-content">
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yegyih591Jo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
