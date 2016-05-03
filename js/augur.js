@@ -34,11 +34,18 @@ $('.navbar-collapse ul li a').click(function() {
     }
 });
 
-$('#mailinglist-signup').click(function () {
+function mailinglistSignup() {
     new Firebase('https://augur.firebaseio.com').child('mailing-list').push().set({
         handle: $('#email-address').val(),
         timestamp: new Date().getTime()
     }).then(function () {
         $('#signed-up').html('<p>Thanks for signing up!</p>');
     });
+}
+
+$('#mailinglist-signup').click(mailinglistSignup);
+
+$('#mailinglist-form').submit(function (event) {
+    event.preventDefault();
+    mailinglistSignup();
 });

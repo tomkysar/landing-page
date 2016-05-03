@@ -96,6 +96,11 @@ a:focus {
     color: #1d9b6c;
 }
 
+.icon {
+    margin-right: 15px;
+    padding-bottom: 6px;
+}
+
 .light {
     font-weight: 400;
 }
