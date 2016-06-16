@@ -70,24 +70,13 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="http://docs.augur.net">Documentation</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="https://sale.augur.net/login">Log In</a>
-                    </li>
-                    <li class="join-augur-beta">
-                        <a href="https://app.augur.net">Join Augur Beta</a>
-                    </li>
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#team">Team</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    <li><a href="http://docs.augur.net">Documentation</a></li>
+                    <li><a href="https://sale.augur.net/login">Log In</a></li>
+                    <li class="join-augur-beta"><a href="https://app.augur.net">Join Augur Beta</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -194,46 +183,117 @@
         </div>
     </section>
 
+    <section id="team" class="content-section text-center">
+        <div class="team-section">
+            <div class="container">
+                <div class="team-header"><h1>The Augur Team</h1></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-jack">
+                            <div class="profile col-md-6">
+                                <img src="img/jack.jpg" class="large-profile-pic" />
+                                <h2>Jack Peterson, PhD<br /><small>Co-founder &amp; Core Developer</small></h2>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-joey">
+                            <div class="profile col-md-6">
+                                <img src="img/joey.png" class="large-profile-pic" />
+                                <h2>Joey Krug<br /><small>Co-founder &amp; Core Developer</small></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-baz">
+                            <div class="profile col-md-3">
+                                <img src="img/baz.jpg" class="profile-pic" />
+                                <h3>Baz Karam<br /><small>Lead Front-End Developer</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-sprinkle">
+                            <div class="profile col-md-3">
+                                <img src="img/sprinkle.jpg" class="profile-pic" />
+                                <h3>Stephen Sprinkle<br /><small>Senior Front-End Developer</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-tomas">
+                            <div class="profile col-md-3">
+                                <img src="img/tomas.png" class="profile-pic" />
+                                <h3>Tomas Priecinsky<br /><small>Front-End Developer</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-johndanz">
+                            <div class="profile col-md-3">
+                                <img src="img/johndanz.jpg" class="profile-pic" />
+                                <h3>John Danz<br /><small>Front-End Developer</small></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-ryan">
+                            <div class="profile col-md-3">
+                                <img src="img/ryan.jpg" class="profile-pic" />
+                                <h3>Ryan Garner<br /><small>Back-End Developer</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-petr">
+                            <div class="profile col-md-3">
+                                <img src="img/petr.jpg" class="profile-pic" />
+                                <h3>Petr Baudis<br /><small>Back-End Developer</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-tony">
+                            <div class="profile col-md-3">
+                                <img src="img/tony.jpg" class="profile-pic" />
+                                <h3>Tony Sakich<br /><small>Director of Marketing</small></h3>
+                            </div>
+                        </div>
+                        <div class="intro-profile" data-toggle="modal" data-target="#profile-modal-perry">
+                            <div class="profile col-md-3">
+                                <img src="img/perry.png" class="profile-pic" />
+                                <h3>Peronet Despeignes<br /><small>SpecialOps</small></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="content-section contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-sm-4">
                         <ul class="nostyle">
-                            <li><img class="augur-logo-gray" src="img/augur-logo-gray.png" alt="augur logo" /></li>
+                            <a href="mailto:team@augur.net"><li><img class="augur-logo-gray" src="img/augur-logo-gray.png" alt="augur logo" /></li></a>
                             <li class="team-email"><a href="mailto:team@augur.net">team@augur.net</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4">
                         <ul class="nostyle">
-                            <li><a href="http://blog.augur.net/team">Team</a></li>
-                            <li><a href="terms.txt">Terms &amp; Conditions</a></li>
-                            <li><a href="https://augur.zendesk.com/hc/en-us">FAQ</a></li>
-                            <li><a href="http://terms.augur.net">Privacy Policy</a></li>
-                            <li><a href="http://docs.augur.net">Documentation</a></li>
-                            <li><a href="https://sale.augur.net">REP Login</a></li>
+                            <li><a href="https://augur.zendesk.com/hc/en-us">Frequently Asked Questions</a></li>
                             <li><a href="http://blog.augur.net">Blog</a></li>
+                            <li><a href="terms.txt">Terms &amp; Conditions</a></li>
+                            <li><a href="http://terms.augur.net">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4">
                         <ul class="nostyle">
                             <li>
                                 <ul class="nostyle social-media">
-                                    <li>
-                                        <a href="https://www.reddit.com/r/augur"><i class="fa fa-reddit fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/augurproject"><i class="fa fa-facebook fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/AugurProject"><i class="fa fa-twitter fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/AugurProject"><i class="fa fa-github fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="http://slack.augur.net"><i class="fa fa-slack fa-2x"></i></a>
-                                    </li>
+                                    <li><a href="https://www.facebook.com/augurproject"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                    <li><a href="https://twitter.com/AugurProject"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                    <li><a href="https://www.reddit.com/r/augur"><i class="fa fa-reddit fa-2x"></i></a></li>
+                                    <li><a href="https://github.com/AugurProject"><i class="fa fa-github fa-2x"></i></a></li>
+                                    <li><a href="http://slack.augur.net"><i class="fa fa-slack fa-2x"></i></a></li>
                                 </ul>
                             </li>
                             <li>
@@ -261,6 +321,136 @@
             <div class="modal-content video-modal-content">
                 <div class="modal-body">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/yegyih591Jo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-jack" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/jack.jpg" class="large-profile-pic" />
+                    <h2>Jack Peterson, PhD<br /><small>Co-founder &amp; Core Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Jack is a physicist, entrepreneur, and software developer. He became fascinated by distributed networks while finishing his Ph.D. at UCSF. He has delved into scientific computing (<a href="https://github.com/tinybike/JointMoments.jl">1</a>, <a href="http://interacto.me/">2</a>, <a href="https://github.com/tinybike/maxent-digamma">3</a>, <a href="https://github.com/JuliaStats/StatsBase.jl">4</a>, <a href="https://github.com/tinybike/FiniteStateMachine.jl">5</a>, <a href="https://github.com/tinybike/Decimals.jl">6</a>, <a href="https://github.com/tinybike/tlcp">7</a>), blockchain programming (<a href="http://www.sidecoin.net/" target="_blank">1</a>, <a href="https://github.com/tinybike/grapple" target="_blank">2</a>, <a href="https://github.com/tinybike/coinbridge" target="_blank">3</a>, <a href="https://github.com/tinybike/CryptoCab">4</a>, <a href="https://github.com/tinybike/catchcoin">5</a>), <a href="https://github.com/tinybike/WormCam" target="_blank">computer vision</a>, <a href="https://github.com/tinybike/thinker" target="_blank">neural networks</a>, <a href="https://github.com/tinybike/flood">peer-to-peer networking</a>, <a href="http://geonis.lternet.edu/" target="_blank">GIS</a>, and <a href="http://tinybike.com/" target="_blank">web development</a>. He was a <a href="https://ndseg.asee.org/">National Defense Science and Engineering Graduate Fellow</a>, and has published several peer-reviewed articles on complex networks and information theory, including modeling and simulation of <a href="http://arxiv.org/abs/1501.01282" target="_blank">protein-protein interaction networks</a> and <a href="http://www.pnas.org/content/107/37/16023.abstract">social networks</a>, automated <a href="http://pubs.acs.org/doi/abs/10.1021/jp500611f" target="_blank">kinetic model extraction</a> for single-molecule experiments, and the <a href="http://www.pnas.org/content/110/51/20380.abstract" target="_blank">statistical mechanics of "heavy-tailed" distributions</a>. He is currently building Augur's <a href="https://github.com/AugurProject/augur.js">JavaScript API</a> and <a href="https://github.com/AugurProject/augur">front-end</a>. In his free time, Jack enjoys swimming, picking blackberries, and <a href="http://travelmag.co.uk/?p=8409">travel</a> <a href="http://travelmag.co.uk/?p=8424">writing</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-joey" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/joey.png" class="large-profile-pic" />
+                    <h2>Joey Krug<br /><small>Co-founder &amp; Core Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Joey took a leave of absence from Pomona College to focus full time on Augur. He conducted the first Bitcoin transaction <a href="https://www.youtube.com/watch?v=eDaznzbYKkw" target="_blank">via sound</a> as well as the first Bitcoin transaction via iOS-Android Bluetooth LE. As a prelude to Augur, Joey and Jack completed <a href="http://www.sidecoin.net/" target="_blank">Sidecoin</a>, which allows new cryptocurrency distributions based on "snapshots" of Bitcoin account balances. He works on Augur’s back-end codebase (its Ethereum smart contracts). He is currently making Augur’s consensus implementation <a href="https://github.com/joeykrug/Clustering" target="_blank">faster and more accurate</a>. Joey worked on bitcoin merchant solutions and enjoys hardware tinkering and game development. He was his high school valedictorian and a senior officer of his college investment club.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-baz" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/baz.jpg" class="large-profile-pic" />
+                    <h2>Baz Karam<br /><small>Lead Front-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Baz has been engineering web applications for over 17 years. He has built systems that generate $100M+ annually. Has worked on databases that crunch tens of billions of records. Developed 3D interactive web-based systems. Led the architecture and engineering at startups. Worked in finance, pharmaceuticals, telecom, consumer products, large enterprises, small businesses and socially responsible companies. He is a published JavaScript expert. Baz is currently working on the Augur UI.  Baz believes deeply in the coming decentralization revolution. He has been participating heavily in the crypto community for several years, and sees prediction markets as a beautifully harmonious fit for the technology. He also finished in the top 5% at the World Series of Poker twice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-sprinkle" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/sprinkle.jpg" class="large-profile-pic" />
+                    <h2>Stephen Sprinkle<br /><small>Senior Front-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Stephen brings a level of familiarity and comfort to the start-up and scaling phases of product design and development having either founded or co-founded a series of ventures previously. His former projects include Cryptoping and address watching service, Certle which provides technical certification tracking and <a href="http://giving.io/">Giving.io</a>, a mobile donations platform for faith institutions. Being a relatively early adopter of Bitcoin has helped influence his growing passion for decentralized applications and the cryptocurrencies that support them. He is looking forward to contributing to the front-end initiative of the Augur and it’s truly novel form of research and insight that’s provided in a resilient manner.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-tomas" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/tomas.png" class="large-profile-pic" />
+                    <h2>Tomas Priecinsky<br /><small>Front-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Tomas joined Intrade back in 2011, where he gained experience on how to build various UIs - simplified for basic users, advanced for real-time traders and compact for mobile devices. Then he went to work for Barclays in 2013 before coming back to the development team that previously created Intrade. Tomas was a core developer of the Tradesports fantasy sports platform. He yet again worked on real-time UIs and building multi-platform hybrid mobile applications while gaining exposure to bitcoin. He's skilled at JS, CSS, Java, SQL and various JS frameworks. He spent a few years at The University of Economics, Prague (Vysoká škola ekonomická v Praze) before moving on early to a career in programming. In addition to programming, he enjoys sports, culture and bacon. Lots of bacon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-johndanz" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/johndanz.jpg" class="large-profile-pic" />
+                    <h2>John Danz<br /><small>Front-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>John has experience working in small software companies with big clients and brings an agile “wear many hats” ability to the Augur team. His work has allowed him to build pages and applications with clients such as Eli Lilly, Scholastic, and Pearson Education. He has experience with all manner of browser quirks, a proficiency in JavaScript, a passion to learn all there is to know about JavaScript applications, and the ever growing ecosystem that surrounds JavaScript. Although relatively new to developing decentralized software powered by cryptocurrency, John is excited to jump headfirst into this new and ground breaking field.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-ryan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/ryan.jpg" class="large-profile-pic" />
+                    <h2>Ryan Garner<br /><small>Back-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Ryan is a programmer skilled in C++ and Basic. Before joining Augur he designed an improved quadratic fee structure, created a routine for automatically distributing the labor of judges to achieve a target accuracy, and designed a way to calculate re-adjudication bonds based on opportunity cost. In Ryan's spare time he enjoys researching and discussing futurology, decentralization, concepts derived from quantum nature, and use cases of DAOs. Additionally, Ryan has an interest in World War II strategy and analyzing the cost-benefit relationship of equipment, this interest lead to Ryan creating the largest WWII realism <a href="http://forums.wesnoth.org/viewtopic.php?f=19&amp;p=586831" target="_blank">mod</a> for Wesnoth.  Ryan is constantly on <a href="http://reddit.com/r/augur" target="_blank">/r/Augur</a> using the handle <a href="https://www.reddit.com/user/imkharn" target="_blank">imkharn.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-petr" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/petr.jpg" class="large-profile-pic" />
+                    <h2>Petr Baudis<br /><small>Back-End Developer</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Petr Baudis manages a special R&amp;D project within Augur to build a reporter helper system that uses Artificial Intelligence (Natural Language Processing) to recommend answers to questions about predicted outcomes on reporters' ballots. Petr is an authority on the subject as the team leader of YodaQA, a widely recognized global initiative to build a lighterweight, open-source Q&amp;A alternative to IBM Watson. He's fluent in Computer Go, continuous black-box optimization, combinatorial game theory, Monte Carlo simulations, information extraction from unstructured text, C++, Java, Python, Perl, Linux, and Unix. He has a Masters in Theoretical Computer Science at Charles University and is currently a PhD candidate at Czech Tech University. He worked for Novartis, Novell and Sirius Labs and participated in the U.S. National Institute of Standards and Technology annual Text Retrieval Conference on LiveQA.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-tony" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/tony.jpg" class="large-profile-pic" />
+                    <h2>Tony Sakich<br /><small>Director of Marketing</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Tony managed <a href="https://www.youtube.com/watch?v=9uA4KO2EEBU" target="_blank">the first, bitcoin-related national TV ad campaign</a>, the most successful social media campaign in the cryptocurrency space to date, as the Marketing Manager for BitPay. That capped 10+ years of work on digital campaigns with Microsoft, PayPal, ESPN, Warner Bros. and other tech and entertainment groups. He is obsessed with decentralization and bayesian probability, making him a perfect fit for Augur. His podcast <a href="https://decentralize.fm/" target="_blank">decentralize.fm</a> (also on iTunes and Sticher) features bleeding-edge projects and celebrities. He specializes in promoting decentralized software products and platforms. Tony's philosophy on marketing focuses on transparency, customer interaction and making the project as easy to understand as possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-modal-perry" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="profile-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content profile-modal-content">
+                <div class="modal-header profile-modal-header">
+                    <img src="img/perry.png" class="large-profile-pic" />
+                    <h2>Peronet Despeignes<br /><small>SpecialOps</small></h2>
+                </div>
+                <div class="profile-modal-body">
+                    <p>Perry is involved in special operations for Augur, including strategic initiatives involving the financial sector, artificial intelligence, business outreach outside the US and project documentation. He worked as an economics correspondent for the Financial Times, Fortune and Investors Business Daily after majoring in economics at Harvard. Before the 2007 crash, he uncovered <a href="http://ow.ly/J7CcF" target="_blank">heavy insider selling by homebuilder executives,</a> used futures markets to gauge <a href="http://ow.ly/J7CXS" target="_blank">the surprising extent of Wall Street's dependence on the </a><a href="http://ow.ly/J7CXS" target="_blank">Fed,</a> was first to report the Fed's <a href="http://ow.ly/J7Dbc" target="_blank">formal brainstorming</a> over unconventional stimulus options and how the U.S. government's future financial challenges were <a href="http://ow.ly/W72QA" target="_blank">massively underestimated</a>. He developed <a href="http://bit.ly/MKrxOu" target="_blank">regressions</a> to assess which nations might <a href="https://www.dropbox.com/s/ihmx8ujobcwef61/Chart4c.swf?raw=1" target="_blank">outperform or underperform</a> going forward based on which were "<a href="https://www.dropbox.com/s/srbgtnlex4321ue/grei-cookbook.pdf?raw=1" target="_blank">underpriced" or "overpriced</a>." He manages various special projects for info services group Serenity, Augur and the Forecast Foundation.</p>
                 </div>
             </div>
         </div>

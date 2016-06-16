@@ -235,6 +235,35 @@ a:focus {
     background: transparent;
 }
 
+.team-header {
+    border: 1px solid #f0f0f0;
+    padding: 30px 0 0 0;
+    margin-bottom: 50px;
+}
+.intro-profile {
+    cursor: pointer;
+}
+.large-profile-pic {
+    border: 1px dashed #ccc;
+    padding: 7px;
+    margin-bottom: 25px;
+    width: 325px;
+    height: 325px;
+}
+.profile-pic {
+    border: 1px dashed #ccc;
+    padding: 7px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+.profile-modal-header {
+    text-align: center;
+}
+.profile-modal-body {
+    padding: 20px 25px;
+}
+
 @media(max-width:768px) {
     .intro .intro-body .intro-text {
         font-size: 14pt !important;
