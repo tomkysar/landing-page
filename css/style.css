@@ -263,6 +263,12 @@ a:focus {
 .profile-modal-body {
     padding: 20px 25px;
 }
+.social-media-profile {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: center;
+    padding-top: 10px;
+}
 
 @media(max-width:768px) {
     .intro .intro-body .intro-text {
