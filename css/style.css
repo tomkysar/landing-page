@@ -257,6 +257,13 @@ a:focus {
     width: 275px;
     height: 275px;
 }
+.small-profile-pic {
+    border: 1px dashed #ccc;
+    padding: 7px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
 .profile-modal-header {
     text-align: center;
 }
