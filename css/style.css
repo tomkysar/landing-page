@@ -306,6 +306,15 @@ a:focus {
     .join-augur-beta-button-2 a {
         font-size: 10pt;
     }
+    .join-augur-beta-button-3 {
+        background-color: #d22020;
+        max-width: 200px;
+        margin: 25px auto 0 auto;
+        line-height: 20pt;
+    }
+    .join-augur-beta-button-3 a {
+        font-size: 10pt !important;
+    }
     .join-link {
         color: #fff !important;
     }
@@ -372,6 +381,16 @@ a:focus {
     .join-augur-beta-button-2 a {
         margin-left: 40px;
         font-size: 10pt;
+    }
+    .join-augur-beta-button-3 {
+        background-color: #d22020;
+        max-width: 200px;
+        margin-top: 15px;
+        line-height: 20pt;
+    }
+    .join-augur-beta-button-3 a {
+        margin-left: 40px;
+        font-size: 10pt !important;
     }
     .join-link {
         color: #fff !important;
