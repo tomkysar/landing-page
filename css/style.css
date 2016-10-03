@@ -571,6 +571,17 @@ footer {
 .team-email a {
     color: #5bc0de;
 }
+.slack {
+    border-top: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    padding: 10px 0;
+}
+.slack li {
+    line-height: 13pt;
+}
+.slack li a {
+    font-size: 11pt;
+}
 .btn-default {
     border: 1px solid #898989;
     color: #898989;
