@@ -127,6 +127,10 @@ a:focus {
     line-height: 15px;
     padding-right: 8px;
 }
+.rep-video-label {
+    cursor: pointer;
+    color: #40A2CB;
+}
 
 .nostyle {
     list-style-type: none;
@@ -238,6 +242,9 @@ a:focus {
 }
 .video-modal-content {
     background: transparent;
+}
+.rep-video {
+    cursor: pointer;
 }
 
 .team-header {

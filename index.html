@@ -35,9 +35,9 @@
     <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <script>
-        // Redirect /blog/ links to www.augur.org/blog
+        // Redirect /blog/ links to augur.strikingly.com/blog
         if (window.location.pathname.match(/\/blog\//)) {
-          window.location = "http://www.augur.org" + window.location.pathname;
+          window.location = "http://augur.strikingly.com" + window.location.pathname;
         }
     </script>
     <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
@@ -160,7 +160,9 @@
                     <h3><img class="icon" src="img/bank-note@2x.png" />Low fees</h3>
                     <p>Augur's fees are set by users, and are vastly lower compared to traditional trading and betting platforms.</p>
                     <h3><img class="icon" src="img/check-mark@2x.png" />Crowdsourced reporting</h3>
-                    <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we'll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation.</p>
+                    <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we'll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation. As a reporter, you'll report on events every two months and, in return, receive half of all fees in the system multiplied by the percent of REP you own.<span class="rep-video" data-toggle="modal" data-target="#rep-video-modal">
+                        <span class="rep-video-label">The full scoop on REP</span> <i class="fa fa-play-circle-o fa-1x"></i>
+                    </span></p>
                     <h3><img class="icon" src="img/banking-spendings-3@2x.png" />Safe, automated payments</h3>
                     <p>All funds are stored in smart contracts - eliminating counterparty risk and allowing fast, automated payments to winning traders. Depositing and withdrawing funds are also completely automated using the blockchain. With no human intervention required, there's no human error.</p>
                 </div>
@@ -331,6 +333,15 @@
             <div class="modal-content video-modal-content">
                 <div class="modal-body">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/yegyih591Jo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="rep-video-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="rep-video-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content video-modal-content">
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sCms-snzHk4" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
