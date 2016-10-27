@@ -3,7 +3,7 @@ UserVoice = window.UserVoice || [];
   var uv = document.createElement('script');
   uv.type = 'text/javascript';
   uv.async = true;
-  uv.src = 'http://widget.uservoice.com/CDL6e6K1fQciGvhFmwEUg.js';
+  uv.src = 'https://widget.uservoice.com/CDL6e6K1fQciGvhFmwEUg.js';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(uv, s)
 })();
