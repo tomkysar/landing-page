@@ -18,10 +18,11 @@ UserVoice.push(['set', {
   height: '325px',
   width: '100%',
   strings: {
-    post_suggestion_title: 'Share your idea',
-    post_suggestion_body: 'When you share an idea, others are able to comment!',
-    post_suggestion_message_placeholder: 'Describe your idea, or send us a message below for support inquries.',
-    contact_menu_label: 'Need help? Send us a message!'
+    post_suggestion_title: 'Have an idea for Augur?',
+    post_suggestion_body: 'Submit your thoughts and let the community vote!',
+    post_suggestion_message_placeholder: 'Functionality improvements, new feature requests, etc.',
+    contact_menu_label: 'Want to send the team a message?', 
+    contact_message_placeholder: 'Need help, have a question, or need to contact the team? Let us know here.'
   }
 }]);
 
