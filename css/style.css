@@ -646,6 +646,7 @@ body {
     background-color: transparent;
     font-size: 1.5em;
     padding: 10px 20px 10px 20px;
+    margin-bottom: 25px;
 }
 
 .btn-submit:hover,
@@ -671,3 +672,19 @@ body {
     height: 80px;
     margin-bottom: 25px;
 }
+
+/*@media (min-width: 992px){
+.container {
+    padding-top: 100px;
+    }
+}*/
+
+@media (min-width: 768px){
+.container {
+    padding-top: 130px;
+}}
+
+@media (min-width: 1200px){
+.container {
+    padding-top: 75px;
+}}
