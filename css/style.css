@@ -673,15 +673,13 @@ body {
     margin-bottom: 25px;
 }
 
-/*@media (min-width: 992px){
-.container {
-    padding-top: 100px;
-    }
-}*/
+.intro-text-careers{
+    font-size: 18px;
+}
 
 @media (min-width: 768px){
 .container {
-    padding-top: 130px;
+    padding-top: 150px;
 }}
 
 @media (min-width: 1200px){
