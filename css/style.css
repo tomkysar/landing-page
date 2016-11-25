@@ -686,3 +686,8 @@ body {
 .container {
     padding-top: 75px;
 }}
+
+#canary-img{
+    width: 46px;
+    margin-top: 1em;
+}

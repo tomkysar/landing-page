@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+As of November 25, 2016, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations. 
+
+The Forecast Foundation intends to update this report once per quarter.
+
+The Forecast Foundations public key: https://augur.net/pgp.txt
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - https://gpgtools.org
+
+iQIcBAEBCgAGBQJYOAz8AAoJEEJOD01Ku7vg8JQP/iRyHkyMankgCD7XKziM5Pay
+wodrTyMGrGNzUTvIUzpadFuR2y/zrbF6EmqFWdw5CDUQrDINuYEtyAw3v8fnnk0f
+yHTxSo2B2ko1sfRvi1vnuwGHQ46lIaBfVyE0jN/28bIIDPwlfp5cuxX1SjgDSjoE
+Vwd2T7zWECR+pE7I0yq2/6WuvOMyZJO1nfytTLIoRBEj2njVuYCS/DSpDVTob/US
+k/I8WaiFystbj+NxZRJ9QsObesrs7408bYnTpGMxrMPgGWRUo1npb5QWhlwsCsLu
+Z6TmBZ6xHYGcLOCHYLQbRKMuLo9cb/vjiLRXSZxgria4hxdJKecFrYTXw0saCc+F
+KInHFTXQKZbuMiPjUVoaPFMC8ArN5FmkRi7kTsM/Y1oYMq72DY/fjR1V1cm9bnA0
+shU7mtuEpvJ7xJSGCxXTz2BkcVDLuM2F/GW3uqrisZdct87NwSC29CeirjGl8mXy
+A/Xx29kbT5nxparc3+LbfQeQbh7Id7/Aiy22cgmgNlUuZQ81rRkMjCwiEND1oA1H
+8H6gCj30BGsFyBL6Rq0BYZz3p/zwPOt2acHeO2u2RyNGTEbPOxiV1ZWcPqK4wBzR
+T1dHSR1cTwu2SLF0b3F9oGpGAAaiVWnftSNcZUexBZSYXhfPCxaRlS90fmFfn6kG
+AGVxMhdJcBZEDsnXfGwj
+=mGqD
+-----END PGP SIGNATURE-----
