@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of January 1st, 2017, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of March 1st, 2017, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations. 
 
@@ -12,17 +12,17 @@ The Forecast Foundations public key: https://augur.net/pgp.txt
 -----BEGIN PGP SIGNATURE-----
 Comment: GPGTools - https://gpgtools.org
 
-iQIcBAEBCgAGBQJYbEnkAAoJEEJOD01Ku7vg5C0QAKLXFP0R5N6x5paONyOw7CSK
-bqQhacMruVfkXgPmEkVBFoRu1k0DRsqZDQPOnba9HOF2ZV9VvnTRjQwK9HBbC/g8
-qmdFP6+IWBVAMddPsvytwkx6Bcb0YhQTeLnLMrg8VVFNQt7EhdACkA58oP9Pj8iX
-nT6vhHEZCsALJLgsmbx2VijDchAGzcSwJOs/2DiexkZPGpZQRwWOIchhGm0+Tcdo
-Zxo7SE5wc/um4A87hAQe3X/ehOYjIL0a4aWx9vhjzfeK/8W516B/l6T8+sKX1Ps0
-1J7d4rzICCYhOrQJz5njZd3ozs4iK9Rt3IIOOoOUcWE1xb+Gw2JW2DCPcmWP7uxS
-FFjZW4wuASrBRt2Wt9bvszYOS7i+aYAMTQwKL8weebOJcesBEyelDnS3DoIyIho9
-nODcWswHFyD5IkJ8p1HfV2GUHcTxNKJCmjH+mmmLZX237ljXoZm6ZbsrE3dKsD2q
-BN+i9cXVp+SExNLcyF3E17Clh2FHZYNrORzRw/f1rGiXL8ydhQ1v55cg5QJsZKdL
-EzvAU/eTelp7v9Rl6mBjbo58E9n6CIutKZaEOWvkrQ+yz4298BH7Mgf8PXGhquTY
-UyhEYaIca1M7t4EmFGa7h7JD6hnpUAAATJ3iPzUQ4sX8Q4GW/MCJ35Cad37KFKy5
-nUU0ywFuHx7iQhduUUaU
-=YGo7
+iQIcBAEBCgAGBQJY4uNEAAoJEEJOD01Ku7vg/GAQAJUMY747aOJIfKDWwmsbis7q
+43Ee1EYPaOkE7RUgB4Y7FCqAhJR9mZpm3Ga+INZF0fSwIk+7EUY6WZZUOPzsOtdI
+QCLeebMcAI86KhnK5gtujiwS79phoZrR6QvPD2G2Piz3qf+riIFCX11iQw0Uq00x
+T0p15T1dLsS7h+2WxhXkQjWCdt5EAM+YdE+sASW8K3LcoA8EpW2SAJ4/uFHm1WMN
+cNHNNCYourD4MLMkRisQzgMiuHKcctG5TNpevwN70XGckQhPsj4Kua+FRvplKFD3
+BrpttNDjuNMLxSUXx3A1qNjj+9aEqCBjYNhOJwZ9SHvD7J8xOYcQ9GcfI8alhHiT
+WfyXMdFvnV+cvwBh5gR7lK+pk3G3rlUxSZ+Ob7x95BfAikJ/kOC/FDBebnU5WgH6
+ID0TZzgXvnlLQbHJpcqF8IcMnp7ZlYQoK7FFElT5Py+xJ+/8eMd4py4z4tOESgOk
+gG3tH+sFIwF59XfSuI6HGCIaSxhzlcIPw1Jt99EMh0tuSutjyB90onEiYMOCMRDy
+1r/o71N17k7upSBE8UlcGPRz7Mx/5rxFKjwYE9mwU80bIoEbSVdKytr3oKtaB+K7
+r4fO5P53+PVr69WCrczW0AVC30JGAYYHRUSUwwZPLhkOOMnLLe3qOxe84YOQXYZ8
+25f3HV8jWyb+fEEf9hie
+=P0Ft
 -----END PGP SIGNATURE-----
