@@ -668,6 +668,18 @@ body {
 .slack_icon{
     width: 49px;
     margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.join_beta{
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: .8em;
+    font-size: 12pt;
+    color: #fff;
+    background: #40A2CB;
+    border-color: transparent;
+    width: 13em;
 }
 
 #message{
