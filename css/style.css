@@ -665,6 +665,11 @@ body {
     margin-bottom: 25px;
 }
 
+.slack_icon{
+    width: 49px;
+    margin-top: 2em;
+}
+
 #message{
     height: 80px;
     margin-bottom: 25px;
