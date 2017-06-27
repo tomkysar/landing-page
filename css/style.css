@@ -608,3 +608,15 @@ body {
     padding: 10em 10em 0 10em;
     margin-top: -10em;
 }
+
+.modal-footer{
+    display: none;
+}
+
+.modal-body{
+    padding: 19px;
+}
+
+.modal-content{
+    margin-top: 24.5em;
+}
