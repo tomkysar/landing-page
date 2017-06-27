@@ -92,7 +92,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     font-family: "DINBek";
-    background-color: #000;
+    background-color: transparent;
 }
 .navbar-custom .navbar-brand {
     font-weight: 700;
@@ -168,7 +168,7 @@ a:focus {
     text-align: center;
     padding-top: 10px;
 }
-@media(max-width:768px) {
+@media(max-width:940px) {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         margin-right: 3em;
     }
@@ -209,7 +209,43 @@ a:focus {
         margin-top: 25px;
     }
 }
-@media(min-width:768px) {
+@media (max-width: 940px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+@media(min-width:940px) {
     .navbar-custom {
         padding: 2em 10em;
         border-bottom: 0;
@@ -223,7 +259,6 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 1em 10em;
         background: #291344;
-        background-size: cover;
         border-bottom: 1px solid rgba(255, 255, 255, .25);
     }
     .navbar-custom .nav li a {
@@ -364,11 +399,7 @@ a:focus {
     -o-background-size: cover;
     text-align: center;
 }
-@media(min-width:767px) {
-    .info-section {
-        padding: 7em 4em;
-    }
-}
+
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
     margin-top: 1em;
@@ -554,11 +585,8 @@ body {
 }
 
 #team_head{
-    margin-top: 2em;
-}
-
-#contract_head{
-    margin-top: 5em;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 #team_picture{
