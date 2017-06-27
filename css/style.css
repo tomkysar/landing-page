@@ -366,7 +366,7 @@ a:focus {
 }
 @media(min-width:767px) {
     .info-section {
-        padding: 100px 0;
+        padding: 7em 4em;
     }
 }
 .navbar-fixed-bottom .navbar-collapse,
@@ -494,7 +494,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
+    height: 100%;
 }
 #main_banner {
     text-align: center;
@@ -556,6 +557,10 @@ body {
     margin-top: 2em;
 }
 
+#contract_head{
+    margin-top: 5em;
+}
+
 #team_picture{
     margin-top: 1em;
     margin-bottom: 2em;
@@ -568,4 +573,8 @@ body {
     border-radius: 1em;
      margin-top: 1em;
     margin-bottom: 2em;
+}
+
+#employee_rows{
+    padding: 0 10em;
 }
