@@ -50,7 +50,7 @@ body {
     font-family: "DINPro-Regular";
     color: #FFF;
     background-color: #3d2763;
-    margin-top: 10em;
+    margin-top: 4em;
     text-align:center;
 }
 
@@ -78,6 +78,7 @@ h3 {
     font-family: "DINPro-Regular";
     font-weight: 200;
     letter-spacing: 1px;
+    font-size: 22px;
 }
 
 p {
@@ -738,4 +739,12 @@ body {
 
 #no-hover:hover{
     background-color:transparent;
+}
+span{
+line-height: 1.75em;
+    font-size: 15px;
+}
+
+#hr3{
+    width: 20em;
 }
