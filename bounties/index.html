@@ -1,222 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
-      <meta property="og:title" content="Augur Bounties">
-      <meta property="og:description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
-      <meta property="og:site_name" content="Augur Bounties">
-      <meta property="og:url" content="https://www.augur.net/bounties">
-      <meta property="og:image" content="https://augur.net/img/meta_logo.png">
-      <meta name="twitter:card" content="Augur Bounties">
-      <meta name="twitter:description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
-      <meta name="twitter:title" content="Augur Bounties">
-      <meta name="twitter:domain" content="Augur">
-      <meta name="twitter:image" content="https://augur.net/img/meta_logo.png">
-      <meta name="twitter:image:src" content="https://augur.net/img/meta_logo.png">
-      <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-      <link rel="manifest" href="./manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-      <title>Augur Bounties</title>
-      <link href="./css/bootstrap.min.css" rel="stylesheet">
-      <link href="./css/style.css" rel="stylesheet">
-      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
-   </head>
 
-    <script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
+    <meta property="og:title" content="Augur Bounties">
+    <meta property="og:description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
+    <meta property="og:site_name" content="Augur Bounties">
+    <meta property="og:url" content="https://www.augur.net/bounties">
+    <meta property="og:image" content="https://augur.net/img/meta_logo.png">
+    <meta name="twitter:card" content="Augur Bounties">
+    <meta name="twitter:description" content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.">
+    <meta name="twitter:title" content="Augur Bounties">
+    <meta name="twitter:domain" content="Augur">
+    <meta name="twitter:image" content="https://augur.net/img/meta_logo.png">
+    <meta name="twitter:image:src" content="https://augur.net/img/meta_logo.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Augur Bounties</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+</head>
+<body>
+    <div class="intro-body">
+        <div class="container">
+            <div class="col-md-12">
+                <img style="width:10%;margin-bottom:2em;" src="./img/logo.png">
+                <h1 class="brand-heading">Augur Bounty Program</h1>
+                <hr id="hr">
+                <br>
+                <br>
+                <div class="col-lg-6">
+                    <h3> <b>Bounty #1:</b> <br><br> Safe Solidity Solium Rules </h3>
+                    <p> 50 REP PER RULE</p>
+                    <a class="full_details_button" id="bounty_one" onCLick="bounty_one()">FULL DETAILS</a>
+                </div>
+                <div class="col-lg-6">
+                    <h3> <b>Bounty #2:</b> <br><br> Portable Solidity Debugger </h3>
+                    <p>2,000 REP</p>
+                    <a class="full_details_button" id="bounty_two" onCLick="bounty_two()">FULL DETAILS</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr id="hr">
+    </div>
 
+    <div style="display:none" class="col-lg-12" id="bounty_one_page">
+        <div class="container">
+            <br>
+            <h1> Safe Solidity Solium Rules </h1>
+            <h3> 50 REP per rule added to <a href="https://github.com/duaraghav8/Solium">Solium</a>. </h3>
+            <br>
+            <div class="col-lg-6">
+                <span>Prohibit loops without fixed bounds</span>
+                <br>
+                <span>Prohibit unreachable code</span>
+                <br>
+                <span>Prohibit use of continue statement</span>
+                <br>
+                <span>Prohibit use of selfdestruct/suicide</span>
+                <br>
+                <span>Prohibit use of assembly</span>
+                <br>
+                <span>Prohibit use of tx.origin</span>
+                <br>
+                <span>Prohibit use of integer types smaller than 256 bits</span>
+                <br>
+                <span>Prohibit bitshifts and bit operators</span>
+                <br>
+                <span>Prohibit fixedpoint (fixed and ufixed) types</span>
+                <br>
+                <span>Prohibit modification of for loop iteration counting variables in the loop body</span>
+                <br>
+                <span>Prohibit use of var / all variable types must be explicitly stated</span>
+                <br>
+                <span><a href="https://solidity.readthedocs.io/en/develop/control-structures.html#named-calls-and-anonymous-function-parameters">Prohibit use of named parameters in function calls</a></span>
+                <br>
+            </div>
+            <div class="col-lg-6">
+                <span>Prohibit use of inheritance</span>
+                <br>
+                <span>Prohibit function overriding</span>
+                <br>
+                <span>Prohibit abstract functions</span>
+                <br>
+                <span>Functions must have an explicit return statement</span>
+                <br>
+                <span>An else clause must be included after else if</span>
+                <br>
+                <span>Only one break statement allowed per loop</span>
+                <br>
+                <span>Prohibit use of send</span>
+                <br>
+                <span><i>*Restrict functions to a user-specified number of lines of code*</i></spam>
+                <br>
+                <span><i>*Functions must have a single return at the end of the function*</i></span>
+                <br>
+                <span><i>*Prohibit use of call.value*</i></span>
+                <br>
+                <span><i>*Prohibit use of user-defined modifiers*</i></span>
+                <br>
+                <br> * represents optional rules.
+                <br>
+                <br>
+            </div>
+            <hr id="hr">
+            <br>
+            <br>
+            <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a>
+        </div>
+        <br>
+        <br>
+    </div>
 
-            function bounty_one() {
-            
-            var bounty_one = document.getElementById('bounty_one_page');
-            var bounty_two = document.getElementById('bounty_two_page');
+    <div style="display:none" class="col-lg-12" id="bounty_two_page">
+        <div class="container">
+            <br>
+            <h1> Portable Solidity Debugger </h1>
+            <h3> 2000 REP bounty for a Solidity debugger which is portable / provided as a library.
+            <br><br><span style="font-size:18px">The debugger should have the following features:</span></h3>
+            <span>Set breakpoints in Solidity</span>
+            <br>
+            <span>Inspect variables when those breakpoints are hit</span>
+            <br>
+            <span>Execute Solidity from the context of a bremakpoint and see the result/failure</span>
+            <br>
+            <span>Library that can be integrated into editors/IDEs</span>
+            <br>
+            <span>VSCode integration</span>
+            <br>
+            <span>Should work on any OS</span>
+            <br>
+            <span>Should work with TestRPC</span>
+            <br>
+            <br>
+            <br>
+            <p><i><b>Desired workflow:</b></i> set breakpoint in Solidity code, run tests (e.g., using Mocha or Pyethereum tester), drop into debugging environment.
+            <br>See local variables, step forwards and backwards, see storage, etc.</p>
+            <hr id="hr">
+            <br>
+            <br>
+            <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
 
-            if (bounty_one.style.display !== 'none') {
-            
-            bounty_one.style.display = 'block';  
-            
-            }
-            else {
-            
+<script>
+    function bounty_one() {
+        var bounty_one = document.getElementById('bounty_one_page');
+        var bounty_two = document.getElementById('bounty_two_page');
+        if (bounty_one.style.display !== 'none') {
+            bounty_one.style.display = 'block';
+
+        } else {
             bounty_one.style.display = 'block';
             bounty_two.style.display = 'none';
-            
-            }
-            };
-            
-            function bounty_two() {
-            
-            var bounty_one = document.getElementById('bounty_one_page');
-            var bounty_two = document.getElementById('bounty_two_page');
+        }
+    };
+    function bounty_two() {
 
-            
-            if (bounty_two.style.display !== 'none') {
-            
+        var bounty_one = document.getElementById('bounty_one_page');
+        var bounty_two = document.getElementById('bounty_two_page');
+        if (bounty_two.style.display !== 'none') {
+
             bounty_two.style.display = 'block'
-            
-            }
-            else {
-            
+        } else {
             bounty_one.style.display = 'none';
             bounty_two.style.display = 'block';
-            
-            }
-            };
-         </script>
+        }
+    };
+</script>
 
-   <body>
-         <div class="intro-body">
-            <div class="container">
-                  <div class="col-md-12">
-                     <img style="width:10%;margin-bottom:2em;" src="./img/logo.png">
-                     <h1 class="brand-heading">Augur Bounty Program</h1>
-                        
-                     <hr id="hr">
-                     <br><br>
-                     <div class="col-lg-6">
-
-                        <h3> <b>Bounty #1:</b> <br><br> Safe Solidity Solium Rules </h3>
-                       <p> 50 REP PER RULE</p>
-
-                        <a class="full_details_button" id="bounty_one" onCLick="bounty_one()">FULL DETAILS</a>
-                     </div>
-
-                     <div class="col-lg-6">
-                        <h3> <b>Bounty #2:</b> <br><br> Portable Solidity Debugger </h3>
-                        <p>2,000 REP</p>
-                        <a class="full_details_button" id="bounty_two" onCLick="bounty_two()">FULL DETAILS</a>
-                     </div>
-                  </div>
-            </div>
-            <br>
-              <hr id="hr">
-         </div>
-
-         <div style="display:none" class="col-lg-12" id="bounty_one_page">
-         <div class="container">
-         <br>
-         <h1> Safe Solidity Solium Rules </h1>
-
-         <h3> 50 REP per rule added to <a href="https://github.com/duaraghav8/Solium">Solium</a>. </h3>
-         <br>
-
-                  <div class="col-lg-6">
-
-                  <span>Prohibit loops without fixed bounds</span>
-                  <br>
-                  <span>Prohibit unreachable code</span>
-                  <br>
-                  <span>Prohibit use of continue statement</span>
-                  <br>
-                  <span>Prohibit use of selfdestruct/suicide</span>
-                  <br>
-                  <span>Prohibit use of assembly</span>
-                  <br>
-                  <span>Prohibit use of tx.origin</span>
-                  <br>
-                  <span>Prohibit use of integer types smaller than 256 bits</span>
-                  <br>
-                  <span>Prohibit bitshifts and bit operators</span>
-                  <br>
-                  <span>Prohibit fixedpoint (fixed and ufixed) types</span>
-                  <br>
-                  <span>Prohibit modification of for loop iteration counting variables in the loop body</span>
-                  <br>
-                  <span>Prohibit use of var / all variable types must be explicitly stated</span>
-                  <br>
-                  <span><a href="https://solidity.readthedocs.io/en/develop/control-structures.html#named-calls-and-anonymous-function-parameters">Prohibit use of named parameters in function calls</a></span>
-                  <br>
-                  </div>
-                  <div class="col-lg-6">
-                     <span>Prohibit use of inheritance</span>
-<br>
-<span>Prohibit function overriding</span>
-<br>
-<span>Prohibit abstract functions</span>
-<br>
-<span>Functions must have an explicit return statement</span>
-<br>
-<span>An else clause must be included after else if</span>
-<br>
-<span>Only one break statement allowed per loop</span>
-<br>
-<span>Prohibit use of send</span>
-<br>
-<span><i>*Restrict functions to a user-specified number of lines of code*</i></spam>
-<br>
-<span><i>*Functions must have a single return at the end of the function*</i></span>
-<br>
-<span><i>*Prohibit use of call.value*</i></span>
-<br>
-<span><i>*Prohibit use of user-defined modifiers*</i></span>  
-<br><br>            
-* represents optional rules. 
-<br><br>
-
-                  </div>
-
-
-
-              <hr id="hr">
-
-<br><br>
-                  <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a> 
-
-</div>
- <br><br> 
-         </div>
-
-         <div style="display:none" class="col-lg-12" id="bounty_two_page">
-       <div class="container">
-         <br>
-         <h1> Portable Solidity Debugger </h1>
-
-         <h3> 2000 REP bounty for a Solidity debugger which is portable / provided as a library.
-         <br><br><span style="font-size:18px">The debugger should have the following features:</span></h3>
-               <span>Set breakpoints in Solidity</span>
-               <br>
-<span>Inspect variables when those breakpoints are hit</span>
-<br>
-<span>Execute Solidity from the context of a bremakpoint and see the result/failure</span>
-<br>
-<span>Library that can be integrated into editors/IDEs</span>
-<br>
-<span>VSCode integration</span>
-<br>
-<span>Should work on any OS</span>
-<br>
-<span>Should work with TestRPC</span>
-<br>
-<br>
-<br>
-<p><i><b>Desired workflow:</b></i> set breakpoint in Solidity code, run tests (e.g., using Mocha or Pyethereum tester), drop into debugging environment. <br>See local variables, step forwards and backwards, see storage, etc.</p>
-
-
-
-              <hr id="hr">
-
-<br><br>
-                  <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a>   
-                         
-</div>
- <br><br> 
-         </div>
-   </body>
 </html>
