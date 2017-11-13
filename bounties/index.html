@@ -40,6 +40,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 </head>
+
 <body>
     <div class="intro-body">
         <div class="container">
@@ -49,7 +50,7 @@
                 <hr id="hr">
                 <br>
                 <br>
-                <div class="col-lg-6">
+                <div style="margin-bottom:2em;" class="col-lg-6">
                     <h3> <b>Bounty #1:</b> <br><br> Safe Solidity Solium Rules </h3>
                     <p> 50 REP PER RULE</p>
                     <a class="full_details_button" id="bounty_one" onCLick="bounty_one()">FULL DETAILS</a>
@@ -68,77 +69,105 @@
     <div style="display:none" class="col-lg-12" id="bounty_one_page">
         <div class="container">
             <br>
-            <h1> Safe Solidity Solium Rules </h1>
+            <h1> <a href="https://github.com/AugurProject/augur-bounties#-bounty-1-safe-solidity-solium-rules"> Safe Solidity Solium Rules </a> </h1>
             <h3> 50 REP per rule added to <a href="https://github.com/duaraghav8/Solium">Solium</a>. </h3>
             <br>
-            <div class="col-lg-6">
-                <span>Prohibit loops without fixed bounds</span>
-                <br>
-                <span>Prohibit unreachable code</span>
-                <br>
-                <span>Prohibit use of continue statement</span>
-                <br>
-                <span>Prohibit use of selfdestruct/suicide</span>
-                <br>
-                <span>Prohibit use of assembly</span>
-                <br>
-                <span>Prohibit use of tx.origin</span>
-                <br>
-                <span>Prohibit use of integer types smaller than 256 bits</span>
-                <br>
-                <span>Prohibit bitshifts and bit operators</span>
-                <br>
-                <span>Prohibit fixedpoint (fixed and ufixed) types</span>
-                <br>
-                <span>Prohibit modification of for loop iteration counting variables in the loop body</span>
-                <br>
-                <span>Prohibit use of var / all variable types must be explicitly stated</span>
-                <br>
-                <span><a href="https://solidity.readthedocs.io/en/develop/control-structures.html#named-calls-and-anonymous-function-parameters">Prohibit use of named parameters in function calls</a></span>
-                <br>
+
+            <div style="text-align:left;" class="col-lg-4">
+                <h3 style="text-align:center;">Open Bounties (03 of 30):</h3>
+
+                <ul>
+                    <li> Prohibit use of multiple inheritance but allow interfaces</li>
+
+                    <li> Prohibit use of inheritance but allow interfaces</li>
+
+                    <li> Do not assign to parameters</li>
+                </ul>
+
             </div>
-            <div class="col-lg-6">
-                <span>Prohibit use of inheritance</span>
-                <br>
-                <span>Prohibit function overriding</span>
-                <br>
-                <span>Prohibit abstract functions</span>
-                <br>
-                <span>Functions must have an explicit return statement</span>
-                <br>
-                <span>An else clause must be included after else if</span>
-                <br>
-                <span>Only one break statement allowed per loop</span>
-                <br>
-                <span>Prohibit use of send</span>
-                <br>
-                <span><i>*Restrict functions to a user-specified number of lines of code*</i></spam>
-                <br>
-                <span><i>*Functions must have a single return at the end of the function*</i></span>
-                <br>
-                <span><i>*Prohibit use of call.value*</i></span>
-                <br>
-                <span><i>*Prohibit use of user-defined modifiers*</i></span>
-                <br>
-                <span><i>*Prohibit use of delegatecall*</i></span>
-                <br>
-                <br> * represents optional rules.
-                <br>
-                <br>
+
+            <div style="text-align:left;" class="col-lg-4">
+
+                <h3 style="text-align:center;">Pending Merge (11 of 30):</h3>
+
+                <ul>
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/4">An else clause must be included after else if </a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/5">Prohibit use of send</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/7">Prohibit modification of for loop iteration counting variables in the loop body</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/8">Prohibit use of inheritance</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/8">Prohibit use of multiple inheritance</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/9">Prohibit abstract functions</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/10">Functions must have an explicit return statement</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/11">Prohibit loops without fixed bounds</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/12"><i>*Functions must have a single return at the end of the function*</i></a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/13">Functions must have a declared return type (i.e., no void returns)</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/16">Prohibit function overriding</a></li>
+                </ul>
+
             </div>
-            <hr id="hr">
-            <br>
-            <br>
-            <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a>
+
+            <div class="col-lg-4" style="text-align:left;">
+                <h3 style="text-align:center;">Completed (16 of 30):</h3>
+
+                <ul>
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security">Prohibit unreachable code</a></li>
+
+                    <li> <a href="https://github.com/duaraghav8/solium-plugin-security">Prohibit use of assembly</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security">Prohibit use of tx.origin</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security"><i>*Prohibit use of call.value*</i></a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security"><i>*Prohibit use of delegatecall*</i></a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit use of selfdestruct/suicide</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit bitshifts and bit operators</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit fixedpoint (fixed and ufixed) types</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit use of integer types smaller than 256 bits</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit use of var / all variable types must be explicitly stated</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit use of named parameters in function calls</a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1"><i>*Prohibit use of user-defined modifiers</i></a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1"><i>*Restrict functions to a user-specified number of lines of code*</i></a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/1">Prohibit unreachable code </a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/2">Prohibit use of continue statement </a></li>
+
+                    <li><a href="https://github.com/duaraghav8/solium-plugin-security/pull/3">Only one break statement allowed per loop</a></li>
+                </ul>
+
+            </div>
         </div>
+        <hr id="hr">
         <br>
         <br>
+        <a class="full_details_button" href="https://discord.gg/faud6Fx">Join us on Discord</a>
+    </div>
+    <br>
+    <br>
     </div>
 
     <div style="display:none" class="col-lg-12" id="bounty_two_page">
         <div class="container">
             <br>
-            <h1> Portable Solidity Debugger </h1>
+            <h1> <a href="https://github.com/AugurProject/augur-bounties#-bounty-2-portable-solidity-debugger"> Portable Solidity Debugger</a> </h1>
             <h3> 2000 REP bounty for a Solidity debugger which is portable / provided as a library.
             <br><br><span style="font-size:18px">The debugger should have the following features:</span></h3>
             <span>Set breakpoints in Solidity</span>
@@ -158,7 +187,7 @@
             <br>
             <br>
             <p><i><b>Desired workflow:</b></i> set breakpoint in Solidity code, run tests (e.g., using Mocha or Pyethereum tester), drop into debugging environment.
-            <br>See local variables, step forwards and backwards, see storage, etc.</p>
+                <br>See local variables, step forwards and backwards, see storage, etc.</p>
             <hr id="hr">
             <br>
             <br>
@@ -181,6 +210,7 @@
             bounty_two.style.display = 'none';
         }
     };
+
     function bounty_two() {
 
         var bounty_one = document.getElementById('bounty_one_page');
