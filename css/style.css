@@ -576,8 +576,6 @@ footer {
     color: #5bc0de;
 }
 .slack {
-    border-top: 1px solid #DBDBDB;
-    border-bottom: 1px solid #DBDBDB;
     padding: 10px 0;
 }
 .slack li {
@@ -606,7 +604,8 @@ footer {
 }
 
 footer {
-    padding: 50px 0;
+        padding-bottom: 2em;
+    margin-top: -2em;
 }
 
 footer p {
