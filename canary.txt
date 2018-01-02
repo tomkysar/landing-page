@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of October 1st, 2017, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of January 1st, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations. 
 
@@ -11,17 +11,17 @@ The Forecast Foundations public key: https://augur.net/pgp.txt
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCgAGBQJaHc8bAAoJEEJOD01Ku7vgKIQP/RHAcQa4pB2Mp1bQdXQIVrvS
-vTEs8DvqTMPmIlfn+xSDa0zSX0f0v7O72KkJanhkeg9wk3Btn57vEku/pIIkArBy
-PcAIcs9vGWfvW935W6SAEL+4ns2cjs/f22pysniATNJJHrY3eW7nLZBXwbj5RjHd
-AzYX//qltsj9u/y8SNitqn6TSVQxNUnd3tpYl246gngf5+KPGkZXq3xU/27YR8I2
-PHNqZiE31sWjObY17ItymCY0CVZOkl1JP3h/bX+zzYyDKi0yY6/2hdkJJi0L+/tm
-39zCwVYBjiQ4ouOG0PmwwchkzlRUXQVDxEuNKCicnKQGsS92jln448UfGhnajq6z
-N9Yhv8tqo+K0bJafXKnmMk+vuFjsQEz3PAcqzdmuC1fTbcfYn8m7t85UmPQxSztt
-7o9vmR3wExnqZ8pCTtJRQe1bRXlpWsbaN75falb4HsR3g2mT6pOP2BF4T/ykIZrm
-bBW3xVVze3RlvfUmvBvUfz2AN+vr+7EaHJveumXYCC4et/X8yHzrX6ByqcwDxvjs
-ixvftNts5Ty60FayM21A5K3LEoEuX+/dXe+rsk+jVlAaSA98KZlEUwGSdZCswADw
-VigrjBftKUMXzNXWcvimxXoNx0+skcp7dWffwS8oKpWijxdebp7HjmB2rZnIGAEx
-vheLC/1kdPtWdEnNw2/T
-=5SJm
+iQIcBAEBCgAGBQJaStH2AAoJEEJOD01Ku7vg67EP/AjuUdew/KsUbORJrjG09VGT
+hzNttThihVtt5DRum/WUku9sUqkRxGRiYU2A7n9gQTYLk998KVCm/FczCrsKsQ5S
+TGH80DKXVQqXzHH7oToS4912YjMZGfofrdD+F7YkaCb2Bcn3zlhLMXhIYVb5OmkJ
++vob6dweHTX4rZuDGJJxyjQKWckrOkDUGt4JioJa0PVn/aFcxKttuG7G59SBqW7X
+iXQY9ItiHu08ERbkWI6oXBeWnE8/VmsSzEK1P1iZD3PhD7Xv6peclvyy41O0pwJn
+i1dwhgbjuPCNsFOoxW2tA2dNh3n0GJegUKv1LBAKhZ5CiSbo6Dk7HUUwWcmhxzBG
+qWmaYv0onFyvCCdzf4KhoayheMCTHgOtwYIScfup+03SVz89kafiMZipHiFfaEFV
+T75mnEQIkcA1C7epdUoa8TleHUL2buppulAvXg6bhmTrustkx+sUVMIhlY1wFWH2
+uOWG6Kz9228NDRsr2ygsf+HGlaVvEcn6/A5mjuxzDTvBzeHxBhpSQ0/DRbVNNr+J
+qnLyxJYIg/mupDsm6e3UkRioBq+qzqwjVzmdkCZru+KQC07OQ7mmIetwsJeVhuvw
+Ige0Xy4lMq5W031LKV8si3Gfc71VsCqNoXROoFbm8jBcoilPm+rblrefxPpwM3v8
+i/YV6C3tagEhnULKwyFy
+=M/QG
 -----END PGP SIGNATURE-----
