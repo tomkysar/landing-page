@@ -1,695 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="description">
-    <meta content="Decentralized Prediction Market | Augur Project" property="og:title">
-    <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." property="og:description">
-    <meta content="Augur | Decentralized Prediction Markets" property="og:site_name">
-    <meta content="https://www.augur.net" property="og:url">
-    <meta content="https://augur.net/img/meta_logo.png" property="og:image">
-    <meta content="Augur | Decentralized Prediction Markets" name="twitter:card">
-    <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="twitter:description">
-    <meta content="Augur | Decentralized Prediction Markets" name="twitter:title">
-    <meta content="Augur" name="twitter:domain">
-    <meta content="https://augur.net/img/meta_logo.png" name="twitter:image">
-    <meta content="https://augur.net/img/meta_logo.png" name="twitter:image:src">
-    <link href="img/icons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
-    <link href="img/icons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
-    <link href="img/icons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="img/icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-    <link href="img/icons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-    <link href="img/icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-    <link href="img/icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-    <link href="img/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-    <link href="img/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="img/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-    <link href="img/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
-    <link href="img/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
-    <link href="img/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-    <link href="img/icons/manifest.json" rel="manifest">
-    <meta content="#da532c" name="msapplication-TileColor">
-    <meta content="img/icons/mstile-144x144.png" name="msapplication-TileImage">
-    <title>Decentralized Prediction Markets | Augur Project</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js">
-    </script>
-    <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
-    <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-     ga('create', 'UA-74080255-1', 'auto');
-     ga('send', 'pageview');
-
-    </script>
-</head>
-<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="navbar-container">
+   <head>
+      <meta charset="utf-8">
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="description">
+      <meta content="Decentralized Prediction Market | Augur Project" property="og:title">
+      <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." property="og:description">
+      <meta content="Augur | Decentralized Prediction Markets" property="og:site_name">
+      <meta content="https://www.augur.net" property="og:url">
+      <meta content="https://augur.net/img/meta_logo.png" property="og:image">
+      <meta content="Augur | Decentralized Prediction Markets" name="twitter:card">
+      <meta content="Augur is a decentralized prediction market built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="twitter:description">
+      <meta content="Augur | Decentralized Prediction Markets" name="twitter:title">
+      <meta content="Augur" name="twitter:domain">
+      <meta content="https://augur.net/img/meta_logo.png" name="twitter:image">
+      <meta content="https://augur.net/img/meta_logo.png" name="twitter:image:src">
+      <link href="img/icons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+      <link href="img/icons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+      <link href="img/icons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+      <link href="img/icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+      <link href="img/icons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+      <link href="img/icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+      <link href="img/icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+      <link href="img/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+      <link href="img/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+      <link href="img/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+      <link href="img/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
+      <link href="img/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+      <link href="img/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+      <link href="img/icons/manifest.json" rel="manifest">
+      <meta content="#da532c" name="msapplication-TileColor">
+      <meta content="img/icons/mstile-144x144.png" name="msapplication-TileImage">
+      <title>Decentralized Prediction Markets | Augur Project</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+      <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+      <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-74080255-1', 'auto');
+         ga('send', 'pageview');
+         
+      </script>
+   </head>
+   <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
+      <!-- Navigation -->
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+         <div class="navbar-container">
             <div class="navbar-header">
-                <div class="augur-logo"><img src="img/augur_logo_small_white.png"></div><button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button"><i class="fa fa-bars"></i></button> <a class="navbar-brand page-scroll" href="#page-top"><span class="augur-brand">augur</span></a>
-            </div><!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="augur-logo"><img src="img/augur_logo_small_white.png"></div>
+               <button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button"><i class="fa fa-bars"></i></button> <a class="navbar-brand page-scroll" href="#page-top"><span class="augur-brand">augur</span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="http://invite.augur.net">Discord</a>
-                    </li>
-                    <li>
-                        <a href="http://medium.com/@augurproject">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="http://augur.stackexchange.com">StackExchange</a>
-                    </li>
-                    <li>
-                        <a href="http://docs.augur.net">Docs</a>
-                    </li>
-
-                    <li>
-                        <a href="http://reddit.com/r/AugurProject">Reddit</a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-    </nav>
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="col-md-12">
-                    <h1 class="brand-heading">Welcome to the future of forecasting</h1>
-                    <p class="intro-text">Augur combines the magic of prediction markets with the power of a decentralized network to create a stunningly accurate forecasting tool - and the chance for real money trading profits</p><a href="https://app.augur.net"><button class="join_beta">Join Augur Beta</button></a><br>
-                    <a href="http://invite.augur.net"><img class="slack_icon" src="./img/discord.png"></a><br>
-                    <br>
-                    <div class="intro-video" data-target="#video-modal" data-toggle="modal">
-                        <span class="video-label">What is Augur?</span> <i class="fa fa-play-circle-o fa-1x"></i>
-                    </div>
-                </div>
+               <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                     <a href="#page-top"></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="http://invite.augur.net">Discord</a>
+                  </li>
+                  <li>
+                     <a href="http://medium.com/@augurproject">Blog</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="http://augur.stackexchange.com">StackExchange</a>
+                  </li>
+                  <li>
+                     <a href="http://docs.augur.net">Docs</a>
+                  </li>
+                  <li>
+                     <a href="http://reddit.com/r/AugurProject">Reddit</a>
+                  </li>
+               </ul>
             </div>
-        </div>
-    </header>
-    <section class="content-section text-center subscribe-content-section" id="subscribe">
-        <div class="subscribe-section">
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <header class="intro">
+         <div class="intro-body">
+            <div class="container">
+               <div class="col-md-12">
+                  <h1 class="brand-heading">Welcome to the future of forecasting</h1>
+                  <p class="intro-text">Augur combines the magic of prediction markets with the power of a decentralized network to create a stunningly accurate forecasting tool - and the chance for real money trading profits</p>
+                  <a href="https://app.augur.net"><button class="join_beta">Join Augur Beta</button></a><br>
+                  <a href="http://invite.augur.net"><img class="slack_icon" src="./img/discord.png"></a><br>
+                  <br>
+                  <div class="intro-video" data-target="#video-modal" data-toggle="modal">
+                     <span class="video-label">What is Augur?</span> <i class="fa fa-play-circle-o fa-1x"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="content-section text-center subscribe-content-section" id="subscribe">
+         <div class="subscribe-section">
             <div class="container subscribe-container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1>Subscribe for updates about Augur</h1>
-                    <form id="mailinglist-form" name="mailinglist-form">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input class="form-control" id="email-address" placeholder="Your email address" type="text"> <span class="input-group-btn"><button class="btn btn-info" id="mailinglist-signup" type="button"><span class="input-group-btn"><i class="fa fa-angle-right fa-1x"></i></span></button></span>
-                            </div>
-                            <div id="signed-up"></div>
+               <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Subscribe for updates about Augur</h1>
+                  <form id="mailinglist-form" name="mailinglist-form">
+                     <div class="form-group">
+                        <div class="input-group">
+                           <input class="form-control" id="email-address" placeholder="Your email address" type="text"> <span class="input-group-btn"><button class="btn btn-info" id="mailinglist-signup" type="button"><span class="input-group-btn"><i class="fa fa-angle-right fa-1x"></i></span></button></span>
                         </div>
-                    </form>
-                    <p class="no-sharing">We won't share your email address or send you any spam - we promise!</p>
-                </div>
+                        <div id="signed-up"></div>
+                     </div>
+                  </form>
+                  <p class="no-sharing">We won't share your email address or send you any spam - we promise!</p>
+               </div>
             </div>
-        </div>
-    </section>
-    <section class="container content-section about-content-section" id="about">
-        <div class="row">
+         </div>
+      </section>
+      <section class="container content-section about-content-section" id="about">
+         <div class="row">
             <div class="col-md-12">
-                <h2>Get rewarded for your knowledge and insight</h2>
-                <p>Augur is a prediction market platform that rewards you for correctly predicting future real-world events.</p>
-                <h3><img class="icon" src="img/health-graph-1@2x.png">Predict the outcome of real-world events</h3>
-                <p>You make your predictions by trading virtual shares in the outcome of events happening in the real-world. If you think Hillary Clinton will be elected President, the Yankees will win the World Series, or Leonardo DiCaprio will win another Oscar, then you'll buy shares in those outcomes. If you buy shares in the correct outcomes, you'll win real money profits.</p>
-                <h3><img class="icon" src="img/coin-stack-1@2x.png">Earn real-money trading profits</h3>
-                <p>The prices of the shares you trade in any event adds up to one dollar - so if you buy a share at even odds it will cost you 50 cents. If you end up being right, you'll get back one dollar for every share you bought. If you're wrong then you've lost the money used to buy your shares. As with any market, the price of shares fluctuates over time. As more people buy shares in an outcome, the price of that outcome will rise while the price of other outcomes will fall. This gives you further opportunities for profit - by buying low and selling high, before the final result of the market is known.</p>
+               <h2>Get rewarded for your knowledge and insight</h2>
+               <p>Augur is a prediction market platform that rewards you for correctly predicting future real-world events.</p>
+               <h3><img class="icon" src="img/health-graph-1@2x.png">Predict the outcome of real-world events</h3>
+               <p>You make your predictions by trading virtual shares in the outcome of events happening in the real-world. If you think Hillary Clinton will be elected President, the Yankees will win the World Series, or Leonardo DiCaprio will win another Oscar, then you'll buy shares in those outcomes. If you buy shares in the correct outcomes, you'll win real money profits.</p>
+               <h3><img class="icon" src="img/coin-stack-1@2x.png">Earn real-money trading profits</h3>
+               <p>The prices of the shares you trade in any event adds up to one dollar - so if you buy a share at even odds it will cost you 50 cents. If you end up being right, you'll get back one dollar for every share you bought. If you're wrong then you've lost the money used to buy your shares. As with any market, the price of shares fluctuates over time. As more people buy shares in an outcome, the price of that outcome will rise while the price of other outcomes will fall. This gives you further opportunities for profit - by buying low and selling high, before the final result of the market is known.</p>
             </div>
-        </div>
-    </section>
-    <section class="content-section" id="download">
-        <div class="download-section">
+         </div>
+      </section>
+      <section class="content-section" id="download">
+         <div class="download-section">
             <div class="container">
-                <div class="col-md-12">
-                    <h2>Stunningly accurate forecasts on any topic</h2>
-                    <p>Augur's prediction markets provide powerful predictive data - you can think of the current market price of any share in any market as an estimate of the probability of that outcome actually occurring in the real world. For example, a share priced at 64 cents has a 64% probability of happening.</p>
-                    <p>The accuracy of prediction markets rests in the idea of the "The Wisdom of the Crowd". This states that the average prediction made by a group is superior to that made by any of the individuals in that group. Markets are the perfect way to aggregate this collective wisdom - which is made up of all the information, analysis and opinion held by members of the group. With these individuals buying and selling shares in the outcome of real-world events, based on their personal knowledge and opinion, the market prices reach an equilibrium that reflect the opinion of the entire group.</p>
-                    <p>Prediction markets have proven to be more accurate at forecasting the future than individual experts, surveys or traditional opinion polling. They provide real-time predictive data and are traded using real money - which incentivises market participants to reveal what they think will happen, rather than what they hope will happen. Traders are putting their money where their mouths are.</p>
-                </div>
+               <div class="col-md-12">
+                  <h2>Stunningly accurate forecasts on any topic</h2>
+                  <p>Augur's prediction markets provide powerful predictive data - you can think of the current market price of any share in any market as an estimate of the probability of that outcome actually occurring in the real world. For example, a share priced at 64 cents has a 64% probability of happening.</p>
+                  <p>The accuracy of prediction markets rests in the idea of the "The Wisdom of the Crowd". This states that the average prediction made by a group is superior to that made by any of the individuals in that group. Markets are the perfect way to aggregate this collective wisdom - which is made up of all the information, analysis and opinion held by members of the group. With these individuals buying and selling shares in the outcome of real-world events, based on their personal knowledge and opinion, the market prices reach an equilibrium that reflect the opinion of the entire group.</p>
+                  <p>Prediction markets have proven to be more accurate at forecasting the future than individual experts, surveys or traditional opinion polling. They provide real-time predictive data and are traded using real money - which incentivises market participants to reveal what they think will happen, rather than what they hope will happen. Traders are putting their money where their mouths are.</p>
+               </div>
             </div>
-        </div>
-    </section>
-    <section class="content-section" id="decentralization">
-        <div class="decentralization-section">
+         </div>
+      </section>
+      <section class="content-section" id="decentralization">
+         <div class="decentralization-section">
             <div class="container">
-                <div class="col-md-12">
-                    <h2>Decentralization: Augur's secret weapon</h2>
-                    <p>Existing on a decentralized network gives Augur a unique edge over other prediction markets.</p>
-                    <h3><img class="icon" src="img/server-close-1@2x.png">No central servers</h3>
-                    <p>Augur is a decentralized platform built on the Ethereum blockchain - which means no central servers that can be switched off.</p>
-                    <h3><img class="icon" src="img/graduation-hat@2x.png">Create your own markets</h3>
-                    <p>Using Augur, anyone, anywhere in the world can quickly and easily create a prediction market asking a question about anything. As a market creator you'll provide some initial funding for the market and in return receive half of all trading fees collected during the lifetime of that market.</p>
-                    <h3><img class="icon" src="img/bank-note@2x.png">Low fees</h3>
-                    <p>Augur's fees are set by users, and are vastly lower compared to traditional trading and betting platforms.</p>
-                    <h3><img class="icon" src="img/check-mark@2x.png">Crowdsourced reporting</h3>
-                    <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we'll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation. As a reporter, you'll report on events every two months and, in return, receive half of all fees in the system multiplied by the percent of REP you own. <span class="rep-video" data-target="#rep-video-modal" data-toggle="modal"><span class="rep-video-label">The full scoop on REP</span> <i class="fa fa-play-circle-o fa-1x"></i></span></p>
-                    <h3><img class="icon" src="img/banking-spendings-3@2x.png">Safe, automated payments</h3>
-                    <p>All funds are stored in smart contracts - eliminating counterparty risk and allowing fast, automated payments to winning traders. Depositing and withdrawing funds are also completely automated using the blockchain. With no human intervention required, there's no human error.</p>
-                </div>
+               <div class="col-md-12">
+                  <h2>Decentralization: Augur's secret weapon</h2>
+                  <p>Existing on a decentralized network gives Augur a unique edge over other prediction markets.</p>
+                  <h3><img class="icon" src="img/server-close-1@2x.png">No central servers</h3>
+                  <p>Augur is a decentralized platform built on the Ethereum blockchain - which means no central servers that can be switched off.</p>
+                  <h3><img class="icon" src="img/graduation-hat@2x.png">Create your own markets</h3>
+                  <p>Using Augur, anyone, anywhere in the world can quickly and easily create a prediction market asking a question about anything. As a market creator you'll provide some initial funding for the market and in return receive half of all trading fees collected during the lifetime of that market.</p>
+                  <h3><img class="icon" src="img/bank-note@2x.png">Low fees</h3>
+                  <p>Augur's fees are set by users, and are vastly lower compared to traditional trading and betting platforms.</p>
+                  <h3><img class="icon" src="img/check-mark@2x.png">Crowdsourced reporting</h3>
+                  <p>In centralized markets, one person determines the final market outcomes - which means there can be mistakes or outright manipulation. With Augur, we'll have thousands reporting on market outcomes using a one-of-a kind consensus based system and a unique token called REPutation. As a reporter, you'll report on events every two months and, in return, receive half of all fees in the system multiplied by the percent of REP you own. <span class="rep-video" data-target="#rep-video-modal" data-toggle="modal"><span class="rep-video-label">The full scoop on REP</span> <i class="fa fa-play-circle-o fa-1x"></i></span></p>
+                  <h3><img class="icon" src="img/banking-spendings-3@2x.png">Safe, automated payments</h3>
+                  <p>All funds are stored in smart contracts - eliminating counterparty risk and allowing fast, automated payments to winning traders. Depositing and withdrawing funds are also completely automated using the blockchain. With no human intervention required, there's no human error.</p>
+               </div>
             </div>
-        </div>
-    </section>
-    <section class="content-section" id="try">
-        <div class="try-section">
+         </div>
+      </section>
+      <section class="content-section" id="try">
+         <div class="try-section">
             <div class="container">
-                <div class="col-md-12">
-                    <h2>Try Augur now...for free!</h2>
-                    <p>After months of development we are pleased to release the beta version of Augur. This early version showcases the core features of our prediction market platform. We're still actively developing the software and working on design, but we'd love to hear your honest and unfiltered feedback about our work so far.</p>
-                    <div class="join-augur-beta-button">
-                        <a href="https://app.augur.net">Join Augur Beta - Free!</a>
-                    </div>
-                    <p>No cost and no deposit required - it's all just play money during beta testing.</p>
-                </div>
+               <div class="col-md-12">
+                  <h2>Try Augur now...for free!</h2>
+                  <p>After months of development we are pleased to release the beta version of Augur. This early version showcases the core features of our prediction market platform. We're still actively developing the software and working on design, but we'd love to hear your honest and unfiltered feedback about our work so far.</p>
+                  <div class="join-augur-beta-button">
+                     <a href="https://app.augur.net">Join Augur Beta - Free!</a>
+                  </div>
+                  <p>No cost and no deposit required - it's all just play money during beta testing.</p>
+               </div>
             </div>
-        </div>
-    </section>
-    <section class="content-section text-center" id="team">
-        <div class="team-section">
+         </div>
+      </section>
+      <section class="content-section text-center" id="team">
+         <div class="team-section">
             <div class="container">
-                <div class="team-header">
-                    <h1>The Augur Team</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-profile" data-target="#profile-modal-jack" data-toggle="modal">
-                            <div class="profile col-md-6">
-                                <img class="large-profile-pic" src="img/jack.jpg">
-                                <h3>Jack Peterson, PhD<br>
-                                <small>Co-founder &amp; Lead Developer</small></h3>
-                            </div>
-                        </div>
-                        <div class="intro-profile" data-target="#profile-modal-joey" data-toggle="modal">
-                            <div class="profile col-md-6">
-                                <img class="large-profile-pic" src="img/joey.png">
-                                <h3>Joey Krug<br>
-                                <small>Co-founder &amp; Senior Back-End Developer</small></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-profile" data-target="#profile-modal-sprinkle" data-toggle="modal">
-                            <div class="profile col-md-4">
-                                <img class="small-profile-pic" src="img/sprinkle.jpg">
-                                <h3>Stephen Sprinkle<br>
-                                <small>Senior Front-End Developer</small></h3>
-                            </div>
-                        </div>
-                        <div class="intro-profile" data-target="#profile-modal-johndanz" data-toggle="modal">
-                            <div class="profile col-md-4">
-                                <img class="small-profile-pic" src="img/johndanz.jpg">
-                                <h3>John Danz<br>
-                                <small>Front-End Developer</small></h3>
-                            </div>
-                        </div>
-                        <div class="intro-profile" data-toggle="modal">
-                            <div class="profile col-md-4">
-                                <img class="small-profile-pic" src="img/serena.jpg">
-                                <h3>Serena Randolph<br>
-                                <small>Front-End Developer</small></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="row">
-                    <div class="intro-profile" data-target="#profile-modal-aaron" data-toggle="modal">
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/aaron.jpeg">
-                            <h3>Aaron Drake<br>
-                            <small>Senior Back-End Developer</small></h3>
-                        </div>
-                    </div>
-                    <div class="intro-profile" data-target="#profile-modal-alex" data-toggle="modal">
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/alex.jpg">
-                            <h3>Alex Chapman<br>
-                            <small>Back-End Developer</small></h3>
-                        </div>
-                    </div>
-                    <div class="intro-profile" data-toggle="modal">
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/scott.jpg">
-                            <h3>Scott Bigelow<br>
-                            <small>Back-End Developer</small></h3>
-                        </div>
-                        <div class="intro-profile" data-toggle="modal">
-                            <div class="profile col-md-3">
-                                <img class="small-profile-pic" src="img/micah.jpg">
-                                <h3>Micah Zoltu<br>
-                                <small>Contract Developer</small></h3>
-                            </div>
-                        </div><br>
-                        <div class="row">
-                            <div class="intro-profile" data-toggle="modal">
-                                <div class="profile col-md-3">
-                                    <img class="small-profile-pic" src="img/paul.jpg">
-                                    <h3>Paul Gebheim<br>
-                                    <small>Code Monkey</small></h3>
-                                </div>
-                                <div class="intro-profile" data-target="#profile-modal-tom" data-toggle="modal">
-                                    <div class="profile col-md-3">
-                                        <img class="small-profile-pic" src="img/tom.jpg">
-                                        <h3>Tom Kysar<br>
-                                        <small>Director of Operations</small></h3>
-                                    </div>
-                                </div>
-                                <div class="intro-profile" data-target="#profile-modal-perry" data-toggle="modal">
-                                    <div class="profile col-md-3">
-                                        <img class="small-profile-pic" src="img/perry.png">
-                                        <h3>Peronet Despeignes<br>
-                                        <small>SpecialOps</small></h3>
-                                    </div>
-                                </div>
-                                <div class="intro-profile" data-target="#profile-modal-ivan" data-toggle="modal">
-                                    <div class="profile col-md-3">
-                                        <img class="small-profile-pic" src="img/ivan.jpg">
-                                        <h3>Ivan Petric<br>
-                                        <small>Marketeer</small></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><br>
-                    </div>
-                </div>
+               <div class="team-header">
+                  <h1>The Augur Team</h1>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/jack.jpg">
+                     <h3>Jack Peterson, PhD<br>
+                        <small>Co-founder &amp; Lead Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/joey.png">
+                     <h3>Joey Krug<br>
+                        <small>Co-founder &amp; Senior Back-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/sprinkle.jpg">
+                     <h3>Stephen Sprinkle<br>
+                        <small>Senior Front-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/johndanz.jpg">
+                     <h3>John Danz<br>
+                        <small>Front-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/aaron.jpeg">
+                     <h3>Aaron Drake<br>
+                        <small>Senior Back-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/alex.jpg">
+                     <h3>Alex Chapman<br>
+                        <small>Senior Back-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/scott.jpg">
+                     <h3>Scott Bigelow<br>
+                        <small>Back-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/serena.jpg">
+                     <h3>Serena Randolph<br>
+                        <small>Front-End Developer</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/paul.jpg">
+                     <h3>Paul Gebheim<br>
+                        <small>Code Monkey</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/tom.jpg">
+                     <h3>Tom Kysar<br>
+                        <small>Operations</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/perry.png">
+                     <h3>Peronet Despeignes<br>
+                        <small>SpecialOps</small>
+                     </h3>
+                  </div>
+               </div>
+               <div class="intro-profile">
+                  <div class="profile col-md-4">
+                     <img class="small-profile-pic" src="img/tom-haile.png">
+                     <h3>Tom Haile<br>
+                        <small>Code Mercenary</small>
+                     </h3>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-    <section class="content-section text-center" id="advisors">
-        <div class="team-section">
+         </div>
+      </section>
+      <section class="content-section text-center" id="advisors">
+         <div class="team-section">
             <div class="container">
-                <div class="team-header">
-                    <h1>Advisors</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/vitalik.jpg">
-                            <h3>Vitalik Buterin<br>
-                            <small>Founder, <a href="http://www.ethereum.org">Ethereum</a></small></h3>
-                        </div>
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/ron.jpg">
-                            <h3>Ron Bernstein<br>
-                            <small>Founder, <a href="http://www.intrade.com">Intrade</a> & <a href="http://www.tradesports.com">Tradesports</a></small></h3>
-                        </div>
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/robin.jpg">
-                            <h3>Dr. Robin Hanson<br>
-                            <small>Economist, <a href="http://economics.gmu.edu/people/rhanson">George Mason</a></small></h3>
-                        </div>
-                        <div class="profile col-md-3">
-                            <img class="small-profile-pic" src="img/joe.jpg">
-                            <h3>Joe Costello<br>
-                            <small>CEO, <a href="http://www.enlightedinc.com/">Enlighted</a></small></h3>
-                        </div>
-                    </div>
-                </div><br>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="profile col-md-4">
-                            <img class="small-profile-pic" src="img/abe.jpg">
-                            <h3>Dr. Abe Othman<br>
-                            <small>Researcher, <a href="http://www.cs.cmu.edu/~aothman/">Wharton</a></small></h3>
-                        </div>
-                        <div class="profile col-md-4">
-                            <img class="small-profile-pic" src="img/houman.png">
-                            <h3>Houman Shadab<br>
-                            <small>Professor of Law, <a href="http://www.nyls.edu/faculty/faculty-profiles/faculty_profiles/houman_shadab/">New York Law School</a></small></h3>
-                        </div>
-                        <div class="profile col-md-4">
-                            <img class="small-profile-pic" src="img/elizabeth.jpg">
-                            <h3>Elizabeth Stark<br>
-                            <small>Founder, <a href="https://lightning.network/">Lightning</a></small></h3>
-                        </div>
-                    </div>
-                </div><br>
+               <div class="team-header">
+                  <h1>Advisors</h1>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="profile col-md-3">
+                        <img class="small-profile-pic" src="img/vitalik.jpg">
+                        <h3>Vitalik Buterin<br>
+                           <small>Founder, <a href="http://www.ethereum.org">Ethereum</a></small>
+                        </h3>
+                     </div>
+                     <div class="profile col-md-3">
+                        <img class="small-profile-pic" src="img/ron.jpg">
+                        <h3>Ron Bernstein<br>
+                           <small>Founder, <a href="http://www.intrade.com">Intrade</a> & <a href="http://www.tradesports.com">Tradesports</a></small>
+                        </h3>
+                     </div>
+                     <div class="profile col-md-3">
+                        <img class="small-profile-pic" src="img/robin.jpg">
+                        <h3>Dr. Robin Hanson<br>
+                           <small>Economist, <a href="http://economics.gmu.edu/people/rhanson">George Mason</a></small>
+                        </h3>
+                     </div>
+                     <div class="profile col-md-3">
+                        <img class="small-profile-pic" src="img/joe.jpg">
+                        <h3>Joe Costello<br>
+                           <small>CEO, <a href="http://www.enlightedinc.com/">Enlighted</a></small>
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="profile col-md-4">
+                        <img class="small-profile-pic" src="img/abe.jpg">
+                        <h3>Dr. Abe Othman<br>
+                           <small>Researcher, <a href="http://www.cs.cmu.edu/~aothman/">Wharton</a></small>
+                        </h3>
+                     </div>
+                     <div class="profile col-md-4">
+                        <img class="small-profile-pic" src="img/houman.png">
+                        <h3>Houman Shadab<br>
+                           <small>Professor of Law, <a href="http://www.nyls.edu/faculty/faculty-profiles/faculty_profiles/houman_shadab/">New York Law School</a></small>
+                        </h3>
+                     </div>
+                     <div class="profile col-md-4">
+                        <img class="small-profile-pic" src="img/elizabeth.jpg">
+                        <h3>Elizabeth Stark<br>
+                           <small>Founder, <a href="https://lightning.network/">Lightning</a></small>
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+               <br>
             </div>
-        </div><br>
-        <br>
-    </section>
-    <section class="content-section contact-section" id="contact">
-        <div class="container">
+         </div>
+         <br>
+         <br>
+      </section>
+      <section class="content-section contact-section" id="contact">
+         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="col-sm-4">
-                        <ul class="nostyle">
-
-                            <li>
-
-                                <ul class="slack nostyle">
-                                 <li><img alt="augur logo" class="augur-logo-gray" src="img/augur-logo-gray.png"></li>
-                                    <li class="team-email"></li>
-                                    <a  href="mailto:team@augur.net">
-
-                                    <li style="margin-top:1em;">team@augur.net</li></a>
-                                </ul>
-                            </li>
-                            <li style="list-style: none; display: inline">
-                                <a href="https://augur.net/canary.txt"><img id="canary-img" src="./img/canary.png"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="nostyle">
-                            <li>
-                                <a href="http://blog.augur.net/faq-frequently-asked-questions" target="_blank">Frequently Asked Questions</a>
-                            </li>
-                            <li>
-                                <a href="terms.txt">Terms &amp; Conditions</a>
-                            </li>
-                            <li>
-                                <a href="http://terms.augur.net">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="nostyle">
-                            <li>
-                                <ul class="nostyle social-media">
-                                    <li>
-                                        <a href="https://www.facebook.com/augurproject" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/AugurProject" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.reddit.com/r/augur" target="_blank"><i class="fa fa-reddit fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/AugurProject" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/channel/UCnQRWIWIT8ExlegLTajjhiQ" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <div class="join-augur-beta-button-2">
-                                    <a class="join-link" href="https://app.augur.net" target="_blank">Join Augur Beta</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="join-augur-beta-button-3">
-                                    <a class="join-link" href="https://dev.augur.net" target="_blank">Dev app (unstable)</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+               <div class="col-md-12">
+                  <div class="col-sm-4">
+                     <ul class="nostyle">
+                        <li>
+                           <ul class="slack nostyle">
+                              <li><img alt="augur logo" class="augur-logo-gray" src="img/augur-logo-gray.png"></li>
+                              <li class="team-email"></li>
+                              <a  href="mailto:team@augur.net">
+                                 <li style="margin-top:1em;">team@augur.net</li>
+                              </a>
+                           </ul>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                           <a href="https://augur.net/canary.txt"><img id="canary-img" src="./img/canary.png"></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-4">
+                     <ul class="nostyle">
+                        <li>
+                           <a href="http://blog.augur.net/faq-frequently-asked-questions" target="_blank">Frequently Asked Questions</a>
+                        </li>
+                        <li>
+                           <a href="terms.txt">Terms &amp; Conditions</a>
+                        </li>
+                        <li>
+                           <a href="http://terms.augur.net">Privacy Policy</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-4">
+                     <ul class="nostyle">
+                        <li>
+                           <ul class="nostyle social-media">
+                              <li>
+                                 <a href="https://www.facebook.com/augurproject" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                              </li>
+                              <li>
+                                 <a href="https://twitter.com/AugurProject" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                              </li>
+                              <li>
+                                 <a href="https://www.reddit.com/r/augur" target="_blank"><i class="fa fa-reddit fa-2x"></i></a>
+                              </li>
+                              <li>
+                                 <a href="https://github.com/AugurProject" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                              </li>
+                              <li>
+                                 <a href="https://www.youtube.com/channel/UCnQRWIWIT8ExlegLTajjhiQ" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <div class="join-augur-beta-button-2">
+                              <a class="join-link" href="https://app.augur.net" target="_blank">Join Augur Beta</a>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="join-augur-beta-button-3">
+                              <a class="join-link" href="https://dev.augur.net" target="_blank">Dev app (unstable)</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container text-center">
+         </div>
+      </section>
+      <footer>
+         <div class="container text-center">
             <div class="footer">
-                <p>Copyright &copy; 2017-2018 Forecast Foundation OU</p>
+               <p>Copyright &copy; 2017-2018 Forecast Foundation OU</p>
             </div>
-        </div>
-    </footer>
-    <div aria-hidden="true" aria-labelledby="video-modal-label" class="modal fade" id="video-modal" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
+         </div>
+      </footer>
+      <div aria-hidden="true" aria-labelledby="video-modal-label" class="modal fade" id="video-modal" role="dialog" tabindex="-1">
+         <div class="modal-dialog">
             <div class="modal-content video-modal-content">
-                <div class="modal-body">
-                    <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/yegyih591Jo" width="560"></iframe>
-                </div>
+               <div class="modal-body">
+                  <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/yegyih591Jo" width="560"></iframe>
+               </div>
             </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="rep-video-modal-label" class="modal fade" id="rep-video-modal" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
+         </div>
+      </div>
+      <div aria-hidden="true" aria-labelledby="rep-video-modal-label" class="modal fade" id="rep-video-modal" role="dialog" tabindex="-1">
+         <div class="modal-dialog">
             <div class="modal-content video-modal-content">
-                <div class="modal-body">
-                    <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/sCms-snzHk4" width="560"></iframe>
-                </div>
+               <div class="modal-body">
+                  <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/sCms-snzHk4" width="560"></iframe>
+               </div>
             </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-jack" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/jack.jpg">
-                    <h2>Jack Peterson, PhD<br>
-                    <small>Co-founder &amp; Lead Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Jack is a physicist, entrepreneur, and software developer. He became fascinated by distributed networks while finishing his Ph.D. at UCSF. He has delved into scientific computing (<a href="https://github.com/tinybike/JointMoments.jl">1</a>, <a href="http://interacto.me/">2</a>, <a href="https://github.com/tinybike/maxent-digamma">3</a>, <a href="https://github.com/JuliaStats/StatsBase.jl">4</a>, <a href="https://github.com/tinybike/FiniteStateMachine.jl">5</a>, <a href="https://github.com/tinybike/Decimals.jl">6</a>, <a href="https://github.com/tinybike/tlcp">7</a>), blockchain programming (<a href="http://www.sidecoin.net/" target="_blank">1</a>, <a href="https://github.com/tinybike/grapple" target="_blank">2</a>, <a href="https://github.com/tinybike/coinbridge" target="_blank">3</a>, <a href="https://github.com/tinybike/CryptoCab">4</a>, <a href="https://github.com/tinybike/catchcoin">5</a>), <a href="https://github.com/tinybike/WormCam" target="_blank">computer vision</a>, <a href="https://github.com/tinybike/thinker" target="_blank">neural networks</a>,&nbsp;<a href="https://github.com/tinybike/flood">peer-to-peer networking</a>, <a href="http://geonis.lternet.edu/" target="_blank">GIS</a>, and <a href="http://tinybike.com/" target="_blank">web development</a>. He was a <a href="https://ndseg.asee.org/">National Defense Science and Engineering Graduate Fellow</a>, and has published several peer-reviewed articles on complex networks and information theory, including modeling and simulation of <a href="http://arxiv.org/abs/1501.01282" target="_blank">protein-protein interaction networks</a> and <a href="http://www.pnas.org/content/107/37/16023.abstract">social networks</a>, automated <a href="http://pubs.acs.org/doi/abs/10.1021/jp500611f" target="_blank">kinetic model extraction</a> for single-molecule experiments, and the <a href="http://www.pnas.org/content/110/51/20380.abstract" target="_blank">statistical mechanics of "heavy-tailed" distributions</a>. He is currently building Augur's&nbsp;<a href="https://github.com/AugurProject/augur.js">JavaScript API</a> and <a href="https://github.com/AugurProject/augur">front-end</a>. In his free time, Jack enjoys swimming, picking blackberries, and <a href="http://travelmag.co.uk/?p=8409">travel</a>&nbsp;<a href="http://travelmag.co.uk/?p=8424">writing</a>.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/tinybike"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/tensorjack"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.linkedin.com/pub/jack-peterson/58/b02/420/en"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.reddit.com/user/tinybike"><i class="fa fa-reddit fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-joey" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/joey.png">
-                    <h2>Joey Krug<br>
-                    <small>Co-founder &amp; Senior Back-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Joey took a leave of absence from Pomona College to focus full time on Augur. He conducted the first Bitcoin transaction&nbsp;<a href="https://www.youtube.com/watch?v=eDaznzbYKkw" target="_blank">via sound</a> as well as the first Bitcoin transaction via iOS-Android Bluetooth LE. Joey is one of the <a href="http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows">2016 Thiel Fellows</a>. Before creating Augur, he and Jack completed <a href="http://www.sidecoin.net/" target="_blank">Sidecoin</a>, which allows new cryptocurrency distributions based on "snapshots" of Bitcoin account balances. He works on Augur's back-end codebase (its Ethereum smart contracts). He is currently making Augur's consensus implementation faster and more accurate. Joey worked on Bitcoin merchant solutions and enjoys hardware tinkering and game development. He was his high school valedictorian and a senior officer of his college investment club.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/joeykrug"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com/joeykrug447"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.linkedin.com/in/joeykrug/en"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.reddit.com/user/joeykrug"><i class="fa fa-reddit fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-sprinkle" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/sprinkle.jpg">
-                    <h2>Stephen Sprinkle<br>
-                    <small>Senior Front-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Stephen brings a level of familiarity and comfort to the start-up and scaling phases of product design and development having either founded or co-founded a series of ventures previously. His former projects include Cryptoping and address watching service, Certle which provides technical certification tracking and <a href="http://giving.io/">Giving.io</a>, a mobile donations platform for faith institutions. Being a relatively early adopter of Bitcoin has helped influence his growing passion for decentralized applications and the cryptocurrencies that support them. He is looking forward to contributing to the front-end initiative of the Augur and its truly novel form of research and insight that's provided in a resilient manner.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/stephensprinkle"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/stephensprinkle"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-johndanz" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/johndanz.jpg">
-                    <h2>John Danz<br>
-                    <small>Front-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>John has experience working in small software companies with big clients and brings an agile “wear many hats” ability to the Augur team. His work has allowed him to build pages and applications with clients such as Eli Lilly, Scholastic, and Pearson Education. He has experience with all manner of browser quirks, a proficiency in JavaScript, a passion to learn all there is to know about JavaScript applications, and the ever growing ecosystem that surrounds JavaScript. Although relatively new to developing decentralized software powered by cryptocurrency, John is excited to jump headfirst into this new and ground breaking field.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/JohnDanz"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/johndanz"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-aaron" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/aaron.jpeg">
-                    <h2>Aaron Drake<br>
-                    <small>Senior Back-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Aaron has been fascinated by cryptocurrencies since he first learned about Satoshi Nakamoto’s white paper on Bitcoin during the depths of the global financial crisis. He received his master’s degree in computer science from Washington University in St. Louis and has worked at both large companies and small startups in the San Francisco Bay Area since 2006. Aaron is thrilled to be a part of the Augur team because it allows him to focus on two of his biggest interests: technology and economics.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/adrake33"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/aaron-drake-0a7b672"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-ryan" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/ryan.jpg">
-                    <h2>Ryan Garner<br>
-                    <small>Back-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Ryan is a programmer skilled in C++ and Basic. Before joining Augur he designed an improved quadratic fee structure, created a routine for automatically distributing the labor of judges to achieve a target accuracy, and designed a way to calculate re-adjudication bonds based on opportunity cost. In Ryan's spare time he enjoys researching and discussing futurology, decentralization, concepts derived from quantum nature, and use cases of DAOs. Additionally, Ryan has an interest in World War II strategy and analyzing the cost-benefit relationship of equipment, this interest lead to Ryan creating the largest WWII realism <a href="http://forums.wesnoth.org/viewtopic.php?f=19&amp;p=586831" target="_blank">mod</a> for Wesnoth. Ryan&nbsp;is on <a href="http://reddit.com/r/augur" target="_blank">/r/Augur</a> using the handle&nbsp;<a href="https://www.reddit.com/user/imkharn" target="_blank">imkharn</a>.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/imkharn"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/imkharn"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.reddit.com/user/imkharn"><i class="fa fa-reddit fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-tom" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/tom.jpg">
-                    <h2>Tom Kysar<br>
-                    <small>Director of Operations</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Tom is an internet marketer, manager, and developer. He first joined <a href="https://www.twitter.com/koinify">Koinify</a> in 2014, where he was the head of marketing, campaigning two crowd-funds for ~5,000+ BTC. He later joined <a href="https://www.tierion.com">Tierion</a> as director of growth, helping build an engine to generate cryptographic proofs of any file or data with the Bitcoin blockchain. Tom has a lifelong interest in affiliate marketing and building side-projects. He helped build the Comma.ai beta <a href="https://www.beta.comma.ai">driving explorer</a>, and used to run one of the largest Bitcoin faucets online. Tom withdrew from university after his freshman year to move to San Francisco, where he has since been working within the cryptocurrency industry.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://github.com/tomkysar"><i class="fa fa-github fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/tomkysar"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/kysar"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-perry" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/perry.png">
-                    <h2>Peronet Despeignes<br>
-                    <small>SpecialOps</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Perry is involved in special operations for Augur, including strategic initiatives involving the financial sector, artificial intelligence, business outreach outside the US and project documentation. He worked as an economics correspondent for the Financial Times, Fortune and Investors Business Daily after majoring in economics at Harvard. Before the 2007 crash, he uncovered <a href="http://ow.ly/J7CcF" target="_blank">heavy insider selling by homebuilder executives</a>, used futures markets to gauge <a href="http://ow.ly/J7CXS" target="_blank">the surprising extent of Wall Street's dependence on the</a> <a href="http://ow.ly/J7CXS" target="_blank">Fed</a>, was first to report the Fed's <a href="http://ow.ly/J7Dbc" target="_blank">formal brainstorming</a> over unconventional stimulus options and how the U.S. government's future financial challenges were <a href="http://ow.ly/W72QA" target="_blank">massively underestimated</a>. He developed <a href="http://bit.ly/MKrxOu" target="_blank">regressions</a> to assess which nations might <a href="https://www.dropbox.com/s/ihmx8ujobcwef61/Chart4c.swf?raw=1" target="_blank">outperform or underperform</a> going forward based on which were "<a href="https://www.dropbox.com/s/srbgtnlex4321ue/grei-cookbook.pdf?raw=1" target="_blank">underpriced" or "overpriced</a>." He manages various special projects for info services group Serenity, Augur and the Forecast Foundation.</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://twitter.com/pqdeep"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/peronetdespeignes"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-ivan" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/ivan.jpg">
-                    <h2>Ivan Petric<br>
-                    <small>Marketeer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Ivan is from Croatia, born and raised in Zagreb, where he graduated in Economics. His family is in the publishing business (school books and other educational materials) for over 4 decades. He mostly works in marketing, and he intends to be among the first to apply blockchain technology to schoolbooks/textbooks to help young generations get as much as knowledge possible at early age. When Ivan read about Bitcoin and the blockchain for the first time, he declared it a new "internet" or a new "steam locomotive". He believes in the new speeds, connections, transparency, savings, reduction of frauds, reduction of middlemen and accounting expenses, and so much more that platforms based on blockchain can bring to everyone. He believes that the world today is fueled by information, about everyone anywhere: company, bank, or individual. The only logical move is to fully transparent platforms and businesses which will create huge new value and also win the trust to new millions of participants across the world with fair and available systems to everyone. Ivan loves the ability that Augur will give to anyone anywhere to create the market in which anybody can participate. Outside of Augur, he enjoys the intoxicating tastes of wine; he created a very special red wine on an island in Adriatic Sea, Croatia, and loves to share it with his friends. He also loves hiking, fishing, cooking...especially fish he caught himself!</p>
-                    <ul class="nostyle social-media social-media-profile">
-                        <li>
-                            <a href="https://twitter.com/IvanPetricSP"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>
-                    </ul><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-alex" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/alex.jpg">
-                    <h2>Alex Chapman<br>
-                    <small>Back-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>Alex is a developer with a variety of experience at both small and large software companies. Over the last decade he's worn the hats of a web-dev, back end pythonista, ETL engineer, and game developer. While working most recently at Blizzard Entertainment he developed a fascination for both cryptocurrency and prediction markets which led him to Augur. He's eager to dive into the emerging realm of smart contracts and contribute a world changing platform.</p><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div aria-hidden="true" aria-labelledby="profile-modal-label" class="modal fade" id="profile-modal-jackson" role="dialog" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content profile-modal-content">
-                <div class="modal-header profile-modal-header">
-                    <img class="large-profile-pic" src="img/jackson.jpg">
-                    <h2>Jackson Broussard<br>
-                    <small>Front-End Developer</small></h2>
-                </div>
-                <div class="profile-modal-body">
-                    <p>A long-time computer hobbyist, Jackson is a self-taught programmer with deep interest in practical and theoretical computer science. He takes a front-end leaning stance and has worked on data-vis, richly-animated digital marketing and consumer-facing apps. Jackson joined the Augur team because "it feels like it's from the future". In his free time, Jackson makes pixel art, programs games and produces electronic music.</p><button class="dismiss" data-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/jquery.js">
-    </script> 
-    <script src="js/bootstrap.min.js">
-    </script> 
-    <script src="js/jquery.easing.min.js">
-    </script> 
-    <script src="js/augur.js">
-    </script> 
-    <script src="js/uservoice.js">
-    </script>
-</body>
+         </div>
+      </div>
+      <script src="js/jquery.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/jquery.easing.min.js"></script> 
+      <script src="js/augur.js"></script> 
+      <script src="js/uservoice.js"></script>
+      <script>
+         var cards = $(".intro-profile");
+         for(var i = 0; i < cards.length; i++){
+             var target = Math.floor(Math.random() * cards.length -1) + 1;
+             var target2 = Math.floor(Math.random() * cards.length -1) +1;
+             cards.eq(target).before(cards.eq(target2));
+         }
+         
+      </script>
+   </body>
 </html>
