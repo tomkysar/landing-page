@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="description">
+    <meta content="Augur | A Decentrazlied Oracle & Prediction Market Platform" property="og:title">
+    <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." property="og:description">
+    <meta content="Augur | A Decentrazlied Oracle & Prediction Market Platform" property="og:site_name">
+    <meta content="https://www.augur.net" property="og:url">
+    <meta content="https://augur.net/img/pics/meta_logo.png" property="og:image">
+    <meta content="Augur | A Decentrazlied Oracle & Prediction Market Platform" name="twitter:card">
+    <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.." name="twitter:description">
+    <meta content="Augur | A Decentrazlied Oracle & Prediction Market Platform" name="twitter:title">
+    <meta content="Augur" name="twitter:domain">
+    <meta content="https://augur.net/img/pics/meta_logo.png" name="twitter:image">
+    <meta content="https://augur.net/img/pics/meta_logo.png" name="twitter:image:src">
+    <title>Forecast Foundation - Augur</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-74080255-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__wrapper">
+                <a href="../" class="header__wrapper-desktop">
+                    <img src="../img/brandmarks/logo.svg" alt="AUGUR" class="header__wrapper-img">
+                </a>
+                <a href="#" class="header__wrapper-hamburger header__wrapper-hamburger--active">
+                    <img src="../img/icons/ico-hamburger.svg" alt="Hamburger icon">
+                </a>
+                <a href="#" class="header__wrapper-close">
+                    <img src="../img/icons/ico-close.svg" alt="Hamburger icon">
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="../bounty" class="header__nav-link">Bounty Program</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="../about" class="header__nav-link">How it works</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="../foundation" class="header__nav-link">Foundation</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="../contact" class="header__nav-link">Contact</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://docs.augur.net" class="header__nav-link">Docs</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://medium.com/@AugurProject" class="header__nav-link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__mobile">
+                <a href="index.html" class="header__mobile-logo">
+                    <img src="../img/brandmarks/logo--mobile.svg" alt="AUGUR" class="header__mobile-img">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="page-title__wrapper">
+            <div class="container page-title__container">
+                <h1 class="page-title__heading page-title__heading--center heading">Forecast Foundation</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container team__container">
+            <ul class="team__list">
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/jack.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Jack Peterson, PhD</p>
+                                    <p class="team__position paragraph paragraph--small">Co-founder & Lead Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/joey.jpeg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Joey Krug</p>
+                                    <p class="team__position paragraph paragraph--small">Co-founder & Senior Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/alex.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Alex Chapman</p>
+                                    <p class="team__position paragraph paragraph--small">Senior Back-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/aaron.jpeg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Aaron Drake</p>
+                                    <p class="team__position paragraph paragraph--small">Senior Back-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/scott.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Scott Bigelow</p>
+                                    <p class="team__position paragraph paragraph--small">Back-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/sprinkle.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Stephen Sprinkle</p>
+                                    <p class="team__position paragraph paragraph--small">Senior Front-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/serena.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Serena Randolph</p>
+                                    <p class="team__position paragraph paragraph--small">Front-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/johndanz.png" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">John Danz</p>
+                                    <p class="team__position paragraph paragraph--small">Front-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/justin.jpeg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Justin Barry</p>
+                                    <p class="team__position paragraph paragraph--small">Front-End Developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/paul.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Paul Gebheim</p>
+                                    <p class="team__position paragraph paragraph--small">Code Monkey</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/tom-haile.png" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Tom Haile</p>
+                                    <p class="team__position paragraph paragraph--small">Code Mercenary</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/peter.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Peter Hicks</p>
+                                    <p class="team__position paragraph paragraph--small">Senior DevOps Engineer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/matt.jpeg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Matt Bullock</p>
+                                    <p class="team__position paragraph paragraph--small">Senior Product Designer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/austin.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Austin Williams</p>
+                                    <p class="team__position paragraph paragraph--small">Researcher</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/tom.png" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Tom Kysar</p>
+                                    <p class="team__position paragraph paragraph--small">Operations</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/stephanie.png" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Steph Alexander</p>
+                                    <p class="team__position paragraph paragraph--small">Technical Writer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/perry.png" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Perry Despeignes</p>
+                                    <p class="team__position paragraph paragraph--small">Special Ops</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="team__item">
+                    <a href="#" class="team__link">
+                        <figure class="team__figure">
+                            <div class="team__img-wrapper">
+                                <img class="team__img" src="../img/people/ivan.jpg" alt="Person's picture">
+                            </div>
+                            <figcaption class="team__figcaption">
+                                <div class="team__figcaption-wrapper">
+                                    <p class="team__name heading heading--small">Ivan Petric</p>
+                                    <p class="team__position paragraph paragraph--small">Marketeer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="advisors">
+        <div class="container advisors__container">
+            <div class="advisors__wrapper">
+                <h2 class="advisors__heading heading">Advisory Team</h2>
+                <ul class="advisors__list">
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/vitalik.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Vitalik Buterin</p>
+                                        <p class="advisors__position paragraph paragraph--small">Founder, Ethereum</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/ron.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Ron Bernstein</p>
+                                        <p class="advisors__position paragraph paragraph--small">Founder, Intrade &amp; Tradesports</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/joe.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Joe Costello</p>
+                                        <p class="advisors__position paragraph paragraph--small">CEO, Enlighted</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/marco.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Marco Santori</p>
+                                        <p class="advisors__position paragraph paragraph--small">President, Blockchain.info</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/robin.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Dr. Robin Hanson</p>
+                                        <p class="advisors__position paragraph paragraph--small">Economist, George Mason</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/abe.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Dr. Abe Othman</p>
+                                        <p class="advisors__position paragraph paragraph--small">Researcher, Wharton</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/houman.png" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Houman Shadab</p>
+                                        <p class="advisors__position paragraph paragraph--small">Professor of Law, NY Law School</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="advisors__item">
+                        <a href="#" class="advisors__link">
+                            <figure class="advisors__figure">
+                                <div class="advisors__img-wrapper">
+                                    <img src="../img/people/elizabeth.jpg" alt="Person's picture" class="advisors__img">
+                                </div>
+                                <figcaption class="advisors__figcaption">
+                                    <div class="advisors__figcaption-wrapper">
+                                        <p class="advisors__name heading heading--small">Elizabeth Stark</p>
+                                        <p class="advisors__position paragraph paragraph--small">Founder, Lightning</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a href="http://www.augur.net/terms.txt" class="footer__nav-link">Terms &amp; Conditions</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="http://terms.augur.net/" class="footer__nav-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="https://github.com/AugurProject/augur-core/blob/master/LICENSE" class="footer__nav-link">Licensing Agreement</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <small class="footer__small">Copyright &copy; 2018 Forecast Foundation OU</small>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.min.js?v=0.0.1"></script>
+
+</body>
+
+</html>
