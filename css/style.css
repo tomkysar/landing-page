@@ -2237,3 +2237,10 @@ table {
 table, th, td {
         border-top: 1px solid white;
 }
+
+.full_details_button{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    padding: .75em 1.5em;
+}

@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../css/style.css">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="description">
@@ -38,6 +37,11 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/old-bounty-style.css">
+    <link rel="stylesheet" href="../css/style.css">
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -120,7 +124,7 @@
     <section class="contact">
         <div class="col-lg-12">
 
-            <a style="margin-right:auto;margin-left:auto;display:table;" href="mailto:bounty@augur.net" class="btn hero__box-btn">SUBMIT VULNERABILITY / BUG REPORT</a>
+            <a style="margin-right:auto;margin-left:auto;display:table;margin-bottom: 3em;" href="mailto:bounty@augur.net" class="btn hero__box-btn">SUBMIT VULNERABILITY / BUG REPORT</a>
 
     </section>
 
@@ -206,7 +210,8 @@
     <section class="contact">
         <div class="col-lg-12">
 
-            <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small">Bounty payment amounts are decided by assessing severity. <br> We calculate the severity level according to the OWASP risk rating model based on both impact and likelihood:</p>
+            <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small">Bounty payment amounts are decided by assessing severity.
+                <br> We calculate the severity level according to the OWASP risk rating model based on both impact and likelihood:</p>
         </div>
 
     </section>
@@ -224,70 +229,9 @@
             <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small"> You are ineligible for bounty rewards if the vulnerability submitted is already known by the Augur team, if it's publicly disclosed prior to the completion of the bounty process with the Augur team, or if it's found to have been exploited on the main Ethereum network.
 
                 <br>
-                <br> Deployed versions of Augur's contracts can be found on Rinkeby. Please use the testnet or run your own fork. Augur's contracts will be deployed on Ropsten when the bounty program opens for the Augur Client UI and Augur Node. 
+                <br> Deployed versions of Augur's contracts can be found on Rinkeby. Please use the testnet or run your own fork. Augur's contracts will be deployed on Ropsten when the bounty program opens for the Augur Client UI and Augur Node.
 
     </section>
-
-    <!--     <section class="cta cta--mb">
-        <div class="container cta__container">
-            <div class="cta__box" style="padding:65px 140px 65px 140px">
-                <div class="col-lg-12" style="width: 100%;">
-                    <table class="rwd-table">
-                        <h2 class="text__heading heading heading--medium">
-                        Leaderboard
-                        </h2>
-                        <tr>
-                            <td>1.</td>
-                            <td><img src="https://pbs.twimg.com/profile_images/927910984202833920/P8gIWwiI_400x400.jpg" width="50px" ;></td>
-                            <td>Hunter #1</td>
-                            <td>.........................................................</td>
-                            <td>500 Points</td>
-                        </tr>
-
-                        <tr>
-                            <td>2.</td>
-                            <td><img src="https://pbs.twimg.com/profile_images/927910984202833920/P8gIWwiI_400x400.jpg" width="50px" ;></td>
-                            <td>Hunter #2</td>
-                            <td>.........................................................</td>
-                            <td>400 Points</td>
-                        </tr>
-
-                        <tr>
-                            <td>3.</td>
-                            <td><img src="https://pbs.twimg.com/profile_images/927910984202833920/P8gIWwiI_400x400.jpg" width="50px" ;></td>
-                            <td>Hunter #3</td>
-                            <td>.........................................................</td>
-
-                            <td>300 Points</td>
-                        </tr>
-
-                        <tr>
-                            <td>4.</td>
-                            <td><img src="https://pbs.twimg.com/profile_images/927910984202833920/P8gIWwiI_400x400.jpg" width="50px" ;></td>
-                            <td>Hunter #4</td>
-                            <td>.........................................................</td>
-
-                            <td>200 Points</td>
-                        </tr>
-
-                        <tr>
-                            <td>5.</td>
-                            <td><img src="https://pbs.twimg.com/profile_images/927910984202833920/P8gIWwiI_400x400.jpg" width="50px" ;></td>
-                            <td>Hunter #5</td>
-                            <td>.........................................................</td>
-
-                            <td>100 Points</td>
-                        </tr>
-
-                    </table>
-
-                </div>
-
-            </div>
-
-        </div>
-        </div>
-    </section> -->
 
     <section class="cta cta--mb">
         <div class="container cta__container">
@@ -339,6 +283,98 @@
 
     </section>
 
+    <div class="container" style="margin-right:auto;margin-left:auto;width: 50%;">
+
+        <h1 class="heading page-title__heading page-title__heading--center page-title__heading--center-mobile">Other Bounties</h1>
+        <hr id="hr">
+        <br>
+        <br>
+
+        <div class="col-md-6">
+            <h3>Portable Solidity Debugger</h3>
+            <br>
+            <p>2,000 REP</p>
+            <a class="full_details_button" id="bounty_two" onCLick="bounty_two()">FULL DETAILS</a>
+        </div>
+
+        <div class="col-md-6">
+            <h3>EIP-758</h3>
+            <br>
+            <p>1,250 REP</p>
+            <a class="full_details_button" id="bounty_two" onCLick="bounty_three()">FULL DETAILS</a>
+        </div>
+
+    </div>
+
+    <br>
+    <hr id="hr">
+
+    <br>
+    <br>
+    <div style="display:none" class="col-lg-12" id="bounty_two_page">
+        <div class="container">
+            <br>
+            <h1>Portable Solidity Debugger</h1>
+            <br>
+            <br>
+            <h3> Bounty for a Solidity debugger which is portable / provided as a library.
+                    <br><br><span style="font-size:18px">The debugger should have the following features:</span>
+                </h3>
+            <span>Set breakpoints in Solidity</span>
+            <br>
+            <span>Inspect variables when those breakpoints are hit</span>
+            <br>
+            <span>Execute Solidity from the context of a bremakpoint and see the result/failure</span>
+            <br>
+            <span>Library that can be integrated into editors/IDEs</span>
+            <br>
+            <span>VSCode integration</span>
+            <br>
+            <span>Should work on any OS</span>
+            <br>
+            <span>Should work with TestRPC</span>
+            <br>
+            <br>
+            <br>
+            <p>
+                <i><b>Desired workflow:</b></i> set breakpoint in Solidity code, run tests (e.g., using Mocha or Pyethereum tester), drop into debugging environment.
+                <br>See local variables, step forwards and backwards, see storage, etc.
+                <br>
+                <br>If you're planning to work on this, come join the #bounties channel in our
+                <a href="http://augur.net/invite">
+                        Discord.
+                </p>
+                <hr id="hr">
+                <br>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div style="display:none" class="col-lg-12" id="bounty_three_page">
+        <div class="container">
+        <br>
+        <h1> <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-758.md"> EIP-758 Implemented & Merged</a> </h1>
+                <br>
+                <br>
+                <a class="full_details_button" style="font-size:18px" href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-758.md">Specification</a>
+                <br>
+                <br>
+                <br>
+                <h3>Provide a way for external callers to access the return data of functions executed during Ethereum transactions.</h3>
+                <br>
+                <br>
+                <p>For the bounty to be claimed, EIP-758 must be both implemented <i>and</i> merged into either Geth or Parity.
+                    <br>
+                    <br>If you're planning to work on this, come join the #bounties channel in our <a href="http://augur.net/invite"> Discord</a>.
+                    <br>
+                </p>
+                <hr id="hr">
+                <br>
+        </div>
+        <br>
+        <br>
+    </div>
+
     </p>
     </div>
 
@@ -363,6 +399,34 @@
 
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/scripts.min.js?v=0.0.1"></script>
+
+    <script>
+        function bounty_two() {
+
+            var bounty_two = document.getElementById('bounty_two_page');
+            var bounty_three = document.getElementById('bounty_three_page');
+            if (bounty_two.style.display !== 'none') {
+
+                bounty_two.style.display = 'block'
+            } else {
+                bounty_two.style.display = 'block';
+                bounty_three.style.display = 'none';
+            }
+        };
+
+        function bounty_three() {
+
+            var bounty_two = document.getElementById('bounty_two_page');
+            var bounty_three = document.getElementById('bounty_three_page');
+            if (bounty_three.style.display !== 'none') {
+
+                bounty_three.style.display = 'block'
+            } else {
+                bounty_two.style.display = 'none';
+                bounty_three.style.display = 'block';
+            }
+        };
+    </script>
 
 </body>
 

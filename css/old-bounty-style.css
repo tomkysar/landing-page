@@ -47,7 +47,6 @@
 
 body {
     width: 100%;
-    font-family: "DINPro-Regular";
     color: #FFF;
     background-color: #3d2763;
     margin-top: 4em;
@@ -61,21 +60,18 @@ html {
 
 h1 {
     margin: 0 0 35px;
-    font-family: "DINPro-Regular";
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 h2 {
     margin: 0 0 35px;
-    font-family: "DINPro-Regular";
     font-weight: 400;
     letter-spacing: 1px;
 }
 
 h3 {
   margin: 0 0 35px;
-    font-family: "DINPro-Regular";
     font-weight: 200;
     letter-spacing: 1px;
     font-size: 22px;
@@ -539,9 +535,6 @@ a:focus {
     color: #898989;
     font-size: 13pt;
 }
-footer {
-    background-color: #F0F0F0;   
-}
 
 .download-section {
     width: 100%;
@@ -607,19 +600,6 @@ footer {
     outline: 0;
     color: #000;
     background-color: #898989;
-}
-
-.footer {
-    border-top: 2px solid #DBDBDB;
-    padding-top: 30px;
-}
-
-footer {
-    padding: 50px 0;
-}
-
-footer p {
-    margin: 0;
 }
 
 ::-moz-selection {
@@ -726,10 +706,6 @@ body {
 
 .social_icons{
     width: 2em;
-}
-
-#footer{
-    margin-top: 3em;
 }
 
 #hr{
