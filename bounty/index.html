@@ -306,89 +306,24 @@
         <br>
         <br>
 
-        <div class="col-md-6" style="margin-bottom: 4em;margin-top: 2em;color: white;">
-            <a class="full_details_button" id="bounty_two" onCLick="bounty_two()">Solidity Debugger</a>
-        </div>
+                    <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/eip-758" class="btn hero__box-btn">EIP-758</a> &nbsp; &nbsp;
 
-        <div class="col-md-6" style="margin-bottom: 3em;margin-top: 2em;color: white;">
-            <a class="full_details_button" id="bounty_two" onCLick="bounty_three()">EIP-758</a>
-        </div>
+            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/eip-234" class="btn hero__box-btn">EIP-234</a>
+            <br>
+
+            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/gitcoin" class="btn hero__box-btn">Gitcoin</a>
+
+        <br>
+
+            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/solidity-debugger" class="btn hero__box-btn">Solidity Debugger</a>
+
+                    <hr id="hr">
+
 
     </div>
 
     <br>
 
-    <br>
-    <br>
-    <div style="display:none;text-align:center;" class="col-lg-12" id="bounty_two_page">
-        <div class="container" style="color:white;">
-            <br>
-            <h1>Portable Solidity Debugger</h1>
-            <br>
-            <br>
-            <span>2,000 REP</span>
-            <br><br><br>
-            <h3> Bounty for a Solidity debugger which is portable / provided as a library.
-                    <br><br><span style="font-size:18px">The debugger should have the following features:</span>
-                </h3>
-            <span>Set breakpoints in Solidity</span>
-            <br>
-            <span>Inspect variables when those breakpoints are hit</span>
-            <br>
-            <span>Execute Solidity from the context of a bremakpoint and see the result/failure</span>
-            <br>
-            <span>Library that can be integrated into editors/IDEs</span>
-            <br>
-            <span>VSCode integration</span>
-            <br>
-            <span>Should work on any OS</span>
-            <br>
-            <span>Should work with TestRPC</span>
-            <br>
-            <br>
-            <br>
-            <p>
-                <i><b>Desired workflow:</b></i> set breakpoint in Solidity code, run tests (e.g., using Mocha or Pyethereum tester), drop into debugging environment.
-                <br>See local variables, step forwards and backwards, see storage, etc.
-                <br>
-                <br>If you're planning to work on this, come join the #bounties channel in our
-                <a href="http://augur.net/invite">
-                        Discord.
-                </p>
-                <br>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div style="display:none;text-align:center;" class="col-lg-12" id="bounty_three_page">
-        <div class="container" style="color:white;">
-        <br>
-        <h1> <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-758.md"> EIP-758 Implemented & Merged</a> </h1>
-                <br>
-                <br>
-                <span>1,250 REP</span>
-                <br><br><br><br>
-                <a class="full_details_button" style="font-size:18px" href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-758.md">Specification</a>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h3>Provide a way for external callers to access the return data of functions executed during Ethereum transactions.</h3>
-
-                <br>
-                <p>For the bounty to be claimed, EIP-758 must be both implemented <i>and</i> merged into either Geth or Parity.
-                    <br>
-                    <br>If you're planning to work on this, come join the #bounties channel in our <a href="http://augur.net/invite"> Discord</a>.
-                    <br>
-                </p>
-                <br>
-        </div>
-        <br>
-        <br>
-    </div>
-
-    </p>
-    </div>
 
     <footer class="footer">
         <div class="container footer__container">
@@ -412,33 +347,6 @@
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/scripts.min.js?v=0.0.1"></script>
 
-    <script>
-        function bounty_two() {
-
-            var bounty_two = document.getElementById('bounty_two_page');
-            var bounty_three = document.getElementById('bounty_three_page');
-            if (bounty_two.style.display !== 'none') {
-
-                bounty_two.style.display = 'block'
-            } else {
-                bounty_two.style.display = 'block';
-                bounty_three.style.display = 'none';
-            }
-        };
-
-        function bounty_three() {
-
-            var bounty_two = document.getElementById('bounty_two_page');
-            var bounty_three = document.getElementById('bounty_three_page');
-            if (bounty_three.style.display !== 'none') {
-
-                bounty_three.style.display = 'block'
-            } else {
-                bounty_two.style.display = 'none';
-                bounty_three.style.display = 'block';
-            }
-        };
-    </script>
 
 </body>
 
