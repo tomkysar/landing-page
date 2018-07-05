@@ -898,3 +898,9 @@ ul {
     margin-right: 2.125rem; }
     .Connect__block--around-the-web > ul > li:last-child {
       margin-right: 0; }
+
+.Disclaimer {
+  background-color: #F0EFF6;
+  padding: 5rem 0; }
+  .Disclaimer > div > p {
+    max-width: 56rem; }

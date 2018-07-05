@@ -465,3 +465,14 @@
 		}
 	}
 }
+
+// Disclaimer
+
+.Disclaimer {
+	background-color: $purple--light;
+	padding: 5rem 0;
+
+	> div > p {
+		max-width: 56rem;
+	}
+}
