@@ -904,3 +904,41 @@ ul {
   padding: 5rem 0; }
   .Disclaimer > div > p {
     max-width: 56rem; }
+
+.Footer {
+  background-color: #383B41;
+  color: #fff;
+  font-size: 0.875rem;
+  padding-top: 5rem; }
+
+.Footer__main-wrap {
+  -ms-flex-align: start;
+      align-items: flex-start;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.Footer__nav-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+  .Footer__nav-wrap > ul:not(:last-child) {
+    margin-right: 3.75rem; }
+
+.Footer__sub-wrap {
+  -ms-flex-align: center;
+      align-items: center;
+  border-top: 1px solid #8D8F92;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 5.5rem;
+  padding: 1.5rem 0; }
+  .Footer__sub-wrap > ul > li {
+    display: inline-block;
+    margin-right: 1.5rem; }
+    .Footer__sub-wrap > ul > li:last-child {
+      margin-right: 0; }

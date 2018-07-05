@@ -476,3 +476,45 @@
 		max-width: 56rem;
 	}
 }
+
+// Footer
+
+.Footer {
+	background-color: $gray--dark;
+	color: $white;
+	font-size: 0.875rem;
+	padding-top: 5rem;
+}
+
+.Footer__main-wrap {
+	align-items: flex-start;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Footer__nav-wrap {
+	display: flex;
+	justify-content: flex-end;
+
+	> ul:not(:last-child) {
+		margin-right: 3.75rem;
+	}
+}
+
+.Footer__sub-wrap {
+	align-items: center;
+	border-top: 1px solid #8D8F92;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5.5rem;
+	padding: 1.5rem 0;
+
+	> ul > li {
+		display: inline-block;
+		margin-right: 1.5rem;
+
+		&:last-child {
+			margin-right: 0;
+		}		
+	}
+}
