@@ -56,9 +56,8 @@ h3 {
 h4 { 
 	font-family: $apercu-mono;
 	font-size: 1.5rem;
-	color: $purple;
 	letter-spacing: -0.8px;
-	line-height: 2.75rem;
+	line-height: 2rem;
 }
 h5 {
 	font-size: 1.25rem;
@@ -171,6 +170,23 @@ ul {
 .link--mono {
 	font-family: $apercu-mono;
 	text-decoration: underline;
+}
+
+.link--arrow {
+	font-weight: 500;
+	padding-right: 2.5rem;
+	position: relative;
+
+	&::after {
+		background: url('../images/icon--arrow.svg') center no-repeat;
+		content: "";
+		height: 1rem;
+		margin-top: -0.4rem;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 1.5rem;
+	}
 }
 
 .max-width { 

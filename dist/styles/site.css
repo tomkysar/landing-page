@@ -445,9 +445,8 @@ h3 {
 h4 {
   font-family: "Apercu Mono", "sans-serif";
   font-size: 1.5rem;
-  color: #553580;
   letter-spacing: -0.8px;
-  line-height: 2.75rem; }
+  line-height: 2rem; }
 
 h5 {
   font-size: 1.25rem;
@@ -534,7 +533,21 @@ ul {
   font-family: "Apercu Mono", "sans-serif";
   text-decoration: underline; }
 
-.max-width, .max-width--wide, .AugurCycle__steps-wrapper, .Header__wrap, .Hero__wrap, .Uses__wrap, .Currencies__wrap, .Technology__wrap {
+.link--arrow {
+  font-weight: 500;
+  padding-right: 2.5rem;
+  position: relative; }
+  .link--arrow::after {
+    background: url("../images/icon--arrow.svg") center no-repeat;
+    content: "";
+    height: 1rem;
+    margin-top: -0.4rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1.5rem; }
+
+.max-width, .max-width--wide, .AugurCycle__steps-wrapper, .Header__wrap, .Hero__wrap, .Uses__wrap, .Currencies__wrap, .Technology__wrap, .Connect__wrap {
   width: 100%;
   max-width: 76.5rem;
   margin: 0 auto;
@@ -586,6 +599,8 @@ ul {
     padding-right: 1.875rem;
     width: 51%; }
     .Hero__wrap > div:first-child > h4 {
+      color: #553580;
+      line-height: 2.75rem;
       margin-bottom: 2.625rem; }
   .Hero__wrap > div:last-child {
     position: relative;
@@ -738,7 +753,6 @@ ul {
       line-height: 3rem;
       margin-bottom: 0; }
     .Currencies__currency-heading-wrap > div:first-child > h4 {
-      color: #000;
       margin-bottom: 3.25rem; }
       .Currencies__currency-heading-wrap > div:first-child > h4::after {
         bottom: -1.625rem; }
@@ -769,7 +783,6 @@ ul {
   position: relative;
   width: 48.5%; }
   .Technology__block > h4 {
-    color: #000;
     margin-bottom: 3.25rem; }
     .Technology__block > h4::after {
       bottom: -1.625rem; }
@@ -827,3 +840,61 @@ ul {
     margin-right: 3.25rem; }
     .Download__wrap > div:first-child > h3 {
       margin-bottom: 1rem; }
+
+.Connect {
+  padding: 6.5rem; }
+
+.Connect__wrap > h2 {
+  max-width: 33rem; }
+
+.Connect__block-wrap-outer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .Connect__block-wrap-outer > div:first-child {
+    width: 40.7%; }
+
+.Connect__block-wrap-inner {
+  -ms-flex-align: start;
+      align-items: flex-start;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 57%; }
+  .Connect__block-wrap-inner > div {
+    width: 48%; }
+    .Connect__block-wrap-inner > div:last-child {
+      width: 100%; }
+
+.Connect__block, .Connect__block--around-the-web {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09);
+  padding: 3.5rem 2.5rem 3rem;
+  position: relative; }
+  .Connect__block > img, .Connect__block--around-the-web > img {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem; }
+  .Connect__block > h4, .Connect__block--around-the-web > h4 {
+    margin-bottom: 1.5rem; }
+
+.Connect__block--around-the-web {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 1.5rem; }
+  .Connect__block--around-the-web > h4 {
+    max-width: 15rem; }
+  .Connect__block--around-the-web > ul > li {
+    display: inline-block;
+    margin-right: 2.125rem; }
+    .Connect__block--around-the-web > ul > li:last-child {
+      margin-right: 0; }

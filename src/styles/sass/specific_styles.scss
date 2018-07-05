@@ -38,6 +38,8 @@
 		width: 51%;
 
 		> h4 {
+			color: $purple;
+			line-height: 2.75rem;
 			margin-bottom: 2.625rem;
 		}
 	}
@@ -256,7 +258,6 @@
 		> h4 {
 			@extend .with-line;
 
-			color: $black;
 			margin-bottom: 3.25rem;
 
 			&::after {
@@ -302,7 +303,6 @@
 	> h4 {
 		@extend .with-line;
 
-		color: $black;
 		margin-bottom: 3.25rem;
 
 		&::after {
@@ -383,6 +383,85 @@
 
 		> h3 {
 			margin-bottom: 1rem;
+		}
+	}
+}
+
+// Connect
+
+.Connect {
+	padding: 6.5rem;
+}
+
+.Connect__wrap {
+	@extend .max-width;
+
+	> h2 {
+		max-width: 33rem;
+	}
+}
+
+.Connect__block-wrap-outer {
+	display: flex;
+	justify-content: space-between;
+
+	> div:first-child {
+		width: 40.7%;
+	}
+}
+
+.Connect__block-wrap-inner {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 57%;
+
+	> div {
+		width: 48%;
+
+		&:last-child {
+			width: 100%;
+		}
+	}
+}
+
+.Connect__block {
+	background-color: $white;
+	border-radius: 4px;
+	box-shadow: 0 10px 64px 0 rgba(0,0,0,0.09);
+	padding: 3.5rem 2.5rem 3rem;
+	position: relative;
+
+	> img {
+		position: absolute;
+		right: 2rem;
+		top: 1.5rem;
+	}
+
+	> h4 {
+		margin-bottom: 1.5rem;
+	}
+}
+
+.Connect__block--around-the-web {
+	@extend .Connect__block;
+
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+
+	> h4 {
+		max-width: 15rem;
+	}
+
+	> ul > li {
+		display: inline-block;
+		margin-right: 2.125rem;
+
+		&:last-child {
+			margin-right: 0;
 		}
 	}
 }
