@@ -1,0 +1,35 @@
+{
+  "name": "Augur",
+  "version": "1.0.0",
+  "description": "![Travis CI Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.7.1",
+    "del": "*",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "*",
+    "gulp-clean": "*",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "*",
+    "gulp-connect": "^2.2.0",
+    "gulp-imagemin": "^2.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "*",
+    "gulp-notify": "^2.0.1",
+    "gulp-order": "^1.1.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "*",
+    "gulp-sass": "^2.0.0",
+    "gulp-uglify": "*",
+    "jshint": "^2.9.1",
+    "node-neat": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

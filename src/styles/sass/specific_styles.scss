@@ -1,0 +1,209 @@
+// Header
+
+.Header__nav {
+	align-items: center;
+	display: flex;
+
+	> li:not(:first-child) {
+		margin-left: 1.875rem;
+	}
+}
+
+.Header__wrap {
+	@extend .max-width;
+
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.25rem;
+	padding-top: 1.25rem;
+}
+
+
+// Hero
+
+.Hero {
+	overflow: hidden;
+	padding-bottom: 15rem;
+	padding-top: 5rem;
+}
+
+.Hero__wrap {
+	@extend .max-width;
+
+	display: flex;
+
+	> div:first-child {
+		padding-right: 1.875rem;
+		width: 51%;
+
+		> h4 {
+			margin-bottom: 2.625rem;
+		}
+	}
+
+	> div:last-child {
+		position: relative;
+		width: 49%;
+
+		> img {
+			left: 0;
+			height: 160%;
+			max-width: none;
+			position: absolute;
+			top: 0;
+		}
+
+	}
+}
+
+// Use Cases
+
+.Uses {
+	background-color: $gray;
+}
+
+.Uses__wrap {
+	@extend .max-width;
+
+	position: relative;
+}
+
+.Uses__intro {
+	font-size: 3.625rem;
+	letter-spacing: -1px;
+	line-height: 4.75rem;
+	margin-bottom: 0;
+	position: absolute;
+	right: 0;
+	top: -7.5rem;
+	width: 49rem;
+}
+
+.Uses__use-cases {
+	padding-top: 8.125rem;
+	position: relative;
+	top: 5rem;
+}
+
+.Uses__use-cases-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Uses__use-case {
+	background-color: $white;
+	box-shadow: 0 3px 38px 0 rgba(0,0,0,0.06), 0 3px 7px 0 rgba(0,0,0,0.06);
+	margin-bottom: 2rem;
+	min-height: 17rem;
+	overflow: hidden;
+	padding: 3.5rem 6rem 3rem 7.5rem;
+	position: relative;
+	width: 48.5%;
+
+	> h5 {
+		@extend .with-line;
+
+		margin-bottom: 3rem;
+
+		&::after {
+			bottom: -1.5rem;
+		}
+	}
+
+	> p {
+		margin-bottom: 0;
+	}
+
+	> img {
+		left: -0.85rem;
+		position: absolute;
+		top: 9rem;
+		width: 5.625rem;
+	}
+
+	&:nth-child(5),
+	&:nth-child(6) {
+		margin-bottom: 0;
+	}
+}
+
+// The Augur Cycle
+
+.AugurCycle {
+	padding-top: 11.5rem;
+}
+
+.AugurCycle__steps-wrapper {
+	@extend .max-width--wide;
+}
+
+.AugurCycle__step {
+	display: flex;
+	margin-bottom: 7.5rem;
+
+	> .step--image {
+		width: 48%;
+
+		> img {
+			border: 4px solid $white;
+			border-top-width: 12px;
+			border-radius: 4px;
+			box-shadow: 0 3px 38px 0 rgba(0,0,0,0.06), 0 3px 7px 0 rgba(0,0,0,0.06), 0 10px 64px 0 rgba(0,0,0,0.09);
+		}
+	}
+
+	.step--text {
+		padding: 6rem 2rem 0 2.625rem;
+		width: 35%;
+
+		> h3 {
+			position: relative;
+
+			&::before {
+				color: $purple--light;
+				content: "1";
+				font-size: 10rem;
+				left: -2.5rem;
+				line-height: 10rem;
+				position: absolute;
+				top: -5.75rem;
+				z-index: -1;
+			}
+
+			&.step--2::before {
+				content: "2";
+			}
+
+			&.step--3::before {
+				content: "3";
+			}
+
+			&.step--4::before {
+				content: "4";
+				top: -5.2rem;
+			}
+
+			&.step--5::before {
+				content: "5";
+				top: -5.5rem;
+				left: -2.1rem;
+			}
+		}
+	}
+
+	> *:first-child {
+		margin-right: 3rem;
+	}
+}
+
+.AugurCycle__step--left {
+	@extend .AugurCycle__step;
+	justify-content: flex-start;
+}
+
+.AugurCycle__step--right {
+	@extend .AugurCycle__step;
+	justify-content: flex-end;
+}
