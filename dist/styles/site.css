@@ -536,10 +536,10 @@ ul {
 .max-width--wide, .AugurCycle__steps-wrapper {
   max-width: 83.375rem; }
 
-.with-line, .Uses__use-case > h5, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4 {
+.with-line, .Uses__use-case > h5, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4, .Benefits__benefit > h5 {
   margin-bottom: 0.75em;
   position: relative; }
-  .with-line::after, .Uses__use-case > h5::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after {
+  .with-line::after, .Uses__use-case > h5::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after, .Benefits__benefit > h5::after {
     content: "";
     background-color: #553580;
     bottom: -0.375em;
@@ -781,3 +781,24 @@ ul {
     height: 14rem;
     margin-left: -5.8rem;
     width: 11.6rem; }
+
+.Benefits {
+  background-color: #F0EFF6;
+  padding-bottom: 6.875rem;
+  padding-top: 11.875rem; }
+
+.Benefits__benefits-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.Benefits__benefit {
+  width: 22.8%; }
+  .Benefits__benefit > img {
+    margin-bottom: 1rem; }
+  .Benefits__benefit > h5 {
+    font-weight: 500;
+    margin-bottom: 2.125rem; }
+    .Benefits__benefit > h5::after {
+      bottom: -1.0625rem; }
