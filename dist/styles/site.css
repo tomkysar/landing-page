@@ -460,6 +460,12 @@ p {
   margin-bottom: 2rem; }
   p:last-child {
     margin-bottom: 0; }
+  p.p--mono {
+    font-family: "Apercu Mono", "sans-serif";
+    font-size: 1.5rem;
+    letter-spacing: -0.8px;
+    line-height: 2.75rem;
+    max-width: 47.5rem; }
 
 a {
   color: inherit;
@@ -520,7 +526,7 @@ ul {
   line-height: 2.5rem;
   padding: 0 2rem; }
 
-.max-width, .max-width--wide, .AugurCycle__steps-wrapper, .Header__wrap, .Hero__wrap, .Uses__wrap, .Currencies__wrap {
+.max-width, .max-width--wide, .AugurCycle__steps-wrapper, .Header__wrap, .Hero__wrap, .Uses__wrap, .Currencies__wrap, .Technology__wrap {
   width: 100%;
   max-width: 76.5rem;
   margin: 0 auto;
@@ -530,10 +536,10 @@ ul {
 .max-width--wide, .AugurCycle__steps-wrapper {
   max-width: 83.375rem; }
 
-.with-line, .Uses__use-case > h5, .Currencies__currency-heading-wrap > div:first-child > h4 {
+.with-line, .Uses__use-case > h5, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4 {
   margin-bottom: 0.75em;
   position: relative; }
-  .with-line::after, .Uses__use-case > h5::after, .Currencies__currency-heading-wrap > div:first-child > h4::after {
+  .with-line::after, .Uses__use-case > h5::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after {
     content: "";
     background-color: #553580;
     bottom: -0.375em;
@@ -728,3 +734,50 @@ ul {
       margin-bottom: 3.25rem; }
       .Currencies__currency-heading-wrap > div:first-child > h4::after {
         bottom: -1.625rem; }
+
+.Technology {
+  padding-top: 7.375rem; }
+
+.Technology__wrap {
+  position: relative;
+  top: 5rem; }
+  .Technology__wrap > h2 {
+    line-height: 3.625rem;
+    margin-bottom: 2.5rem;
+    max-width: 33rem; }
+
+.Technology__blocks-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 12.375rem; }
+
+.Technology__block {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09);
+  padding: 3.375rem 4rem 3rem 2.5rem;
+  position: relative;
+  width: 48.5%; }
+  .Technology__block > h4 {
+    color: #000;
+    margin-bottom: 3.25rem; }
+    .Technology__block > h4::after {
+      bottom: -1.625rem; }
+  .Technology__block::before {
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: -7.375rem;
+    z-index: -1; }
+  .Technology__block:first-child::before {
+    background-image: url("../images/icon--decentralized.svg");
+    height: 13.75rem;
+    margin-left: -6.875rem;
+    width: 13.75rem; }
+  .Technology__block:last-child::before {
+    background-image: url("../images/icon--open-source.svg");
+    height: 14rem;
+    margin-left: -5.8rem;
+    width: 11.6rem; }

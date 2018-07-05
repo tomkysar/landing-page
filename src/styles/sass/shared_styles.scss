@@ -76,6 +76,14 @@ p {
 	&:last-child {
 		margin-bottom: 0;
 	}
+
+	&.p--mono {
+		font-family: $apercu-mono;
+		font-size: 1.5rem;
+		letter-spacing: -0.8px;
+		line-height: 2.75rem;
+		max-width: 47.5rem;
+	}
 }
 
 a { 
