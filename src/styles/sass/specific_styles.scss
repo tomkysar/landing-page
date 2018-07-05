@@ -94,6 +94,7 @@
 
 .Uses__use-case {
 	background-color: $white;
+	border-radius: 4px;
 	box-shadow: 0 3px 38px 0 rgba(0,0,0,0.06), 0 3px 7px 0 rgba(0,0,0,0.06);
 	margin-bottom: 2rem;
 	min-height: 17rem;
@@ -206,4 +207,61 @@
 .AugurCycle__step--right {
 	@extend .AugurCycle__step;
 	justify-content: flex-end;
+}
+
+// Currencies
+
+.Currencies {
+	background-color: $gray--dark;
+	color: $white;
+	padding-top: 1.5rem;
+}
+
+.Currencies__wrap {
+	@extend .max-width;
+
+	position: relative;
+	top: 5rem;
+}
+
+.Currencies__currency-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Currencies__currency {
+	background-color: $white;
+	border-radius: 4px;
+	box-shadow: 0 10px 64px 0 rgba(0,0,0,0.09);
+	color: $black;
+	padding: 3.375rem 2.75rem 4rem 2.5rem;
+	width: 48.5%;
+}
+
+.Currencies__currency-heading-wrap {
+	align-items: start;
+	display: flex;
+	justify-content: flex-start;
+
+	> div:first-child {
+		margin-right: 3rem;
+		padding-top: 0.625rem;
+
+		> h2 {
+			font-weight: 700;
+			line-height: 3rem;
+			margin-bottom: 0;
+		}
+
+		> h4 {
+			@extend .with-line;
+
+			color: $black;
+			margin-bottom: 3.25rem;
+
+			&::after {
+				bottom: -1.625rem;
+			}
+		}
+	}
 }
