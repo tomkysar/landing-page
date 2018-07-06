@@ -67,6 +67,10 @@
       max-width: 41rem;
       padding-right: 0;
       width: auto;
+
+      > h4:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
