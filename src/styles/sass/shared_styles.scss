@@ -76,6 +76,11 @@ p {
 		margin-bottom: 0;
 	}
 
+	&.p--large {
+		font-size: 1.5rem;
+		line-height: 2.75rem;
+	}
+
 	&.p--mono {
 		font-family: $apercu-mono;
 		font-size: 1.5rem;
