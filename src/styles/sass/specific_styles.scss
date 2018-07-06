@@ -78,6 +78,10 @@
 .SubpageIntro {
 	background-color: $purple--light;
 	padding: 6.5rem 0;
+
+	> div > p {
+		max-width: 55rem;
+	}
 }
 
 // Use Cases
@@ -116,8 +120,8 @@
 }
 
 .Uses__use-case {
-	background-color: $white;
-	border-radius: 4px;
+	@extend .white-box;
+
 	box-shadow: 0 3px 38px 0 rgba(0,0,0,0.06), 0 3px 7px 0 rgba(0,0,0,0.06);
 	margin-bottom: 2rem;
 	min-height: 17rem;
@@ -253,9 +257,8 @@
 }
 
 .Currencies__currency {
-	background-color: $white;
-	border-radius: 4px;
-	box-shadow: 0 10px 64px 0 rgba(0,0,0,0.09);
+	@extend .white-box;
+
 	color: $black;
 	padding: 3.375rem 2.75rem 4rem 2.5rem;
 	width: 48.5%;
@@ -314,9 +317,9 @@
 }
 
 .Technology__block {
+	@extend .white-box;
+
 	background-color: rgba(255,255,255,0.95);
-	border-radius: 4px;
-	box-shadow: 0 10px 64px 0 rgba(0,0,0,0.09);
 	padding: 3.375rem 4rem 3rem 2.5rem;
 	position: relative;
 	width: 48.5%;
@@ -448,9 +451,8 @@
 }
 
 .Connect__block {
-	background-color: $white;
-	border-radius: 4px;
-	box-shadow: 0 10px 64px 0 rgba(0,0,0,0.09);
+	@extend .white-box;
+
 	padding: 3.5rem 2.5rem 3rem;
 	position: relative;
 

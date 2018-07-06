@@ -560,6 +560,11 @@ ul {
 .max-width--wide, .AugurCycle__steps-wrapper {
   max-width: 83.375rem; }
 
+.white-box, .Uses__use-case, .Currencies__currency, .Technology__block, .Connect__block, .Connect__block--around-the-web {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09); }
+
 .with-line, .Uses__use-case > h5, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4, .Benefits__benefit > h5 {
   margin-bottom: 0.75em;
   position: relative; }
@@ -625,6 +630,8 @@ ul {
 .SubpageIntro {
   background-color: #F0EFF6;
   padding: 6.5rem 0; }
+  .SubpageIntro > div > p {
+    max-width: 55rem; }
 
 .Uses {
   background-color: #F5F5F5; }
@@ -656,8 +663,6 @@ ul {
       justify-content: space-between; }
 
 .Uses__use-case {
-  background-color: #fff;
-  border-radius: 4px;
   box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.06), 0 3px 7px 0 rgba(0, 0, 0, 0.06);
   margin-bottom: 2rem;
   min-height: 17rem;
@@ -745,9 +750,6 @@ ul {
       justify-content: space-between; }
 
 .Currencies__currency {
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09);
   color: #000;
   padding: 3.375rem 2.75rem 4rem 2.5rem;
   width: 48.5%; }
@@ -791,8 +793,6 @@ ul {
 
 .Technology__block {
   background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 4px;
-  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09);
   padding: 3.375rem 4rem 3rem 2.5rem;
   position: relative;
   width: 48.5%; }
@@ -885,9 +885,6 @@ ul {
       width: 100%; }
 
 .Connect__block, .Connect__block--around-the-web {
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09);
   padding: 3.5rem 2.5rem 3rem;
   position: relative; }
   .Connect__block > img, .Connect__block--around-the-web > img {
