@@ -231,6 +231,39 @@
 	}
 }
 
+// BountiesFAQ
+
+.BountiesFAQ {
+	padding: 6.5rem 0 3rem;
+}
+
+.BountiesFAQ__questions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.BountiesFAQ__question {
+	margin-bottom: 3.5rem;
+	width: 46.6%;
+
+	> h5 {
+		@extend .with-line;
+
+		margin-bottom: 2.125rem;
+
+		&::after {
+			bottom: -1.0625rem;
+		}
+	}
+
+	> p > a {
+		color: $purple;
+		font-family: $apercu-mono;
+		text-decoration: underline;
+	}
+}
+
 // Subpage Intro
 
 .SubpageIntro {
