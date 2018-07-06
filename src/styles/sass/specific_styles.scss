@@ -59,14 +59,25 @@
 	}
 }
 
-.Hero__wrap--wide {
-	@extend .Hero__wrap;
+.Hero--wide {
+	@extend .Hero;
 
-	> div:first-child {
-		max-width: 41rem;
-		padding-right: 0;
-		width: auto;
+	padding-bottom: 10.25rem;
+
+	> .Hero__wrap {
+		> div:first-child {
+			max-width: 41rem;
+			padding-right: 0;
+			width: auto;
+		}
 	}
+}
+
+// Subpage Intro
+
+.SubpageIntro {
+	background-color: $purple--light;
+	padding: 6.5rem 0;
 }
 
 // Use Cases
