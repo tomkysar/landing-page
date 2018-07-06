@@ -476,7 +476,7 @@ a {
     border-bottom: 2px solid #000;
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: background-size .4s ease; }
+    transition: background-size 0.4s ease; }
     a.link-underline:hover {
       background-size: 100% 100%; }
 
@@ -518,7 +518,7 @@ ul {
   font-weight: 500;
   line-height: 4.5rem;
   padding: 0 3rem;
-  transition: background .15s ease, color .15s ease; }
+  transition: background 0.15s ease, color 0.15s ease; }
 
 .button--white {
   background-color: #fff;
@@ -542,7 +542,7 @@ ul {
   position: relative; }
   .link--arrow::after {
     background: url("../images/icon--arrow.svg") center no-repeat;
-    content: "";
+    content: '';
     height: 1rem;
     margin-top: -0.4rem;
     position: absolute;
@@ -564,7 +564,7 @@ ul {
   margin-bottom: 0.75em;
   position: relative; }
   .with-line::after, .Uses__use-case > h5::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after, .Benefits__benefit > h5::after {
-    content: "";
+    content: '';
     background-color: #553580;
     bottom: -0.375em;
     height: 2px;

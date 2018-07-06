@@ -1,224 +1,223 @@
 // Shared Styles
 
-html { 
-	font-size: 16px; 
-	line-height: 32px; 
-	-webkit-font-smoothing: antialiased; 
-	-moz-osx-font-smoothing: grayscale; 
+html {
+  font-size: 16px;
+  line-height: 32px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-body { 
-	font-family: $apercu;
-	font-weight: 400; 
-	font-style: normal; 
-	color: $black;
+body {
+  font-family: $apercu;
+  font-weight: 400;
+  font-style: normal;
+  color: $black;
 
-	&.splash-is-open {
-		padding-top: 100vh;
-	}
-	
-	&.noscroll {
-		overflow: hidden;
-	}
+  &.splash-is-open {
+    padding-top: 100vh;
+  }
+
+  &.noscroll {
+    overflow: hidden;
+  }
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
-p { 
-	margin: 0; 
-	padding: 0; 
-	font-weight: 400; 
-	color: inherit;
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: inherit;
 }
 
 h1 {
-	font-size: 4rem;
-	font-weight: 700;
-	letter-spacing: -1px;
-	line-height: 4.625rem;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 4.625rem;
 }
 h2 {
-	font-size: 3rem;
-	font-weight: 500;
-	letter-spacing: -1px;
-	line-height: 3.5rem;
-	margin-bottom: 4.375rem;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 3.5rem;
+  margin-bottom: 4.375rem;
 }
 h3 {
-	font-size: 2.25rem;
-	font-weight: 700;
-	letter-spacing: -1px;
-	margin-bottom: 1.5rem;
-} 
-h4 { 
-	font-family: $apercu-mono;
-	font-size: 1.5rem;
-	letter-spacing: -0.8px;
-	line-height: 2rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+}
+h4 {
+  font-family: $apercu-mono;
+  font-size: 1.5rem;
+  letter-spacing: -0.8px;
+  line-height: 2rem;
 }
 h5 {
-	font-size: 1.25rem;
-	font-weight: 700;
-	line-height: 2rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 h6 {
 }
 
-p { 
-	font-size: 1.125rem;
-	padding: 0;
-	margin-bottom: 2rem; 
+p {
+  font-size: 1.125rem;
+  padding: 0;
+  margin-bottom: 2rem;
 
-	&:last-child {
-		margin-bottom: 0;
-	}
+  &:last-child {
+    margin-bottom: 0;
+  }
 
-	&.p--large {
-		font-size: 1.5rem;
-		line-height: 2.75rem;
-	}
+  &.p--large {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+  }
 
-	&.p--mono {
-		font-family: $apercu-mono;
-		font-size: 1.5rem;
-		letter-spacing: -0.8px;
-		line-height: 2.75rem;
-		max-width: 47.5rem;
-	}
+  &.p--mono {
+    font-family: $apercu-mono;
+    font-size: 1.5rem;
+    letter-spacing: -0.8px;
+    line-height: 2.75rem;
+    max-width: 47.5rem;
+  }
 }
 
-a { 
-	color: inherit; 
-	text-decoration: none; 
+a {
+  color: inherit;
+  text-decoration: none;
 
-	&.link-underline {
-		border-bottom: 2px solid $black;
-		background-size: 0 100%;
-		background-repeat: no-repeat;
-		transition: background-size .4s ease;
+  &.link-underline {
+    border-bottom: 2px solid $black;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s ease;
 
-		&:hover {
-			background-size: 100% 100%;
-		}
-	}
+    &:hover {
+      background-size: 100% 100%;
+    }
+  }
 }
 
-img { 
-	display: block; 
-	max-width: 100%; 
-	height: auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 div,
 ul,
 header,
 footer,
-section { 
-	box-sizing: border-box; 
+section {
+  box-sizing: border-box;
 }
 
-ul { 
-	list-style: none; 
-	padding: 0; 
-	margin: 0; 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-:focus { 
-	outline: none; 
+:focus {
+  outline: none;
 }
 
 ::selection {
-    background: $purple;
-    color: $white;
+  background: $purple;
+  color: $white;
 }
-
 
 // Shared classes
 
 .button {
-	background-color: $purple;
-	border-radius: 2.25rem;
-	color: $white;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 1.5rem;
-	font-weight: 500;
-	line-height: 4.5rem;
-	padding: 0 3rem;
-	transition: background .15s ease, color .15s ease;
+  background-color: $purple;
+  border-radius: 2.25rem;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  padding: 0 3rem;
+  transition: background 0.15s ease, color 0.15s ease;
 
-	&:hover {
-	}
+  &:hover {
+  }
 }
 
 .button--white {
-	@extend .button;
+  @extend .button;
 
-	background-color: $white;
-	color: $purple;
+  background-color: $white;
+  color: $purple;
 }
 
 .button--outline {
-	@extend .button;
+  @extend .button;
 
-	background: $white;
-	border: 2px solid $purple;
-	color: $purple;
-	font-size: 1rem;
-	line-height: 2.5rem;
-	padding: 0 2rem;
+  background: $white;
+  border: 2px solid $purple;
+  color: $purple;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  padding: 0 2rem;
 }
 
 .link--mono {
-	font-family: $apercu-mono;
-	text-decoration: underline;
+  font-family: $apercu-mono;
+  text-decoration: underline;
 }
 
 .link--arrow {
-	font-weight: 500;
-	padding-right: 2.5rem;
-	position: relative;
+  font-weight: 500;
+  padding-right: 2.5rem;
+  position: relative;
 
-	&::after {
-		background: url('../images/icon--arrow.svg') center no-repeat;
-		content: "";
-		height: 1rem;
-		margin-top: -0.4rem;
-		position: absolute;
-		right: 0;
-		top: 50%;
-		width: 1.5rem;
-	}
+  &::after {
+    background: url('../images/icon--arrow.svg') center no-repeat;
+    content: '';
+    height: 1rem;
+    margin-top: -0.4rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1.5rem;
+  }
 }
 
-.max-width { 
-	width: 100%; 
-	max-width: 76.5rem; 
-	margin: 0 auto; 
-	padding-left: 3.25rem; 
-	padding-right: 3.25rem; 
+.max-width {
+  width: 100%;
+  max-width: 76.5rem;
+  margin: 0 auto;
+  padding-left: 3.25rem;
+  padding-right: 3.25rem;
 }
 
 .max-width--wide {
-	@extend .max-width;
+  @extend .max-width;
 
-	max-width: 83.375rem;
+  max-width: 83.375rem;
 }
 
 .with-line {
-	margin-bottom: 0.75em;
-	position: relative;
+  margin-bottom: 0.75em;
+  position: relative;
 
-	&::after {
-		content: "";
-		background-color: $purple;
-		bottom: -0.375em;
-		height: 2px;
-		left: 0;
-		position: absolute;
-		width: 4rem;
-	}
+  &::after {
+    content: '';
+    background-color: $purple;
+    bottom: -0.375em;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 4rem;
+  }
 }
