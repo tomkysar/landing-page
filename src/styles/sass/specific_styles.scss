@@ -580,28 +580,6 @@
 	}
 }
 
-// Download
-
-.Download {
-	background-color: $purple;
-	color: $white;
-	padding: 5.375rem 0;
-}
-
-.Download__wrap {
-	align-items: center;
-	display: flex;
-	justify-content: flex-start;
-
-	> div:first-child {
-		margin-right: 3.25rem;
-
-		> h3 {
-			margin-bottom: 1rem;
-		}
-	}
-}
-
 // Connect
 
 .Connect {
