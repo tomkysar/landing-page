@@ -2,337 +2,73 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." name="description">
+
     <meta content="Augur | A Decentralized Oracle & Prediction Market Platform" property="og:title">
     <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly." property="og:description">
     <meta content="Augur | A Decentralized Oracle & Prediction Market Platform" property="og:site_name">
     <meta content="https://www.augur.net" property="og:url">
     <meta content="https://augur.net/img/pics/meta_logo.png" property="og:image">
+
     <meta content="Augur | A Decentralized Oracle & Prediction Market Platform" name="twitter:card">
     <meta content="Augur is a decentralized oracle and prediction market platform built on the Ethereum blockchain. It allows you to forecast events and be rewarded for predicting them correctly.." name="twitter:description">
     <meta content="Augur | A Decentralized Oracle & Prediction Market Platform" name="twitter:title">
     <meta content="Augur" name="twitter:domain">
     <meta content="https://augur.net/img/pics/meta_logo.png" name="twitter:image">
     <meta content="https://augur.net/img/pics/meta_logo.png" name="twitter:image:src">
-    <title>Bounty Program - Augur</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!--     <link rel="stylesheet" href="../css/old-bounty-style.css">
- -->    <link rel="stylesheet" href="../css/style.css">
 
+    <title>Augur | A Decentralized Oracle & Prediction Market Platform</title>
+
+    <link rel="stylesheet" href="/dist/styles/site.min.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta content="LQMTXnM-70SbbKHdPCf9S9o_w2Au-bA3a6-2Z9kSCOo" name="google-site-verification">
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__wrapper">
-                <a href="../" class="header__wrapper-desktop">
-                    <img src="../img/brandmarks/logo.svg" alt="AUGUR" class="header__wrapper-img">
-                </a>
-                <a href="#" class="header__wrapper-hamburger header__wrapper-hamburger--active">
-                    <img src="../img/icons/ico-hamburger.svg" alt="Hamburger icon">
-                </a>
-                <a href="#" class="header__wrapper-close">
-                    <img src="../img/icons/ico-close.svg" alt="Hamburger icon">
-                </a>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="../bounty" class="header__nav-link">Bounty Program</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="../about" class="header__nav-link">How it works</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="../foundation" class="header__nav-link">Foundation</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="../contact" class="header__nav-link">Contact</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="https://docs.augur.net" class="header__nav-link">Docs</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="https://medium.com/@AugurProject" class="header__nav-link">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__mobile">
-                <a href="index.html" class="header__mobile-logo">
-                    <img src="../img/brandmarks/logo--mobile.svg" alt="AUGUR" class="header__mobile-img">
-                </a>
-            </div>
+    <header>
+        <div class="Header__wrap">
+            <a href="/">
+                <img src="/dist/images/augur-logo.svg">
+            </a>
+            <ul class="Header__nav">
+                <li><a href="/bounty">Bug Bounties</a></li>
+                <li><a href="/foundation">Forecast Foundation</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="https://medium.com/@AugurProject" target="_blank">Blog</a></li>
+                <li><a class="button--outline" href="/get-started">Get Started</a></li>
+            </ul>
         </div>
     </header>
-
-    <section class="page-title">
-        <div class="page-title__wrapper">
-            <div class="container page-title__container">
-                <h1 class="heading page-title__heading page-title__heading--center page-title__heading--center-mobile">Augur Bounty Program</h1>
+    <section class="Hero">
+        <div class="Hero__wrap--wide">
+            <div>
+                <h1 class="with-line">Augur Bounty Program</h1>
+                <h4>Submit a bug or vulnerability on Hacker One, or email us directly.</h4>
+                <a class="button" href="./get-started">Submit on Hacker One</a>
             </div>
         </div>
     </section>
-
-    <section class="contact">
-        <div class="col-lg-12">
-
-            <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small">The Augur Bounty Program provides public bounties for the disclosure of vulenerabilties and bugs. We call on all community members, security engineers and hackers to help identify bugs in the Augur contracts and codebase. Rewards are issued 1 point to 1 USD. </p>
-        </div>
-
-    </section>
-
-    <section class="contact">
-        <div class="col-lg-12">
-
-            <a style="margin-right:auto;margin-left:auto;display:table;margin-bottom: 3em;" href="mailto:bounty@augur.net" class="btn hero__box-btn">SUBMIT VULNERABILITY / BUG REPORT</a>
-
-    </section>
-
-    <section class="cta cta--mb">
-        <div class="container cta__container">
-            <div class="cta__box" style="padding:65px 140px 65px 140px">
-                <div class="contact__col">
-                    <h2 class="contact__heading">References</h2>
-                    <a href="https://augur.net/whitepaper.pdf" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Whitepaper</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://docs.augur.net" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Documentation</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://docs.google.com/document/u/2/d/1saSVpT2Ixd58q-DZlTtzfkNizuTTE4yVoGuWz_AatZM/edit" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Audit Report</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/AugurProject/augur.js/commit/d7ca99319d894a5b8dc05f5090977635d128140d" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Contracts on Rinkeby</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/AugurProject/augur.js/commit/4cdd8a1bed21be2375e4e15055bf2e659526f859" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Contracts on Ropsten</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="contact__col">
-                    <h2 class="contact__heading">Scope</h2>
-                    <a href="https://github.com/AugurProject/augur-core/tree/5ad45ce0f2d09266aca07d38746800c10e0da5e7/source/contracts" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Augur-Core</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/AugurProject/augur.js" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Augur.js</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/AugurProject/augur" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Augur Client</span>
-                        </div>
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/AugurProject/augur-node" class="contact__link">
-                        <div class="contact__wrapper">
-                            <span class="contact__text paragraph paragraph--small">Augur Node</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="contact__col">
-                    <h2 class="contact__heading contact__heading--ms">Rewards</h2>
-                    <div class="contact__wrapper">
-                        <span class="contact__text paragraph paragraph--small">Critical - up to 10,000 points</span>
-                    </div>
-                    <br>
-                    <div class="contact__wrapper">
-
-                        <span class="contact__text paragraph paragraph--small">High - up to 5,000 points</span>
-                    </div>
-                    <br>
-                    <div class="contact__wrapper">
-
-                        <span class="contact__text paragraph paragraph--small">Medium - up to 2,500 points</span></div>
-                    <br>
-                    <div class="contact__wrapper">
-
-                        <span class="contact__text paragraph paragraph--small">Low - up to 1,000 points</span>
-                    </div>
-                    <br>
-                    <div class="contact__wrapper">
-
-                        <span class="contact__text paragraph paragraph--small">Note - up to 500 points</span>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="contact">
-        <div class="col-lg-12">
-
-            <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small">Bounty payment amounts are decided by assessing severity.
-                <br> We calculate the severity level according to the OWASP risk rating model based on both impact and likelihood:</p>
-        </div>
-
-    </section>
-
-    <section class="contact">
-        <div class="col-lg-12">
-
-            <img style="margin-right:auto;margin-left:auto;margin-top:-1em;max-width: 100%; display:block; height: auto;margin-bottom:3em;" src="../img/pics/risk.png">
-
-    </section>
-
-    <section class="contact">
-        <div class="col-lg-12">
-
-            <p style="width:50%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small"> You are ineligible for bounty rewards if the vulnerability submitted is already known by the Augur team, if it's publicly disclosed prior to the completion of the bounty process with the Augur team, or if it's found to have been exploited on the main Ethereum network.
-
-                <br>
-                <br> 
-
-                Deployed versions of Augur's contracts can be found on Rinkeby and Ropsten. For Augur.js, the Augur client and Augur Node, submissions must be valid against their master branches. </p>
-    </section>
-
-    <section class="cta cta--mb">
-        <div class="container cta__container">
-            <div class="cta__box" style="padding:65px 140px 0px 140px">
-
-                <p style="width:100%;margin-left:auto;margin-right:auto;" class="text__paragraph-main paragraph paragraph--small">
-                    <span style="font-size: 1.75em;"> Frequently Asked Questions </span>
-                    <br>
-                    <br>
-                    <br>
-                    <b>How are bounties paid out? </b>
-                    <br> Rewards are paid out in BTC, ETH, or REP after the submission has been validated by the Forecast Foundation team. Proof of identity is needed.
-                    <br>
-                    <br>
-                    <br>
-                    <b>Can I submit a bug report anonymously? </b>
-                    <br> Of course! You will not be eligible for BTC/ETH/REP rewards. However, you can donate your reward to charity or another cause.
-                    <br>
-                    <br>
-                    <br>
-                    <b>Who is ineligble for the bounty program?</b>
-                    <br> Any developers, employees or other parties that are paid by the Forecast Foundation, directly or indirectly, are ineligible for bounty rewards.
-                    <br>
-                    <br>
-                    <br>
-                    <b>Who will review my submission?</b>
-                    <br> Determination of eligibility, score, and all related terms of a bounty payout are at the sole and final discretion of the Forecast Foundation.
-                    <br>
-                    <br>
-                    <br>
-                    <b>Where can I discuss the bounty program?</b>
-                    <br> You can send us an email at <a href="mailto:bounty@augur.net">bounty@augur.net</a>, or join the #bounties channel in our <a href="augur.net/invite">Discord</a>.
-                    <br>
-                    <br>
-                    <br>
-                    <b>Do you have a PGP key? </b>
-                    <br> Yes, it can be found at <a href="https://augur.net/pgp.txt">augur.net/pgp.txt</a>.
-                </p>
-            </div>
-
-        </div>
-
-        </div>
-
-    </section>
-
-    <div class="container" style="margin-right:auto;margin-left:auto;width: 50%;text-align:center;">
-
-        <h1 class="heading page-title__heading page-title__heading--center page-title__heading--center-mobile">Other Bounties</h1>
-        <br><br>
-        <hr id="hr">
-        <br>
-        <br>
-
-                    <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/eip-758" class="btn hero__box-btn">EIP-758</a> &nbsp; &nbsp;
-
-            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/eip-234" class="btn hero__box-btn">EIP-234</a>
-            <br>
-
-            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/gitcoin" class="btn hero__box-btn">Gitcoin</a>
-
-        <br>
-
-            <a style="margin-right:auto;margin-left:auto;margin-bottom: 3em;" href="http://augur.net/solidity-debugger" class="btn hero__box-btn">Solidity Debugger</a>
-
-                    <hr id="hr">
-
-
-    </div>
-
-    <br>
-
-
-    <footer class="footer">
-        <div class="container footer__container">
-            <nav class="footer__nav">
-                <ul class="footer__nav-list">
-                    <li class="footer__nav-item">
-                        <a href="http://www.augur.net/terms.txt" class="footer__nav-link">Terms &amp; Conditions</a>
-                    </li>
-                    <li class="footer__nav-item">
-                        <a href="http://terms.augur.net/" class="footer__nav-link">Privacy Policy</a>
-                    </li>
-                    <li class="footer__nav-item">
-                        <a href="https://github.com/AugurProject/augur-core/blob/master/LICENSE" class="footer__nav-link">Licensing Agreement</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <small class="footer__small">Copyright &copy; 2018 Forecast Foundation OU</small>
-    </footer>
-
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/scripts.min.js?v=0.0.1"></script>
-
-
 </body>
-
 </html>

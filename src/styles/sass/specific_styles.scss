@@ -59,6 +59,16 @@
 	}
 }
 
+.Hero__wrap--wide {
+	@extend .Hero__wrap;
+
+	> div:first-child {
+		max-width: 41rem;
+		padding-right: 0;
+		width: auto;
+	}
+}
+
 // Use Cases
 
 .Uses {
