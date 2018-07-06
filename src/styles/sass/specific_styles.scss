@@ -665,6 +665,23 @@
   padding-bottom: 7rem;
 }
 
+.Team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TeamMember {
+  width: 16rem;
+  height: 28rem;
+}
+
+.TeamMember__pic {
+  width: 16rem;
+  height: 17.6875rem;
+  background-size: cover;
+}
+
 // Team
 .Advisors {
   padding-top: 6.5rem;
