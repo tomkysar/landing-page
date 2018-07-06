@@ -705,6 +705,39 @@ ul {
   top: -4.375rem;
   z-index: 0; }
 
+.References {
+  background-color: #44415A;
+  color: #fff;
+  padding: 6.5rem 0 2.5rem; }
+
+.References__references {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .References__references > h4 {
+    width: 31%; }
+    .References__references > h4 > a {
+      border: 4px solid transparent;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 1.5rem;
+      padding: 4rem 2.375rem 2.375rem;
+      position: relative;
+      transition: border-color .2s ease; }
+      .References__references > h4 > a:hover {
+        border-color: #fff; }
+      .References__references > h4 > a::after {
+        background-color: #fff;
+        content: "";
+        height: 2px;
+        left: 2.375rem;
+        position: absolute;
+        top: 2.5rem;
+        width: 3rem; }
+
 .SubpageIntro {
   background-color: #F0EFF6;
   padding: 6.5rem 0; }

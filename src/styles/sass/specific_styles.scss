@@ -189,6 +189,48 @@
 	z-index: 0;
 }
 
+// References
+
+.References {
+	background-color: $purple--dark;
+	color: $white;
+	padding: 6.5rem 0 2.5rem;
+}
+
+.References__references {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	> h4 {
+		width: 31%;
+
+		> a {
+			border: 4px solid transparent;
+			box-sizing: border-box;
+			display: block;
+			margin-bottom: 1.5rem;
+			padding: 4rem 2.375rem 2.375rem;
+			position: relative;
+			transition: border-color .2s ease;
+
+			&:hover {
+				border-color: $white;
+			}
+
+			&::after {
+				background-color: $white;
+				content: "";
+				height: 2px;
+				left: 2.375rem;
+				position: absolute;
+				top: 2.5rem;
+				width: 3rem;
+			}
+		}
+	}
+}
+
 // Subpage Intro
 
 .SubpageIntro {
