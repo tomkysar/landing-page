@@ -85,7 +85,7 @@ gulp.task('default', ['clean'], function() {
 gulp.task('watch', function() {
 
     livereload.listen();
-    gulp.watch('./*.html', ['html']);
+    gulp.watch('./**/*.html', ['html']);
     gulp.watch('src/styles/**/*.scss', ['styles']);
     gulp.watch('src/scripts/**/*.js', ['scripts']);
     gulp.watch('src/images/**/*', ['images']);
