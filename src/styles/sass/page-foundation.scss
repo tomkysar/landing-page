@@ -1,0 +1,83 @@
+// Team
+.Team {
+  background-color: $gray;
+  padding-top: 6.5rem;
+  padding-bottom: 2.375rem;
+}
+
+.Team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TeamMember {
+  width: 16rem;
+  margin-bottom: 4.375rem;
+
+  > h6 {
+    @extend .with-line;
+    margin-bottom: 1.5rem;
+
+    &::after {
+      bottom: -0.75rem;
+      width: 3rem;
+    }
+  }
+
+  > p {
+    line-height: 1.625rem;
+  }
+}
+
+.TeamMember__pic {
+  width: 16rem;
+  height: 17.6875rem;
+  background-size: cover;
+  margin-bottom: 1.25rem;
+}
+
+// Team
+.Advisors {
+  padding-top: 6.5rem;
+  padding-bottom: 4.375rem;
+  background-color: $purple--light;
+}
+
+.Advisor__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Advisor {
+  width: 22rem;
+  height: 9.3125rem;
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.Advisor__pic {
+  width: 8.4375rem;
+  height: 9.3125rem;
+  background-size: cover;
+}
+
+.Advisor__info {
+  padding-left: 1.5rem;
+  width: 13.5625rem;
+  height: 9.3125rem;
+  > h6 {
+    @extend .with-line;
+    margin-bottom: 1.5rem;
+
+    &::after {
+      bottom: -0.75rem;
+      width: 3rem;
+    }
+  }
+
+  > p {
+    line-height: 1.625rem;
+  }
+}

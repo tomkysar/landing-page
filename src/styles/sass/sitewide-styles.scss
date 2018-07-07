@@ -142,7 +142,7 @@ ul {
   color: $white;
 }
 
-// Shared classes
+// General classes
 
 .button {
   background-color: $purple;
@@ -263,5 +263,138 @@ ul {
     left: 0;
     position: absolute;
     width: 4rem;
+  }
+}
+
+
+// Shared Blocks
+
+// Header
+
+.Header__nav {
+  align-items: center;
+  display: flex;
+
+  > li:not(:first-child) {
+    margin-left: 1.875rem;
+  }
+}
+
+.Header__wrap {
+  @extend .max-width;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+// Hero
+
+.Hero {
+  overflow: hidden;
+  padding-bottom: 15rem;
+  padding-top: 5rem;
+}
+
+.Hero__wrap {
+  @extend .max-width;
+
+  display: flex;
+
+  > div:first-child {
+    padding-right: 1.875rem;
+    width: 51%;
+
+    > h4 {
+      color: $purple;
+      line-height: 2.75rem;
+      margin-bottom: 2.625rem;
+    }
+  }
+
+  > div:last-child {
+    position: relative;
+    width: 49%;
+
+    > img {
+      left: 0;
+      height: 160%;
+      max-width: none;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+.Hero--wide {
+  @extend .Hero;
+
+  padding-bottom: 10.25rem;
+
+  > .Hero__wrap {
+    > div:first-child {
+      max-width: 41rem;
+      padding-right: 0;
+      width: auto;
+
+      > h4:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Subpage Intro
+
+.SubpageIntro {
+  background-color: $purple--light;
+  padding: 6.5rem 0;
+
+  > div > p {
+    max-width: 55rem;
+  }
+}
+
+// Footer
+
+.Footer {
+  background-color: $gray--dark;
+  color: $white;
+  font-size: 0.875rem;
+  padding-top: 5rem;
+}
+
+.Footer__main-wrap {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer__nav-wrap {
+  display: flex;
+  justify-content: flex-end;
+
+  > ul:not(:last-child) {
+    margin-right: 3.75rem;
+  }
+}
+
+.Footer__sub-wrap {
+  align-items: center;
+  border-top: 1px solid #8d8f92;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+  padding: 1.5rem 0;
+
+  > ul > li {
+    display: inline-block;
+    margin-right: 1.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

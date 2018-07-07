@@ -1,0 +1,394 @@
+// Use Cases
+
+.Uses {
+  background-color: $gray;
+}
+
+.Uses__wrap {
+  @extend .max-width;
+
+  position: relative;
+}
+
+.Uses__intro {
+  font-size: 3.625rem;
+  letter-spacing: -1px;
+  line-height: 4.75rem;
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  top: -7.5rem;
+  width: 49rem;
+}
+
+.Uses__use-cases {
+  padding-top: 8.125rem;
+  position: relative;
+  top: 5rem;
+}
+
+.Uses__use-cases-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Uses__use-case {
+  @extend .white-box;
+
+  box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.06), 0 3px 7px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+  min-height: 17rem;
+  overflow: hidden;
+  padding: 3.5rem 6rem 3rem 7.5rem;
+  position: relative;
+  width: 48.5%;
+
+  > h5 {
+    @extend .with-line;
+
+    margin-bottom: 3rem;
+
+    &::after {
+      bottom: -1.5rem;
+    }
+  }
+
+  > p {
+    margin-bottom: 0;
+  }
+
+  > img {
+    left: -0.85rem;
+    position: absolute;
+    top: 9rem;
+    width: 5.625rem;
+  }
+
+  &:nth-child(5),
+  &:nth-child(6) {
+    margin-bottom: 0;
+  }
+}
+
+// The Augur Cycle
+
+.AugurCycle {
+  padding-top: 11.5rem;
+}
+
+.AugurCycle__steps-wrapper {
+  @extend .max-width--wide;
+}
+
+.AugurCycle__step {
+  display: flex;
+  margin-bottom: 7.5rem;
+
+  > .step--image {
+    width: 48%;
+
+    > img {
+      border: 4px solid $white;
+      border-top-width: 12px;
+      border-radius: 4px;
+      box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.06),
+        0 3px 7px 0 rgba(0, 0, 0, 0.06), 0 10px 64px 0 rgba(0, 0, 0, 0.09);
+    }
+  }
+
+  .step--text {
+    padding: 6rem 2rem 0 2.625rem;
+    width: 35%;
+
+    > h3 {
+      position: relative;
+
+      &::before {
+        color: $purple--bright;
+        content: '1';
+        font-size: 10rem;
+        left: -2.5rem;
+        line-height: 10rem;
+        position: absolute;
+        top: -5.75rem;
+        z-index: -1;
+      }
+
+      &.step--2::before {
+        content: '2';
+      }
+
+      &.step--3::before {
+        content: '3';
+      }
+
+      &.step--4::before {
+        content: '4';
+        top: -5.2rem;
+      }
+
+      &.step--5::before {
+        content: '5';
+        top: -5.5rem;
+        left: -2.1rem;
+      }
+    }
+  }
+
+  > *:first-child {
+    margin-right: 3rem;
+  }
+}
+
+.AugurCycle__step--left {
+  @extend .AugurCycle__step;
+  justify-content: flex-start;
+}
+
+.AugurCycle__step--right {
+  @extend .AugurCycle__step;
+  justify-content: flex-end;
+}
+
+// Currencies
+
+.Currencies {
+  background-color: $gray--dark;
+  color: $white;
+  padding-top: 1.5rem;
+}
+
+.Currencies__wrap {
+  @extend .max-width;
+
+  position: relative;
+  top: 5rem;
+}
+
+.Currencies__currency-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Currencies__currency {
+  @extend .white-box;
+
+  color: $black;
+  padding: 3.375rem 2.75rem 4rem 2.5rem;
+  width: 48.5%;
+}
+
+.Currencies__currency-heading-wrap {
+  align-items: start;
+  display: flex;
+  justify-content: flex-start;
+
+  > div:first-child {
+    margin-right: 3rem;
+    padding-top: 0.625rem;
+
+    > h2 {
+      font-weight: 700;
+      line-height: 3rem;
+      margin-bottom: 0;
+    }
+
+    > h4 {
+      @extend .with-line;
+
+      margin-bottom: 3.25rem;
+
+      &::after {
+        bottom: -1.625rem;
+      }
+    }
+  }
+}
+
+// Technology
+
+.Technology {
+  padding-top: 7.375rem;
+}
+
+.Technology__wrap {
+  @extend .max-width;
+
+  position: relative;
+  top: 5rem;
+
+  > h2 {
+    line-height: 3.625rem;
+    margin-bottom: 2.5rem;
+    max-width: 33rem;
+  }
+}
+
+.Technology__blocks-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12.375rem;
+}
+
+.Technology__block {
+  @extend .white-box;
+
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 3.375rem 4rem 3rem 2.5rem;
+  position: relative;
+  width: 48.5%;
+
+  > h4 {
+    @extend .with-line;
+
+    margin-bottom: 3.25rem;
+
+    &::after {
+      bottom: -1.625rem;
+    }
+  }
+
+  &::before {
+    content: '';
+    left: 50%;
+    position: absolute;
+    top: -7.375rem;
+    z-index: -1;
+  }
+
+  &:first-child::before {
+    background-image: url('../images/icon--decentralized.svg');
+    height: 13.75rem;
+    margin-left: -6.875rem;
+    width: 13.75rem;
+  }
+
+  &:last-child::before {
+    background-image: url('../images/icon--open-source.svg');
+    height: 14rem;
+    margin-left: -5.8rem;
+    width: 11.6rem;
+  }
+}
+
+// Benefits
+
+.Benefits {
+  background-color: $purple--light;
+  padding-bottom: 6.875rem;
+  padding-top: 11.875rem;
+}
+
+.Benefits__benefits-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Benefits__benefit {
+  width: 22.8%;
+
+  > img {
+    margin-bottom: 1rem;
+  }
+
+  > h5 {
+    @extend .with-line;
+
+    font-weight: 500;
+    margin-bottom: 2.125rem;
+
+    &::after {
+      bottom: -1.0625rem;
+    }
+  }
+}
+
+// Connect
+
+.Connect {
+  padding: 6.5rem;
+}
+
+.Connect__wrap {
+  @extend .max-width;
+
+  > h2 {
+    max-width: 33rem;
+  }
+}
+
+.Connect__block-wrap-outer {
+  display: flex;
+  justify-content: space-between;
+
+  > div:first-child {
+    width: 40.7%;
+  }
+}
+
+.Connect__block-wrap-inner {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 57%;
+
+  > div {
+    width: 48%;
+
+    &:last-child {
+      width: 100%;
+    }
+  }
+}
+
+.Connect__block {
+  @extend .white-box;
+
+  padding: 3.5rem 2.5rem 3rem;
+  position: relative;
+
+  > img {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+  }
+
+  > h4 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.Connect__block--around-the-web {
+  @extend .Connect__block;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+
+  > h4 {
+    max-width: 15rem;
+  }
+
+  > ul > li {
+    display: inline-block;
+    margin-right: 2.125rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// Disclaimer
+
+.Disclaimer {
+  background-color: $purple--light;
+  padding: 5rem 0;
+
+  > div > p {
+    max-width: 56rem;
+  }
+}
