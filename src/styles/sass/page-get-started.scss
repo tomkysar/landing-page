@@ -74,3 +74,58 @@
     text-decoration: underline;
   }
 }
+
+.Developers {
+  background-color: $gray--dark;
+  color: $white;
+  padding: 6.5rem 0;
+}
+
+.Developers__wrap {
+  @extend .max-width;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Developers__intro {
+  width: 49%;
+
+  > h2, > h5 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.Developers__repos {
+  @extend .white-box;
+
+  border-radius: 0;
+  color: $black;
+  padding: 4rem 1rem 3.5rem;
+  width: 45.2%;
+}
+
+.Developers__repos-intro {
+  margin: auto;
+  max-width: 26.625rem;
+
+  > h5 {
+    @extend .with-line;
+
+    margin-bottom: 3rem;
+
+    &::after {
+      bottom: -1.5rem;
+    }
+  }
+
+  > p {
+    margin-bottom: 1.5rem;
+
+    > a {
+      @extend .link--mono;
+
+      color: $purple;
+    }
+  }
+}
