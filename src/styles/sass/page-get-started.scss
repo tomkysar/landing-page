@@ -1,3 +1,5 @@
+// Wallets
+
 .Wallets {
   padding: 3rem 0;
 }
@@ -8,6 +10,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+// GetStartedSteps
 
 .GetStartedSteps {
   background-color: $gray;
@@ -72,5 +76,79 @@
 
   > p > a {
     text-decoration: underline;
+  }
+}
+
+// Developers
+
+.Developers {
+  background-color: $gray--dark;
+  color: $white;
+  padding: 6.5rem 0;
+}
+
+.Developers__wrap {
+  @extend .max-width;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Developers__intro {
+  width: 49%;
+
+  > h2, > h5 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.Developers__repos {
+  @extend .white-box;
+
+  border-radius: 0;
+  color: $black;
+  padding: 4rem 1rem 3.5rem;
+  width: 45.2%;
+}
+
+.Developers__repos-intro {
+  margin: auto;
+  max-width: 26.625rem;
+
+  > h5 {
+    @extend .with-line;
+
+    margin-bottom: 3rem;
+
+    &::after {
+      bottom: -1.5rem;
+    }
+  }
+
+  > p {
+    margin-bottom: 1.5rem;
+
+    > a {
+      @extend .link--mono;
+
+      color: $purple;
+    }
+  }
+}
+
+// Submit to FAQ
+
+.SubmitToFAQ {
+  background-color: $purple--light;
+  margin: 6.5rem 5rem;
+}
+
+.SubmitToFAQ__wrap {
+  @extend .max-width;
+
+  padding: 6.5rem 5rem;
+
+  > h5 {
+    margin-bottom: 4.375rem;
   }
 }
