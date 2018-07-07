@@ -1,3 +1,5 @@
+// Wallets
+
 .Wallets {
   padding: 3rem 0;
 }
@@ -8,6 +10,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+// GetStartedSteps
 
 .GetStartedSteps {
   background-color: $gray;
@@ -75,6 +79,8 @@
   }
 }
 
+// Developers
+
 .Developers {
   background-color: $gray--dark;
   color: $white;
@@ -127,5 +133,22 @@
 
       color: $purple;
     }
+  }
+}
+
+// Submit to FAQ
+
+.SubmitToFAQ {
+  background-color: $purple--light;
+  margin: 6.5rem 5rem;
+}
+
+.SubmitToFAQ__wrap {
+  @extend .max-width;
+
+  padding: 6.5rem 5rem;
+
+  > h5 {
+    margin-bottom: 4.375rem;
   }
 }
