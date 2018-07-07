@@ -67,6 +67,10 @@
       max-width: 41rem;
       padding-right: 0;
       width: auto;
+
+      > h4:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -191,76 +195,76 @@
 // References
 
 .References {
-    background-color: $purple--dark;
-    color: $white;
-    padding: 6.5rem 0 2.5rem;
+  background-color: $purple--dark;
+  color: $white;
+  padding: 6.5rem 0 2.5rem;
 }
 
 .References__references {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-    > h4 {
-        width: 31%;
+  > h4 {
+    width: 31%;
 
-        > a {
-            border: 4px solid transparent;
-            box-sizing: border-box;
-            display: block;
-            margin-bottom: 1.5rem;
-            padding: 4rem 2.375rem 2.375rem;
-            position: relative;
-            transition: border-color .2s ease;
+    > a {
+      border: 4px solid transparent;
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 1.5rem;
+      padding: 4rem 2.375rem 2.375rem;
+      position: relative;
+      transition: border-color 0.2s ease;
 
-            &:hover {
-                border-color: $white;
-            }
+      &:hover {
+        border-color: $white;
+      }
 
-            &::after {
-                background-color: $white;
-                content: "";
-                height: 2px;
-                left: 2.375rem;
-                position: absolute;
-                top: 2.5rem;
-                width: 3rem;
-            }
-        }
+      &::after {
+        background-color: $white;
+        content: '';
+        height: 2px;
+        left: 2.375rem;
+        position: absolute;
+        top: 2.5rem;
+        width: 3rem;
+      }
     }
+  }
 }
 
 // BountiesFAQ
 
 .BountiesFAQ {
-    padding: 6.5rem 0 3rem;
+  padding: 6.5rem 0 3rem;
 }
 
 .BountiesFAQ__questions {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .BountiesFAQ__question {
-    margin-bottom: 3.5rem;
-    width: 46.6%;
+  margin-bottom: 3.5rem;
+  width: 46.6%;
 
-    > h5 {
-        @extend .with-line;
+  > h5 {
+    @extend .with-line;
 
-        margin-bottom: 2.125rem;
+    margin-bottom: 2.125rem;
 
-        &::after {
-            bottom: -1.0625rem;
-        }
+    &::after {
+      bottom: -1.0625rem;
     }
+  }
 
-    > p > a {
-        color: $purple;
-        font-family: $apercu-mono;
-        text-decoration: underline;
-    }
+  > p > a {
+    color: $purple;
+    font-family: $apercu-mono;
+    text-decoration: underline;
+  }
 }
 
 // Subpage Intro
@@ -797,9 +801,9 @@
 
 // Team
 .Team {
-  @extend .max-width;
+  background-color: $gray;
   padding-top: 6.5rem;
-  padding-bottom: 7rem;
+  padding-bottom: 2.375rem;
 }
 
 .Team__list {
@@ -810,18 +814,71 @@
 
 .TeamMember {
   width: 16rem;
-  height: 28rem;
+  margin-bottom: 4.375rem;
+
+  > h6 {
+    @extend .with-line;
+    margin-bottom: 1.5rem;
+
+    &::after {
+      bottom: -0.75rem;
+      width: 3rem;
+    }
+  }
+
+  > p {
+    line-height: 1.625rem;
+  }
 }
 
 .TeamMember__pic {
   width: 16rem;
   height: 17.6875rem;
   background-size: cover;
+  margin-bottom: 1.25rem;
 }
 
 // Team
 .Advisors {
   padding-top: 6.5rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4.375rem;
   background-color: $purple--light;
+}
+
+.Advisor__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Advisor {
+  width: 22rem;
+  height: 9.3125rem;
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.Advisor__pic {
+  width: 8.4375rem;
+  height: 9.3125rem;
+  background-size: cover;
+}
+
+.Advisor__info {
+  padding-left: 1.5rem;
+  width: 13.5625rem;
+  height: 9.3125rem;
+  > h6 {
+    @extend .with-line;
+    margin-bottom: 1.5rem;
+
+    &::after {
+      bottom: -0.75rem;
+      width: 3rem;
+    }
+  }
+
+  > p {
+    line-height: 1.625rem;
+  }
 }
