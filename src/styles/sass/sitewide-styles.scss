@@ -416,7 +416,7 @@ ul {
 
   > .Hero__wrap {
     > div:first-child {
-      max-width: 41rem;
+      max-width: 43rem;
       padding-right: 0;
       width: auto;
 
@@ -435,6 +435,19 @@ ul {
 
   > div > p {
     max-width: 55rem;
+  }
+}
+
+// Content
+
+.Content {
+  background-color: $gray;
+  padding: 6.5rem 0;
+
+  a {
+    @extend .link--mono;
+
+    color: $purple;
   }
 }
 
