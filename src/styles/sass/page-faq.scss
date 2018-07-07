@@ -4,6 +4,7 @@
 
   > .max-width {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     padding-bottom: 6.5rem;
   }
@@ -16,6 +17,17 @@
 
 .FaqAnswer {
   padding-bottom: 4rem;
+
+  > ul {
+    font-size: 1.125rem;
+    font-weight: 400;
+    list-style: disc outside;
+    padding-left: 1.2rem;
+
+    > li {
+      margin-bottom: 2rem;
+    }
+  }
 
   > h5 {
     @extend .with-line;
