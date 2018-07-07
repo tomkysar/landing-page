@@ -1,10 +1,76 @@
 .Wallets {
-	padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .Wallets__wrap {
-	@extend .max-width;
+  @extend .max-width;
 
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.GetStartedSteps {
+  background-color: $gray;
+  padding: 6.5rem 0;
+}
+
+.GetStartedSteps__steps {
+  margin: 8rem auto 0;
+  max-width: 48.5rem;
+}
+
+.GetStartedSteps__step {
+  @extend .with-number;
+
+  margin-bottom: 6.25rem;
+
+  &::before {
+    color: $purple--mid;
+    top: -4.5rem;
+  }
+
+  > h5 {
+    margin-bottom: 0.75rem;
+  }
+
+  > p > a {
+    @extend .link--mono;
+
+    color: $purple;
+  }
+}
+
+.GetStartedSteps__steps-conclusion {
+  @extend .with-line;
+
+  margin-bottom: 0;
+  padding-top: 2.125rem;
+
+  &::after {
+    bottom: auto;
+    top: 0;
+  }
+
+  > p > a {
+    @extend .link--mono;
+
+    color: $purple;
+  }
+}
+
+.GetStartedSteps__note {
+  @extend .white-box;
+
+  padding: 5rem;
+  margin: 5rem auto 0;
+  max-width: 58rem;
+
+  > h5 {
+    color: $purple;
+    margin-bottom: 2.125rem;
+  }
+
+  > p > a {
+    text-decoration: underline;
+  }
 }
