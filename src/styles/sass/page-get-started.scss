@@ -1,0 +1,10 @@
+.Wallets {
+	padding: 3rem 0;
+}
+
+.Wallets__wrap {
+	@extend .max-width;
+
+	display: flex;
+	justify-content: space-between;
+}
