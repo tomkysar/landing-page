@@ -83,133 +83,83 @@
   <section class="Hero--wide">
     <div class="Hero__wrap">
       <div>
-        <h1 class="with-line">Augur Bounty Program</h1>
-        <h4>Submit a bug or vulnerability on Hacker One, or <a href="mailto:bounty@augur.net" target="_blank">email</a> the Forecast Foundation directly.</h4>
-        <a class="button" href="https://hackerone.com/augurproject" target="_blank">Submit on Hacker One</a>
+        <h1 class="with-line">Get Started</h1>
+        <h4>Connect to Augur by downloading and running the Augur App.</h4>
+        <a class="button" href="https://github.com/AugurProject/augur-app/releases" target="_blank">Download Augur App</a>
       </div>
     </div>
   </section>
   <section class="SubpageIntro">
     <div class="max-width">
-      <p class="p--large">The Augur Bounty Program provides public bounties for the disclosure of vulnerabilities and bugs. The Forecast Foundation calls on all community members, security engineers and hackers to help identify bugs in the Augur contracts and codebase. Rewards up to $200,000 USD are available.</p>
+      <p class="p--large">You'll need an Ethereum-enabled wallet to connect Augur to the Ethereum blockchain. The Augur platform currently supports Metamask, Trezor, Ledger, Edge, and Mist.</p>
     </div>
   </section>
-  <section class="Scope">
-    <div class="Scope__wrap">
-      <h2>Scope &amp; Rewards</h2>
-      <div class="Scope__blocks">
-        <div class="Scope__block">
-          <div class="Scope__block-wrap">
-            <div>
-              <h3>Scope</h3>
-              <p>Deployed versions of Augur's contracts can be found on the Ethereum mainnet. For Augur.js, the Augur client and Augur Node, submissions must be valid against their master branches.</p>
-            </div>
-            <ul class="Scope__links-list">
-              <li><a href="https://github.com/AugurProject/augur-core" target="_blank">Augur Core</a></li>
-              <li><a href="https://github.com/AugurProject/augur.js" target="_blank">Augur.js</a></li>
-              <li><a href="https://github.com/AugurProject/augur" target="_blank">Augur Client</a></li>
-              <li><a href="https://github.com/AugurProject/augur-node" target="_blank">Augur Node</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="Scope__block">
-          <div class="Scope__block-wrap">
-            <div>
-              <h3>Rewards</h3>
-              <p>Bounty payment amounts are decided by assessing severity. The Forecast Foundation calculates the severity level according to the <a href="https://www.first.org/cvss/calculator/3.0" target="_blank">CVSS risk rating model</a> based on both impact and likelihood.</p>
-            </div>
-            <ul class="Scope__rewards-list">
-              <li><span>Critical:</span><span><span>up to </span>$200,000</span></li>
-              <li><span>High:</span><span><span>up to </span>$5,000</span></li>
-              <li><span>Medium:</span><span><span>up to </span>$2,500</span></li>
-              <li><span>Low:</span><span><span>up to </span>$1,000</span></li>
-              <li><span>Note:</span><span><span>up to </span>$500</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="Scope__disclaimer">
-        <p>You are ineligible for bounty rewards if the vulnerability submitted is already known by the Forecast Foundation, if it's publicly disclosed prior to the completion of the bounty process with the Forecast Foundation, or if it's found to have been exploited on the main Ethereum network.</p>
-      </div>
+  <section class="Wallets">
+    <div class="Wallets__wrap">
+      <img src="/dist/images/wallet--metamask.svg">
+      <img src="/dist/images/wallet--trezor.svg">
+      <img src="/dist/images/wallet--ledger.svg">
+      <img src="/dist/images/wallet--edge.svg">
+      <img src="/dist/images/wallet--mist.svg">
     </div>
   </section>
-  <section class="References">
+  <section class="GetStartedSteps">
     <div class="max-width">
-        <h2>Helpful References</h2>
-        <div class="References__references">
-            <h4><a href="https://github.com/AugurProject/whitepaper" target="_blank">Whitepaper</a></h4>
-            <h4><a href="https://docs.augur.net" target="_blank">Documentation</a></h4>
-            <h4><a href="https://github.com/AugurProject/augur-audits" target="_blank">Audit Reports</a></h4>
-            <!--<h4><a href="" target="_blank">Contracts on Ethereum Mainnet</a></h4>-->
+      <h2>Steps</h2>
+      <div class="GetStartedSteps__steps">
+        <div class="GetStartedSteps__step step--1">
+          <h5>Download and run the Augur App.</h5>
+          <p><a href="https://github.com/AugurProject/augur-app/releases" target="_blank">Download here</a>. Other installation options are available in the <a href="https://github.com/AugurProject/augur-app" target="_blank">Augur App</a> Github repository.</p>
         </div>
-    </div>
-  </section>
-  <section class="BountiesFAQ">
-    <div class="max-width">
-      <h2>Frequently Asked Questions</h2>
-      <div class="BountiesFAQ__questions">
-        <div class="BountiesFAQ__question">
-          <h5>How are bounties paid out?</h5>
-          <p>Rewards are paid out in BTC, ETH, or REP after the submission has been validated by the Forecast Foundation team. Proof of identity is needed.</p>
+        <div class="GetStartedSteps__step step--2">
+          <h5>Choose which Ethereum node you would like to connect to.</h5>
+          <p>If you would like to connect to the Ethereum mainnet, enter the HTTP or websocket address for your desired node. Default configurations for testnets or running a local Ethereum node are available. All configuration options are editable.</p>
         </div>
-        <div class="BountiesFAQ__question">
-          <h5>Who will review my submission?</h5>
-          <p>Determination of eligibility, score, and all related terms of a bounty payout are at the sole and final discretion of the Forecast Foundation.</p>
+        <div class="GetStartedSteps__step step--3">
+          <h5>After entering your Ethereum node connection information, click Connect.</h5>
+          <p>The Augur App will start syncing with your Ethereum node of choice, and once the sync is complete you can click "Open Augur App" to open the Augur user interface in your browser.</p>
         </div>
-        <div class="BountiesFAQ__question">
-          <h5>Can I submit a bug report anonymously?</h5>
-          <p>Of course! You will not be eligible for BTC/ETH/REP rewards. However, you can donate your reward to charity or another cause.</p>
+        <div class="GetStartedSteps__step step--4">
+          <h5>Connect to the Augur App with an Ethereum wallet of your choice.</h5>
+          <p>The Augur platform currently supports Metamask, Trezor, Ledger, Edge, and Mist.</p>
         </div>
-        <div class="BountiesFAQ__question">
-          <h5>Where can I discuss the bounty program?</h5>
-          <p>You can send an email to <a href="mailto:bounty@augur.net" target="_blank">bounty@augur.net</a>, or join the #bounties channel in the <a href="https://discord.gg/faud6Fx" target="_blank">Augur Discord</a>.</p>
+        <div class="GetStartedSteps__steps-conclusion">
+          <p>Now you're ready to begin viewing markets, trading, or reporting on market outcomes. If you have questions, don't hesitate to join the <a href="https://discord.gg/faud6Fx" target="_blank">Augur Discord</a> or submit a suggestion for the in-progress FAQ at <a href="mailto:team@augur.net" target="_blank">team@augur.net</a>.</p>
         </div>
-        <div class="BountiesFAQ__question">
-          <h5>Do you have a PGP key?</h5>
-          <p>Yes, it can be found at <a href="/pgp.txt" target="_blank">augur.net/pgp.txt</a>.</p>
-        </div>
+      </div>
+      <div class="GetStartedSteps__note">
+        <h5>NOTE: If you just want to check Augur out on the Rinkeby testnet then no download is required.</h5>
+        <p>Go to <a href="https://dev.augur.net" target="_blank">dev.augur.net</a>, connect your Ethereum wallet, and you're good to go. Use a Rinkeby faucet to get testnet ETH to play with, and grab some testnet REP on the Augur app's Account page.</p>
       </div>
     </div>
   </section>
-  <section class="CTA">
-    <div class="max-width">
-      <div class="CTA__wrap">
-        <div>
-          <h3>Submit a Vulnerability or Bug Report</h3>
-          <h4>Or <a class="link--mono" href="mailto:bounty@augur.net" target="_blank">email</a> the Forecast Foundation directly.</h4>
-          <p class="CTA__sub-para">Determination of eligibility, score, and all related terms of a bounty payout are at the sole and final discretion of the Forecast Foundation.</p>
+  <section class="Developers">
+    <div class="Developers__wrap">
+      <div class="Developers__intro">
+        <h2>Getting Started for Developers</h2>
+        <h5>Anyone is welcome to contribute to Augur. The best way to begin is to join the Augur Discord channel, where the Augur community discusses design and development every day.</h5>
+        <p>If you have a specific issue you would like to report, open an Issue in the relevant Github repository. If you have code you would like to contribute, open a Pull Request. Directions for setting up a local development environment can be found in each repository.</p>
+      </div>
+      <div class="Developers__repos">
+        <div class="Developers__repos-intro">
+          <h5>Github Repositories</h5>
+          <p>The Augur Github repositories can be found at <a href="https://github.com/AugurProject" target="_blank">github.com/AugurProject</a>.</p>
+          <p>The repos under most active development are:</p>
         </div>
-        <a class="button--white" href="https://hackerone.com/augurproject" target="_blank">Submit a Bug</a>
+        <ul class="list--links">
+          <li><a href="https://github.com/AugurProject/augur" target="_blank">Augur Client (React, Redux)</a></li>
+          <li><a href="https://github.com/AugurProject/augur-node" target="_blank">Augur Node (Node, Typescript)</a></li>
+          <li><a href="https://github.com/AugurProject/augur-core" target="_blank">Augur Core (Solidity)</a></li>
+        </ul>
       </div>
     </div>
   </section>
-  <section class="OtherBounties">
-    <div class="max-width">
-      <h2>Other Bounties</h2>
-    </div>
-    <div class="OtherBounties__wrap">
-      <div class="OtherBounties__bounties">
-        <div class="OtherBounties__bounty">
-          <h5>EIP-758 Implementation for Geth and Parity</h5>
-          <p>1,250 REP will be awarded for the 1st implementation (either Geth or Parity) submitted and merged. 750 REP will be awarded for the second implementation submitted and merged.</p>
-          <a class="link--arrow" href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-758.md" target="_blank">See the Full Spec</a>
-        </div>
-        <div class="OtherBounties__bounty">
-          <h5>EIP-234 Implementation for Geth and Parity</h5>
-          <p>250 REP will be awarded for a Geth implementation. 250 REP will be awarded for a Parity implementation.</p>
-          <a class="link--arrow" href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-234.md" target="_blank">See the Full Spec</a>
-        </div>
-        <div class="OtherBounties__bounty">
-          <h5>Gitcoin Bounties</h5>
-          <p>The Forecast Foundation regularly open bounties on <a class="link--mono" href="https://gitcoin.co/profile/tomkysar" target="_blank">Gitcoin.com</a>. Please check there to see a list of open bounties and corresponding rewards.</p>
-          <a class="link--arrow" href="https://gitcoin.co/profile/tomkysar" target="_blank">Gitcoin Bounties</a>
-        </div>
-        <div class="OtherBounties__bounty">
-          <h5>Let's Talk #Bounties</h5>
-          <p>Please join us in the #bounties channel in the <a class="link--mono" href="https://discord.gg/faud6Fx" target="_blank">Augur Discord</a> to discuss bounty requirements and implementation.</p>
-          <a class="link--arrow" href="https://discord.gg/faud6Fx" target="_blank">Join us in Discord</a>
-        </div>
-      </div>
+  <section class="SubmitToFAQ">
+    <div class="SubmitToFAQ__wrap">
+      <h2>FAQ</h2>
+      <p class="p--extra-large">A comprehensive FAQ is currently in-progress.</p>
+      <h5>Have topic suggestions?</h5>
+      <a class="button" href="mailto:team@augur.net" target="_blank">Get in Touch</a>
     </div>
   </section>
   <footer class="Footer">
