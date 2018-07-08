@@ -580,6 +580,10 @@ ul {
 
   h4 {
     font-size: 1.25rem;
+    line-height: 2.125rem;
+  }
+  .Hero__wrap > div:first-child > h4 {
+    line-height: 2.125rem;
   }
 
   h5 {
@@ -608,5 +612,12 @@ ul {
     font-size: 6rem;
     left: -1.5rem;
     top: -4.75rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .max-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
