@@ -220,6 +220,12 @@ ul {
   text-decoration: underline;
 }
 
+.link--disclaimer {
+  color: $purple;
+  font-family: $apercu-mono;
+  font-weight: 700;
+}
+
 .link--arrow {
   font-weight: 500;
   padding-right: 2.5rem;
