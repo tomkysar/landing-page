@@ -521,3 +521,33 @@ ul {
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.625rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.375rem;
+  }
+
+  h6 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  p.p--large {
+    font-size: 1.25rem;
+  }
+}
