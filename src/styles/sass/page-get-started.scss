@@ -20,7 +20,9 @@
 
 .GetStartedSteps__steps {
   margin: 8rem auto 0;
-  max-width: 48.5rem;
+  max-width: 51.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .GetStartedSteps__step {
@@ -154,7 +156,25 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
+  .Wallets {
+    padding-bottom: 1rem;
+  }
+
+  .Wallets__wrap {
+    flex-wrap: wrap;
+
+    &::after {
+      content: "";
+      width: 26%;
+    }
+
+    > img {
+      margin-bottom: 2rem;
+      width: 26%;
+    }
+  }
+
   .Developers__wrap {
     flex-wrap: wrap;
   }
@@ -186,6 +206,10 @@
     > h5 {
       margin-bottom: 2rem;
     }
+  }
+
+  .GetStartedSteps__steps {
+    margin-top: 5rem;
   }
 }
 
