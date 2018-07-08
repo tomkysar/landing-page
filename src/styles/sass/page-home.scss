@@ -62,7 +62,7 @@
     left: -0.85rem;
     position: absolute;
     top: 9rem;
-    width: 5.625rem;
+    width: 5.5rem;
   }
 
   &:nth-child(5),
@@ -220,25 +220,26 @@
   }
 
   &::before {
+    background-repeat: no-repeat;
+    background-position: center;
     content: '';
     left: 50%;
+    height: 13.75rem;
     position: absolute;
-    top: -7.375rem;
+    width: 13.75rem;
     z-index: -1;
   }
 
   &:first-child::before {
     background-image: url('../images/icon--decentralized.svg');
-    height: 13.75rem;
     margin-left: -6.875rem;
-    width: 13.75rem;
+    top: -8.5rem;
   }
 
   &:last-child::before {
     background-image: url('../images/icon--open-source.svg');
-    height: 14rem;
-    margin-left: -5.8rem;
-    width: 11.6rem;
+    margin-left: -6.875rem;
+    top: -8rem;
   }
 }
 
@@ -259,6 +260,7 @@
   width: 22.8%;
 
   > img {
+    height: 2.375rem;
     margin-bottom: 1rem;
   }
 
