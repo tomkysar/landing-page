@@ -352,7 +352,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 900px) {
   .CTA__wrap {
     display: block;
 
@@ -532,13 +532,15 @@ ul {
   }
 }
 
+// Mobile
+
 @media only screen and (max-width: 900px) {
   h2 {
     margin-bottom: 3rem;
   }
 
   .Hero {
-    padding-bottom: 0;
+    padding-bottom: 6rem;
   }
 
   .Hero__wrap {
@@ -602,6 +604,10 @@ ul {
   p.p--large {
     font-size: 1.25rem;
   }
+  p.p--extra-large {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 
   .button {
     font-size: 1.25rem;
@@ -612,6 +618,10 @@ ul {
     font-size: 6rem;
     left: -1.5rem;
     top: -4.75rem;
+  }
+
+  .SubpageIntro {
+    padding: 3.25rem 0;
   }
 }
 
