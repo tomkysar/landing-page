@@ -275,8 +275,9 @@
     flex-wrap: wrap;
 
     > div {
-      width: 100%;
-      margin-bottom: 2rem;
+      width: 90%;
+      margin: auto;
+      padding: 2rem 0;
     }
 
     > .Scope__links-list,
@@ -290,16 +291,8 @@
     font-size: 1rem;
   }
 
-  .Scope__wrap {
-    padding: 0;
-
-    > h2 {
-      padding-left: 1rem;
-    }
-  }
-
   .Scope__block {
-    padding: 1rem;
+    padding: 0;
   }
 
   .Scope__disclaimer {
@@ -311,6 +304,11 @@
   .OtherBounties__wrap {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .References__references > h4 {
+    width: 48%;
   }
 }
 
@@ -322,14 +320,17 @@
   .BountiesFAQ__question {
     width: 100%;
   }
-  .OtherBounties__bounties {
-    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .References__references > h4 {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .OtherBounties__bounty {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }

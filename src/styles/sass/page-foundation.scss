@@ -61,6 +61,7 @@
   width: 8.4375rem;
   height: 9.3125rem;
   background-size: cover;
+  background-position: center;
 }
 
 .Advisor__info {
@@ -101,6 +102,10 @@
 @media only screen and (max-width: 700px) {
   .TeamMember {
     width: 47%;
+  }
+
+  .Advisor {
+    width: 100%;
   }
 }
 
