@@ -352,6 +352,16 @@ ul {
   }
 }
 
+@media only screen and (max-width: 900px) { 
+  .CTA__wrap {
+    display: block;
+
+    > div:first-child {
+      margin: 0 0 2rem;
+    }
+  }
+}
+
 // Shared Blocks
 
 // Header
@@ -522,6 +532,36 @@ ul {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  h2 {
+    margin-bottom: 3rem;
+  }
+
+  .Hero {
+    padding-bottom: 0;
+  }
+
+  .Hero__wrap {
+    display: block;
+
+    > div:first-child {
+      padding: 0;
+      width: 100%;
+    }
+
+    > div:last-child {
+      margin-top: 4rem;
+      width: 100%;
+
+      > img {
+        height: auto;
+        position: static;
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 700px) {
   h1 {
     font-size: 2.25rem;
@@ -529,7 +569,13 @@ ul {
   }
 
   h2 {
-    font-size: 1.625rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 
   h4 {
@@ -542,6 +588,7 @@ ul {
 
   h5 {
     font-size: 1.375rem;
+    line-height: 1.75rem;
   }
 
   h6 {
@@ -554,6 +601,17 @@ ul {
 
   p.p--large {
     font-size: 1.25rem;
+  }
+
+  .button {
+    font-size: 1.25rem;
+    line-height: 4rem;
+  }
+
+  .with-number::before {
+    font-size: 6rem;
+    left: -1.5rem;
+    top: -4.75rem;
   }
 }
 

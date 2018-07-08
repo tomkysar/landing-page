@@ -18,7 +18,7 @@
   position: absolute;
   right: 0;
   top: -7.5rem;
-  width: 49rem;
+  max-width: 49rem;
 }
 
 .Uses__use-cases {
@@ -68,6 +68,41 @@
   &:nth-child(5),
   &:nth-child(6) {
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Uses__intro {
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    padding-top: 5rem;
+    position: static;
+  }
+
+  .Uses__use-cases {
+    padding-top: 4.125rem;
+    position: static;
+  }
+
+  .Uses__use-case {
+    padding: 11.5rem 4rem 3rem;
+    width: 100%;
+
+    > img {
+      left: 4rem;
+      top: 3.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Uses__use-case {
+    padding: 10.5rem 2rem 2rem;
+
+    > img {
+      left: 2rem;
+      top: 2rem;
+    }
   }
 }
 
@@ -121,6 +156,46 @@
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 900px) {
+  .AugurCycle {
+    padding-top: 6rem;
+  }
+
+  .AugurCycle__step--left,
+  .AugurCycle__step--right {
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+
+    > .step--text {
+      margin: 0 0 2rem;
+      order: 1;
+      width: 100%;
+    }
+
+    > .step--image {
+      margin: 0;
+      order: 2;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .AugurCycle {
+    padding-top: 4rem;
+  }
+
+  .AugurCycle__step--left,
+  .AugurCycle__step--right {
+    margin-bottom: 2rem;
+
+    > .step--text {
+      padding-top: 4rem;
+      padding-left: 2rem;
+    }
+  }
+}
+
 // Currencies
 
 .Currencies {
@@ -172,6 +247,30 @@
       &::after {
         bottom: -1.625rem;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Currencies {
+    padding-top: 0;
+  }
+
+  .Currencies__wrap {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: static;
+  }
+
+  .Currencies__currency-wrap {
+    display: block;
+  }
+
+  .Currencies__currency {
+    width: 100%;
+
+    &:first-child {
+      margin-bottom: 2rem;
     }
   }
 }
@@ -243,6 +342,29 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .Technology {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .Technology__wrap {
+    position: static;
+  }
+
+  .Technology__blocks-wrap {
+    display: block;
+  }
+
+  .Technology__block {
+    width: 100%;
+
+    &:first-child {
+      margin-bottom: 10rem;
+    }
+  }
+}
+
 // Benefits
 
 .Benefits {
@@ -276,10 +398,33 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .Benefits {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .Benefits__benefits-wrap {
+    flex-wrap: wrap;
+  }
+
+  .Benefits__benefit {
+    margin-bottom: 4rem;
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Benefits__benefit {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
+
 // Connect
 
 .Connect {
-  padding: 6.5rem;
+  padding: 6.5rem 0;
 }
 
 .Connect__wrap {
@@ -352,6 +497,33 @@
       margin-right: 0;
     }
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Connect__block-wrap-outer {
+    display: block;
+
+    > div:first-child {
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+  }
+
+  .Connect__block-wrap-inner {
+    width: 100%;
+
+    > div {
+      width: 100%;
+
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
 }
 
 // Disclaimer
