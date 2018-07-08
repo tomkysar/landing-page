@@ -104,6 +104,12 @@
     > h3 {
       @extend .with-number;
     }
+
+    > p > sup {
+      color: $purple;
+      font-family: $apercu-mono;
+      font-weight: 700;
+    }
   }
 
   > *:first-child {
