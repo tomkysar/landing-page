@@ -513,6 +513,7 @@ ul {
 .Footer__nav-wrap {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 
   > ul {
     > li {
@@ -549,6 +550,27 @@ ul {
 }
 
 // Mobile
+
+@media only screen and (max-width: 1080px) {
+  .Footer__main-wrap {
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+  }
+
+  .Footer__nav-wrap {
+    width: 100%;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+  }
+
+  .Footer__nav-wrap > ul:not(:last-child),
+  .Footer__nav-wrap > ul:last-child {
+    margin: 0;
+    padding-top: 1rem;
+    width: 18%;
+    border-top: 1px solid #8d8f92;
+  }
+}
 
 @media only screen and (max-width: 900px) {
   h2 {
@@ -632,6 +654,14 @@ ul {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .Footer__nav-wrap > ul:not(:last-child),
+  .Footer__nav-wrap > ul:last-child {
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .max-width {
     padding-left: 2.5rem;
@@ -702,6 +732,30 @@ ul {
   }
 }
 
+@media only screen and (max-width: 680px) {
+  .Footer__sub-wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+    > span,
+    ul {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Footer__nav-wrap > ul:not(:last-child),
+  .Footer__nav-wrap > ul:last-child {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .Footer__nav-wrap {
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .max-width {
     padding-left: 1.5rem;
@@ -714,5 +768,17 @@ ul {
 
   .Header__nav > ul {
     line-height: 15vh;
+  }
+
+  .Footer__sub-wrap > ul {
+    display: flex;
+    justify-content: space-between;
+
+    > li {
+      margin: 0;
+      > a > img {
+        width: 1.25rem;
+      }
+    }
   }
 }
