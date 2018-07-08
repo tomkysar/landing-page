@@ -254,6 +254,22 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .OtherBounties__bounty {
+    width: 47%;
+  }
+  .OtherBounties__bounty:nth-child(4) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .OtherBounties__bounty {
+    width: 100%;
+    min-height: 0;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .Scope__block-wrap {
     flex-wrap: wrap;
@@ -271,7 +287,7 @@
   }
 
   .Scope__block-wrap .Scope__rewards-list > li > span:last-child {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .Scope__wrap {
@@ -284,5 +300,36 @@
 
   .Scope__block {
     padding: 1rem;
+  }
+
+  .Scope__disclaimer {
+    top: 0;
+    padding: 2rem 1rem 0rem 1rem;
+    border: none;
+  }
+
+  .OtherBounties__wrap {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .BountiesFAQ {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .BountiesFAQ__question {
+    width: 100%;
+  }
+  .OtherBounties__bounties {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .OtherBounties__bounty {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
