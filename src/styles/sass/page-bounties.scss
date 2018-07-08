@@ -45,6 +45,12 @@
         width: 3rem;
       }
     }
+
+    > p > a {
+      @extend .link--mono;
+
+      color: $purple;
+    }
   }
 
   .Scope__links-list {
