@@ -367,12 +367,28 @@ ul {
 // Header
 
 .Header__nav {
-  align-items: center;
-  display: flex;
+  > ul {
+    align-items: center;
+    display: flex;
 
-  > li:not(:first-child) {
-    margin-left: 1.875rem;
+    > li:not(:first-child) {
+      margin-left: 1.875rem;
+    }
   }
+}
+
+.Header__nav-mobile-close {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 3.2rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.Header__nav-mobile-open {
+  display: none;
+  cursor: pointer;
 }
 
 .Header__wrap {
@@ -562,9 +578,66 @@ ul {
       }
     }
   }
+
+  .Header__nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 2;
+    padding-top: 16vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+
+    &.nav--open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    > ul {
+      display: block;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 11vh;
+
+      > li:not(:first-child) {
+        margin-left: 0;
+      }
+
+      > li:last-child {
+        margin-top: 2.5vh;
+
+        > a {
+          font-size: 2rem;
+          line-height: 5rem;
+          border-radius: 50px;
+          background-color: $purple;
+          color: white;
+          padding-left: 3rem;
+          padding-right: 3rem;
+        }
+      }
+    }
+  }
+
+  .Header__nav-mobile-open {
+    display: block;
+  }
+
+  .Header__nav-mobile-close {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 700px) {
+  .max-width {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   h1 {
     font-size: 2.25rem;
     line-height: 2.875rem;
@@ -623,11 +696,23 @@ ul {
   .SubpageIntro {
     padding: 3.25rem 0;
   }
+
+  .Header__nav-mobile-close {
+    right: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .max-width {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .Header__nav-mobile-close {
+    right: 1.5rem;
+  }
+
+  .Header__nav > ul {
+    line-height: 15vh;
   }
 }
