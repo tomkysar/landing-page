@@ -165,13 +165,13 @@
     flex-wrap: wrap;
 
     &::after {
-      content: "";
-      width: 26%;
+      content: '';
+      width: 45%;
     }
 
     > img {
-      margin-bottom: 2rem;
-      width: 26%;
+      margin-bottom: 4rem;
+      width: 45%;
     }
   }
 
