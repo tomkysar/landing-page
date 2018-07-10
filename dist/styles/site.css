@@ -1790,11 +1790,11 @@ ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     .Wallets__wrap::after {
-      content: "";
-      width: 26%; }
+      content: '';
+      width: 45%; }
     .Wallets__wrap > img {
-      margin-bottom: 2rem;
-      width: 26%; }
+      margin-bottom: 4rem;
+      width: 45%; }
   .Developers__wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
