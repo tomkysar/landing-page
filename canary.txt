@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of Augur 2nd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of August 2nd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations.
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAltji4EACgkQQk4PTUq7
-u+CkIBAAov4qIj9yTapjwFWbr+FNMBhDiQz+k185ka8TkyYD6wImXIQZujeemcQ6
-VRNRNuUVj3EnuSQuqQQYs4x6cfypkiTzJv1vk86poxg3ZffRHjB6MEqcAIzTxARJ
-euvo/PvSqWPIH+fxDXx23L+wX8WthdnAqJu4yg5zhls3LgQOWPyrTZvsAFn3ZnlD
-yH02Zho3h5tiBXYaqjAl7eQIG6a6pwZuW6aIkevWIgjbDZ1yoWtN+E9TadTOcsOG
-FRqXix0/q5eUlK9HPXFYei2JFiszJCjJsMiKEurW/m2NlJYM5SaLpPCyutNwDc7m
-rGbV3DOb74XDCWnbh/ZqAU6YIS+MUk063zegEKh8Z6QbgNGz2taSGF0c3549BvCT
-wBz+riOdHwTrVnWV2LTWJp/fQpNcKDcLytKgwmQiXTJFdZgXJk44a4g6LiiC7aAP
-cIpjli8GviEU+nB2JBQLwAIu6QyE21nbK19mURGmy3ge8S97DAWHqLRhEo25lQw/
-bh6jXIzsZEc3Ezlxwm0vTl595X5oFJTb5ZGlooedQTEq1z39kS0dqc5pfyrT0jmF
-aa8SIum93t12cQLECD+imqYNNj+peOvhuxhb0Rwa+bV1TLLr4iPgQW7kodnCB7D3
-KunmKNSH4YSqXVjOYXoJPK+6PDKOwbmx9YsqeMQZjRFIIiA3HTw=
-=BqF6
+iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAltjj14ACgkQQk4PTUq7
+u+AWjxAAoPQpKWzTlrRDoe5O50M9c/IJteWQiuj+epdIIZ0L20PmlzSK3LUVaxNQ
+y5+u/oRjg1fJPhLfkkUiZOwwPsAYCmKm70DjKVDAwPzu+wg3k/QVdH3YbbjgTfgT
+t6dykvgKeFHzv7TJy05Zv1KJvGvkDvLS/gAUpRBl181dTx+GaiQwmUIu3ioGgbR0
+nid1eQIbFPNlm3oAC6oZ5NHE2lP/rmg0m/zIb3mEt3hnwQ7yX5YJRwWC5Qx98wNi
+q1d78wq4WLHwOeJxrZGLVJwtPwg7Vq8oAF9OWmYKzxonLuzw1dn1FV9C8zhlnyzP
+sgAwo0VV1yDV51Vzz4RI9rmTjROA8ncKJP0NU1MHBootQjn0anyuKONuhRmLZ3wF
+CKgYiRNL9tbODTEYp80fXnFEWkeaFajBGZnbs9Sdz8IuousArYrvly6S1+BDJ/F9
+jnp9W1YXluw4ov7aTduhPfgkcTRYgRHuFfQNiG3SRldd3HKbWsaDsLbT5F8BKG7h
+6WgCe20sKtrdX+mAD8nuiQv+X6eXTMXmI+DYJ6zIg6xv/ncjzHiTwz6P42wxXCVh
+Qd9ifFNSEo9QTBUkEL6jP2bd+AFvgnNsbO277PitQca5Hcjeer+bFfa4aFssojfh
+u7E6IVaNkVMhgfEKsCpVv1YoQVLu8cv2Vv3UrzftRNwG10StleI=
+=28QF
 -----END PGP SIGNATURE-----
