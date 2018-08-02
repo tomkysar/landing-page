@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
-As of July 1st, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of Augur 2nd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations.
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCgAGBQJbYmoYAAoJEEJOD01Ku7vg3VgP/jBby1bj6p5hAc00qEAT3lHG
-KR81Evwk/WTVA+h72YytOf/lHgV2SUo5L0+7+wS1Gg5hc3fwuZmZIpHW53Tjcl13
-Nl3j7tqrNMOjqN9recpWzElAaOFfQHk+DlmDfyEabcHK4or+j86Uta4T/Gqn6TIP
-4MIqqTNCPhfOcpfCllWBnPnUH0KKjW9X1hEOkEdpAOVCwfrCu/e4nd2HSNbhKwSH
-YK6k1MbnCBN3yDZJ6GPe1yT+o3M7675DwHGPkzKBtvYLAZ187S06YrwY4H+YyTRW
-XvEZq3SiZqdlE6jtaW3ojm83dZUTZjLTn/tlHodILqX45odQ9hJygwo+RfFkf1UF
-uWjtye7D96nbt9IoKOTb5NYGv0w8NOClICD7iGUj0SIFR0sgL0bK2VVYoHFQYTbP
-OluTw2GD9TNkeClFCOHXeFpN6vpN53mKIo9B4TRln+ubGzbyvEbVS0QHDGpxsw4a
-7sYFRB36+ztWKL/nECQmLj+u50TFgesp/6/0OTOwXdUgNAsm+wnfSLx6w1WNJQ5o
-R+7pVcDfIIVyo/VWdZcPLftqo8imeeKMLr89OUF7/0YVRpyxq+DlwGXuVwPP++LG
-ilmLMTQOMKrOC/YQMyiE4AIiep3ClidrKWS1skLOSieTxLfCMnTfAfchoFSPayyF
-6bYEQyrBZ8xRww7pWYjf
-=OgpG
+iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAltji4EACgkQQk4PTUq7
+u+CkIBAAov4qIj9yTapjwFWbr+FNMBhDiQz+k185ka8TkyYD6wImXIQZujeemcQ6
+VRNRNuUVj3EnuSQuqQQYs4x6cfypkiTzJv1vk86poxg3ZffRHjB6MEqcAIzTxARJ
+euvo/PvSqWPIH+fxDXx23L+wX8WthdnAqJu4yg5zhls3LgQOWPyrTZvsAFn3ZnlD
+yH02Zho3h5tiBXYaqjAl7eQIG6a6pwZuW6aIkevWIgjbDZ1yoWtN+E9TadTOcsOG
+FRqXix0/q5eUlK9HPXFYei2JFiszJCjJsMiKEurW/m2NlJYM5SaLpPCyutNwDc7m
+rGbV3DOb74XDCWnbh/ZqAU6YIS+MUk063zegEKh8Z6QbgNGz2taSGF0c3549BvCT
+wBz+riOdHwTrVnWV2LTWJp/fQpNcKDcLytKgwmQiXTJFdZgXJk44a4g6LiiC7aAP
+cIpjli8GviEU+nB2JBQLwAIu6QyE21nbK19mURGmy3ge8S97DAWHqLRhEo25lQw/
+bh6jXIzsZEc3Ezlxwm0vTl595X5oFJTb5ZGlooedQTEq1z39kS0dqc5pfyrT0jmF
+aa8SIum93t12cQLECD+imqYNNj+peOvhuxhb0Rwa+bV1TLLr4iPgQW7kodnCB7D3
+KunmKNSH4YSqXVjOYXoJPK+6PDKOwbmx9YsqeMQZjRFIIiA3HTw=
+=BqF6
 -----END PGP SIGNATURE-----
