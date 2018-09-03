@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of August 2nd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of September 3rd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations.
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAltjj14ACgkQQk4PTUq7
-u+AWjxAAoPQpKWzTlrRDoe5O50M9c/IJteWQiuj+epdIIZ0L20PmlzSK3LUVaxNQ
-y5+u/oRjg1fJPhLfkkUiZOwwPsAYCmKm70DjKVDAwPzu+wg3k/QVdH3YbbjgTfgT
-t6dykvgKeFHzv7TJy05Zv1KJvGvkDvLS/gAUpRBl181dTx+GaiQwmUIu3ioGgbR0
-nid1eQIbFPNlm3oAC6oZ5NHE2lP/rmg0m/zIb3mEt3hnwQ7yX5YJRwWC5Qx98wNi
-q1d78wq4WLHwOeJxrZGLVJwtPwg7Vq8oAF9OWmYKzxonLuzw1dn1FV9C8zhlnyzP
-sgAwo0VV1yDV51Vzz4RI9rmTjROA8ncKJP0NU1MHBootQjn0anyuKONuhRmLZ3wF
-CKgYiRNL9tbODTEYp80fXnFEWkeaFajBGZnbs9Sdz8IuousArYrvly6S1+BDJ/F9
-jnp9W1YXluw4ov7aTduhPfgkcTRYgRHuFfQNiG3SRldd3HKbWsaDsLbT5F8BKG7h
-6WgCe20sKtrdX+mAD8nuiQv+X6eXTMXmI+DYJ6zIg6xv/ncjzHiTwz6P42wxXCVh
-Qd9ifFNSEo9QTBUkEL6jP2bd+AFvgnNsbO277PitQca5Hcjeer+bFfa4aFssojfh
-u7E6IVaNkVMhgfEKsCpVv1YoQVLu8cv2Vv3UrzftRNwG10StleI=
-=28QF
+iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAluNUdUACgkQQk4PTUq7
+u+DnuRAAiWXjQbhRwrSY5BJxv1B+0JVwqhify8utLd5sd+HvfjirkD4F8tHZejyD
+AfCno5/ECoB/n2L+gRE9UQAM9hQYYXjA/S+h9THJy5nr4p/2BVQqyJS6uZ/nnwqq
+iZTA6tR0C/vhQOPovYpjz0Lc+6Nwd7Xjcq32XuPvmJx3Fo0EgOQJlao03JDrUuTu
+MM0DXw7SnmINj80sFmU34oTFWviZ1EmrqTJ3DmelQC94oRL+ugWXn7piNvseSgV0
+DqtJgmxth24QAgKnncN+U069eYEbLx442UXWC/fJuJ3bPS7eCH24+Mq9ugdTgTtL
+lQT6K888I2Dyjh14IDRqVKnFd+fQzaBVin/xd9oFvzhEDwYCDWLwCEOBO5B9I2JA
+o8EOBr/KkIBsW/ruVwqL5vnw2kC0cuLAa+UGlqwTgo6NPUzUIuftnvmzYZV3IICU
+nKMqVW74wlJ4QsWvZ1DvmC02Z7RnNvvhqb1bDzyGRYckPWb7GCWnTwmlCqCBl1kK
+4ySHFUtPrY//CLvCqYMOg3toasf1jUMhqQsT2LmbegwTDYM6GYKmIBtVtYfEjf1C
+x5nylBnyW2w4sR2PqOTimdii0ieM9i0UWhsBbo2KaNQsdHbyXsnm1yazNcfOVGHk
+SwVYw4omq0/KS6OF2a0JH4pjTpTw4I3qPfLIqkEdQ66MQC/PLvM=
+=iQ/H
 -----END PGP SIGNATURE-----
