@@ -215,6 +215,10 @@ ul {
   }
 }
 
+.CTA__wrap--topalign {
+  align-items: start;
+}
+
 .link--mono {
   font-family: $apercu-mono;
   text-decoration: underline;

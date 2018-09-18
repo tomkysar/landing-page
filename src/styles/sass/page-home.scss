@@ -553,3 +553,14 @@
     max-width: 56rem;
   }
 }
+
+
+#download-links {
+  width: 100%;
+}
+
+#download-links > a {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}

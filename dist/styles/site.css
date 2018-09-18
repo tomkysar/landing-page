@@ -567,6 +567,10 @@ ul {
       margin-top: 3rem;
       max-width: 34rem; }
 
+.CTA__wrap--topalign {
+  -ms-flex-align: start;
+      align-items: start; }
+
 .link--mono, .Content a, .Scope__block-wrap > div > p > a, .GetStartedSteps__step > p > a, .GetStartedSteps__steps-conclusion > p > a, .Developers__repos-intro > p > a {
   font-family: "Apercu Mono", "sans-serif";
   text-decoration: underline; }
@@ -1328,6 +1332,14 @@ ul {
   padding: 5rem 0; }
   .Disclaimer > div > p {
     max-width: 56rem; }
+
+#download-links {
+  width: 100%; }
+
+#download-links > a {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem; }
 
 .Scope {
   background-color: #F5F5F5;
