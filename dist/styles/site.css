@@ -534,6 +534,8 @@ ul {
 .button--white {
   background-color: #fff;
   color: #553580; }
+  .button--white:hover {
+    background-color: #E3E0F5; }
 
 .button--outline {
   background: #fff;
@@ -1333,13 +1335,29 @@ ul {
   .Disclaimer > div > p {
     max-width: 56rem; }
 
-#download-links {
-  width: 100%; }
+.download-links-section {
+  -ms-flex-direction: row;
+      flex-direction: row; }
+  .download-links-section h3 {
+    white-space: nowrap; }
 
-#download-links > a {
-  display: block;
+.download-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+.download-links > a {
   text-align: center;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  margin-right: 1rem; }
+
+@media only screen and (max-width: 1200px) {
+  .download-links-section {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .download-links-section:first-child div {
+      margin-bottom: 1rem; } }
 
 .Scope {
   background-color: #F5F5F5;

@@ -554,13 +554,29 @@
   }
 }
 
+.download-links-section {
+  flex-direction: row;
+  h3 {
+    white-space: nowrap;
+  }
+};
 
-#download-links {
-  width: 100%;
+.download-links {
+  display: flex;
+  flex-direction: row;
 }
 
-#download-links > a {
-  display: block;
+.download-links > a {
   text-align: center;
   margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .download-links-section {
+    flex-direction: column;
+    &:first-child div {
+      margin-bottom: 1rem;
+    }
+  };
 }
