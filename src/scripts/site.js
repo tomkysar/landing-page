@@ -24,7 +24,6 @@ function createAndAppendElement(element, items) {
     var l = document.createElement('a')
     l.href = item.link
     l.innerText = item.platform
-    l.classList.add('button--white')
     l.classList.add('download-link')
 
     element.appendChild(l)

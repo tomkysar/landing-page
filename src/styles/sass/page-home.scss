@@ -567,6 +567,13 @@
 }
 
 .download-links > a {
+  &.download-link {
+    @extend .button;
+  }
+  &.download-link.inverse-button {
+    @extend .button--white;
+  }
+
   text-align: center;
   margin-bottom: 1rem;
   margin-right: 1rem;
@@ -579,4 +586,10 @@
       margin-bottom: 1rem;
     }
   };
+}
+
+.download-links.inverse-button > a {
+  &.download-link {
+    @extend .button--white;
+  }
 }

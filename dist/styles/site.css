@@ -519,7 +519,7 @@ ul {
   background: #553580;
   color: #fff; }
 
-.button, .button--white, .button--outline {
+.button, .button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link, .button--outline, .download-links > a.download-link {
   background-color: #553580;
   border-radius: 2.25rem;
   color: #fff;
@@ -531,10 +531,10 @@ ul {
   padding: 0 3rem;
   transition: background 0.15s ease, color 0.15s ease; }
 
-.button--white {
+.button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link {
   background-color: #fff;
   color: #553580; }
-  .button--white:hover {
+  .button--white:hover, .download-links > a.download-link.inverse-button:hover, .download-links.inverse-button > a.download-link:hover {
     background-color: #E3E0F5; }
 
 .button--outline {
@@ -917,7 +917,7 @@ ul {
   p.p--extra-large {
     font-size: 1.5rem;
     line-height: 2rem; }
-  .button, .button--white, .button--outline {
+  .button, .button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link, .button--outline, .download-links > a.download-link {
     font-size: 1.25rem;
     line-height: 4rem; }
   .with-number::before, .AugurCycle__step .step--text > h3::before, .AugurCycle__step--left .step--text > h3::before, .AugurCycle__step--right .step--text > h3::before, .GetStartedSteps__step::before {
