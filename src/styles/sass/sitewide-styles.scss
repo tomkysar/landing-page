@@ -171,6 +171,10 @@ ul {
 
   background-color: $white;
   color: $purple;
+
+  &:hover {
+    background-color: $purple--mid;
+  }
 }
 
 .button--outline {
@@ -213,6 +217,10 @@ ul {
       max-width: 34rem;
     }
   }
+}
+
+.CTA__wrap--topalign {
+  align-items: start;
 }
 
 .link--mono {

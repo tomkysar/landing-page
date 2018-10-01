@@ -13,7 +13,9 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
+    serve = require('gulp-serve'),
+    open = require('gulp-open');
 
 // HTML
 gulp.task('html', function() {
@@ -89,5 +91,11 @@ gulp.task('watch', function() {
     gulp.watch('src/styles/**/*.scss', ['styles']);
     gulp.watch('src/scripts/**/*.js', ['scripts']);
     gulp.watch('src/images/**/*', ['images']);
-
+    gulp.src(__filename).pipe(open({
+      uri: 'http://localhost:3000'
+    }))
 });
+
+gulp.task('webserver', serve('./'))
+
+gulp.task('serve', ['webserver', 'watch'])

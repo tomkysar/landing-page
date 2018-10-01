@@ -519,7 +519,7 @@ ul {
   background: #553580;
   color: #fff; }
 
-.button, .button--white, .button--outline {
+.button, .button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link, .button--outline, .download-links > a.download-link {
   background-color: #553580;
   border-radius: 2.25rem;
   color: #fff;
@@ -531,9 +531,11 @@ ul {
   padding: 0 3rem;
   transition: background 0.15s ease, color 0.15s ease; }
 
-.button--white {
+.button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link {
   background-color: #fff;
   color: #553580; }
+  .button--white:hover, .download-links > a.download-link.inverse-button:hover, .download-links.inverse-button > a.download-link:hover {
+    background-color: #E3E0F5; }
 
 .button--outline {
   background: #fff;
@@ -566,6 +568,10 @@ ul {
       line-height: 1.625rem;
       margin-top: 3rem;
       max-width: 34rem; }
+
+.CTA__wrap--topalign {
+  -ms-flex-align: start;
+      align-items: start; }
 
 .link--mono, .Content a, .Scope__block-wrap > div > p > a, .GetStartedSteps__step > p > a, .GetStartedSteps__steps-conclusion > p > a, .Developers__repos-intro > p > a {
   font-family: "Apercu Mono", "sans-serif";
@@ -911,7 +917,7 @@ ul {
   p.p--extra-large {
     font-size: 1.5rem;
     line-height: 2rem; }
-  .button, .button--white, .button--outline {
+  .button, .button--white, .download-links > a.download-link.inverse-button, .download-links.inverse-button > a.download-link, .button--outline, .download-links > a.download-link {
     font-size: 1.25rem;
     line-height: 4rem; }
   .with-number::before, .AugurCycle__step .step--text > h3::before, .AugurCycle__step--left .step--text > h3::before, .AugurCycle__step--right .step--text > h3::before, .GetStartedSteps__step::before {
@@ -1328,6 +1334,30 @@ ul {
   padding: 5rem 0; }
   .Disclaimer > div > p {
     max-width: 56rem; }
+
+.download-links-section {
+  -ms-flex-direction: row;
+      flex-direction: row; }
+  .download-links-section h3 {
+    white-space: nowrap; }
+
+.download-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+.download-links > a {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: 1rem; }
+
+@media only screen and (max-width: 1200px) {
+  .download-links-section {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .download-links-section:first-child div {
+      margin-bottom: 1rem; } }
 
 .Scope {
   background-color: #F5F5F5;
