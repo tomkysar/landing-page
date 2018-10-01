@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of September 3rd, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of October 1st, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations.
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAluNUdUACgkQQk4PTUq7
-u+DnuRAAiWXjQbhRwrSY5BJxv1B+0JVwqhify8utLd5sd+HvfjirkD4F8tHZejyD
-AfCno5/ECoB/n2L+gRE9UQAM9hQYYXjA/S+h9THJy5nr4p/2BVQqyJS6uZ/nnwqq
-iZTA6tR0C/vhQOPovYpjz0Lc+6Nwd7Xjcq32XuPvmJx3Fo0EgOQJlao03JDrUuTu
-MM0DXw7SnmINj80sFmU34oTFWviZ1EmrqTJ3DmelQC94oRL+ugWXn7piNvseSgV0
-DqtJgmxth24QAgKnncN+U069eYEbLx442UXWC/fJuJ3bPS7eCH24+Mq9ugdTgTtL
-lQT6K888I2Dyjh14IDRqVKnFd+fQzaBVin/xd9oFvzhEDwYCDWLwCEOBO5B9I2JA
-o8EOBr/KkIBsW/ruVwqL5vnw2kC0cuLAa+UGlqwTgo6NPUzUIuftnvmzYZV3IICU
-nKMqVW74wlJ4QsWvZ1DvmC02Z7RnNvvhqb1bDzyGRYckPWb7GCWnTwmlCqCBl1kK
-4ySHFUtPrY//CLvCqYMOg3toasf1jUMhqQsT2LmbegwTDYM6GYKmIBtVtYfEjf1C
-x5nylBnyW2w4sR2PqOTimdii0ieM9i0UWhsBbo2KaNQsdHbyXsnm1yazNcfOVGHk
-SwVYw4omq0/KS6OF2a0JH4pjTpTw4I3qPfLIqkEdQ66MQC/PLvM=
-=iQ/H
+iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAluyfe8ACgkQQk4PTUq7
+u+CfMA//R4juQr7wLaqupAWw5qPAlb6qBYVaLDF5KXi6N1rJJtDQci4dFU+253Gt
+Glu/ZOgWteKTThszV5rmXwW6/seyvC948ZNlHSWL9uvLTGTpK7HacWzQO6hu2kx/
+nAtuOV8ad3OEifwJzyTcJyK0UUEaBebgaU/vjx77Fc3c6yf6RrXMa0UohvA40Esh
+SDMCQSnrCayFI/WaZpF4cjifC1eo+ypAqsYHsE5v+qs5Zs47Y6BjVV+ALzH0cvS4
+MY3OZciKOpH7wrmJtz83i/qA9kTwkfTtPGBplUys04hsV0MWCOXoN8wF7F18d8jt
+M1pNJWrZlAebKhdkeAcYo9c5XdGqXXziBg41J10eKVA3+IhPUAp1xY1zY0+KaFDm
+BIJ6hxRRA1OAuvXEdsujdBW9gcI7EjvxAsnwVUDoDtebGs2jBR3Jkg2OVrR4Fzya
+ye1mcBAnOGi0B/xCJ7Wo5W1ZVsnkRTwP98efcojgXLPJcvB6i9OzAaiCxEUcQnQO
+yQ6apAfgGxK/bu6XUgxIXISqWQ6s/EFC86eRvG798kuGzGWB8JQCECzq9EKp/aTH
+VU16hBI7E2u3epwnVUHRUZianYOY+E/l9RYL223YcbnzryEYG/1IOw4nGSsJ22QO
+zVRBMfWUQCTiFAfs8PQU3XJVHv9EiauJdQCybmWDHsZ6kNKd77M=
+=ht6T
 -----END PGP SIGNATURE-----
