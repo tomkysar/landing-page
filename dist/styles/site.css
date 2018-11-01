@@ -1356,13 +1356,20 @@ ul {
 .download-links {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row; }
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
 
 .download-links > a {
   text-align: center;
   margin-bottom: 1rem;
   margin-right: 1rem; }
+
+@media only screen and (min-width: 1100px) {
+  .download-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; } }
 
 @media only screen and (max-width: 1200px) {
   .download-links-section {
@@ -1705,7 +1712,7 @@ ul {
     font-size: 1.125rem;
     font-weight: 400;
     list-style: disc outside;
-    padding-left: 1.2rem; }
+    padding-left: 2.4rem; }
     .FaqAnswer > ul > li {
       margin-bottom: 2rem; }
   .FaqAnswer > h5 {
