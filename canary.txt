@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of October 1st, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
+As of November 1st, 2018, the Forecast Foundation has not been contacted by any agency anywhere in the world in a way which requires that contact not to be disclosed. 
 
 The Forecast Foundation will publicly disclose any sort of inquiry from government agencies that falls outside the scope of regular business operations.
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAluyfe8ACgkQQk4PTUq7
-u+CfMA//R4juQr7wLaqupAWw5qPAlb6qBYVaLDF5KXi6N1rJJtDQci4dFU+253Gt
-Glu/ZOgWteKTThszV5rmXwW6/seyvC948ZNlHSWL9uvLTGTpK7HacWzQO6hu2kx/
-nAtuOV8ad3OEifwJzyTcJyK0UUEaBebgaU/vjx77Fc3c6yf6RrXMa0UohvA40Esh
-SDMCQSnrCayFI/WaZpF4cjifC1eo+ypAqsYHsE5v+qs5Zs47Y6BjVV+ALzH0cvS4
-MY3OZciKOpH7wrmJtz83i/qA9kTwkfTtPGBplUys04hsV0MWCOXoN8wF7F18d8jt
-M1pNJWrZlAebKhdkeAcYo9c5XdGqXXziBg41J10eKVA3+IhPUAp1xY1zY0+KaFDm
-BIJ6hxRRA1OAuvXEdsujdBW9gcI7EjvxAsnwVUDoDtebGs2jBR3Jkg2OVrR4Fzya
-ye1mcBAnOGi0B/xCJ7Wo5W1ZVsnkRTwP98efcojgXLPJcvB6i9OzAaiCxEUcQnQO
-yQ6apAfgGxK/bu6XUgxIXISqWQ6s/EFC86eRvG798kuGzGWB8JQCECzq9EKp/aTH
-VU16hBI7E2u3epwnVUHRUZianYOY+E/l9RYL223YcbnzryEYG/1IOw4nGSsJ22QO
-zVRBMfWUQCTiFAfs8PQU3XJVHv9EiauJdQCybmWDHsZ6kNKd77M=
-=ht6T
+iQIzBAEBCAAdFiEE6zArx1tmT3TS8On2Qk4PTUq7u+AFAlvbc24ACgkQQk4PTUq7
+u+Cw0g//T4SeSnKRhs9xBBm4y63HTmf6QWYcPW9SAE+H4FYa/7INgVOVbX1LI2x3
+SZ6VfNVh7RStvN1rpuSb651dDv50fkg+lcgJiqcEcu+iTrlsBQU8gF0efUHXYF1w
+ICQwkvsuYW2uXi4IWxqGgH4hQzX3gBfOt5sRxRJZJXOjsvHA8lGtzSwlTgG5x9Ku
+EG94rMP017im9kYJXv0TGgPAzZq4i5FLH+afchNkYNk8cNfMnyacnqVT0X3NDntT
+t11b6xRk2ju6YFV8pUZkZDCDFPeV7hSQVWgzsZodlR2f/fIoPknDvuBbT1qwdav1
+oBppayDyakWeu52zgLOXTXrZy0a2F0PdjBgDz80pB5enddFjJ4CCT88bIjWAClv0
+CJDtckxEeWeyaYnz/g2UaYBq8AEjiK4xUfz3Vmu9D05ufTjotECQeI0L7E20KqE1
+qjkSE0BzQ4Zeur/IdcpvCgsVdMKAyyFOX4Q44ha/ty1HhowcLa0b77HopAb/kQiN
+OHITG3gJaG4HzGFtIu6hNhaNHKYr/ghqFo5dgzklAhdzZrBPOWITJ+dOl0SQudVu
+pehlSlOVBR1BVfk/YDFvKp7ctYW87II38oAIYfT+k9pNGHxOfm42S7umchOhNmvH
+SuI5Oy4/uJ4LIzw22D9x/hhcj9f0No2p+qwC4c5tefxjHD9PPec=
+=GYgu
 -----END PGP SIGNATURE-----
