@@ -637,10 +637,10 @@ ul {
   border-radius: 4px;
   box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.09); }
 
-.with-line, .Uses__use-case > h6, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4, .Benefits__benefit > h5, .Scope__block-wrap > div > h3, .BountiesFAQ__question > h5, .OtherBounties__bounty > h5, .TeamMember > h6, .Advisor__info > h6, .FaqAnswer > h5, .GetStartedSteps__steps-conclusion, .Developers__repos-intro > h5 {
+.with-line, .Uses__use-case > h6, .Currencies__currency-heading-wrap > div:first-child > h4, .Technology__block > h4, .Benefits__benefit > h5, .Scope__block-wrap > div > h3, .BountiesFAQ__question > h5, .OtherBounties__bounty > h5, .TeamMember > h6, .Advisor__info > h6, .FaqAnswer > h5, .GetStartedSteps__steps-conclusion, .Developers__repos-intro > h5, .CareerDetail > h5 {
   margin-bottom: 0.75em;
   position: relative; }
-  .with-line::after, .Uses__use-case > h6::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after, .Benefits__benefit > h5::after, .Scope__block-wrap > div > h3::after, .BountiesFAQ__question > h5::after, .OtherBounties__bounty > h5::after, .TeamMember > h6::after, .Advisor__info > h6::after, .FaqAnswer > h5::after, .GetStartedSteps__steps-conclusion::after, .Developers__repos-intro > h5::after {
+  .with-line::after, .Uses__use-case > h6::after, .Currencies__currency-heading-wrap > div:first-child > h4::after, .Technology__block > h4::after, .Benefits__benefit > h5::after, .Scope__block-wrap > div > h3::after, .BountiesFAQ__question > h5::after, .OtherBounties__bounty > h5::after, .TeamMember > h6::after, .Advisor__info > h6::after, .FaqAnswer > h5::after, .GetStartedSteps__steps-conclusion::after, .Developers__repos-intro > h5::after, .CareerDetail > h5::after {
     content: '';
     background-color: #553580;
     bottom: -0.375em;
@@ -648,6 +648,18 @@ ul {
     left: 0;
     position: absolute;
     width: 4rem; }
+
+.with-full-line, .CareerIndex__position > a.active {
+  margin-bottom: 0.75em;
+  position: relative; }
+  .with-full-line::after, .CareerIndex__position > a.active::after {
+    content: '';
+    background-color: #553580;
+    bottom: -0.375em;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%; }
 
 .with-number, .AugurCycle__step .step--text > h3, .AugurCycle__step--left .step--text > h3, .AugurCycle__step--right .step--text > h3, .GetStartedSteps__step {
   position: relative;
@@ -1344,13 +1356,20 @@ ul {
 .download-links {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row; }
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
 
 .download-links > a {
   text-align: center;
   margin-bottom: 1rem;
   margin-right: 1rem; }
+
+@media only screen and (min-width: 1100px) {
+  .download-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; } }
 
 @media only screen and (max-width: 1200px) {
   .download-links-section {
@@ -1693,7 +1712,7 @@ ul {
     font-size: 1.125rem;
     font-weight: 400;
     list-style: disc outside;
-    padding-left: 1.2rem; }
+    padding-left: 2.4rem; }
     .FaqAnswer > ul > li {
       margin-bottom: 2rem; }
   .FaqAnswer > h5 {
@@ -1903,3 +1922,82 @@ ul {
       width: 45rem; }
   .CookieTable tbody > tr > td:nth-child(1) {
     font-style: italic; }
+
+.Careers {
+  background-color: #F5F5F5;
+  padding-top: 6.5rem; }
+  .Careers > .max-width, .Careers > .max-width--wide, .Careers > .AugurCycle__steps-wrapper, .Careers > .Header__wrap, .Careers > .Hero__wrap, .Careers > .Uses__wrap, .Careers > .Currencies__wrap, .Careers > .Technology__wrap, .Careers > .Connect__wrap, .Careers > .Scope__wrap, .Careers > .OtherBounties__bounties, .Careers > .Wallets__wrap, .Careers > .Developers__wrap, .Careers > .SubmitToFAQ__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding-bottom: 6.5rem; }
+
+.CareerDetails {
+  width: 41.75rem;
+  padding-right: 4rem; }
+
+.CareerBreadcrumbs {
+  margin-bottom: 1rem;
+  margin-top: -2rem; }
+  .CareerBreadcrumbs > a {
+    color: #553580; }
+  .CareerBreadcrumbs > a.active {
+    font-weight: bold; }
+
+.CareerDetail {
+  padding-bottom: 4rem; }
+  .CareerDetail > p > a {
+    color: #553580; }
+  .CareerDetail > ul {
+    font-size: 1.125rem;
+    font-weight: 400;
+    list-style: disc outside;
+    padding-left: 2.4rem; }
+    .CareerDetail > ul > li {
+      margin-bottom: 1rem; }
+  .CareerDetail > h5 {
+    margin-bottom: 2.5rem; }
+    .CareerDetail > h5::after {
+      bottom: -1.25rem; }
+
+.CareerIndex {
+  position: relative;
+  top: -11.5rem;
+  padding: 2.8125rem 2.5rem 2.5rem;
+  width: 24.5rem;
+  background-color: #F0EFF6; }
+
+.CareerIndex__position {
+  margin-top: 2rem; }
+  .CareerIndex__position > a {
+    font-weight: 700;
+    font-size: 1.125rem; }
+  .CareerIndex__position > a.active {
+    color: #553580; }
+
+.BackToCareers > a {
+  color: #553580;
+  font-weight: 500;
+  padding-left: 2rem;
+  position: relative; }
+  .BackToCareers > a::before {
+    background: url("../images/icon--arrow.svg") center no-repeat;
+    color: #553580;
+    content: '';
+    height: 1rem;
+    margin-top: -0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(0.5turn);
+    width: 1.5rem; }
+
+@media only screen and (max-width: 900px) {
+  .CareerIndex {
+    display: none; }
+  .CareerDetails {
+    width: 100%;
+    padding-right: 0; } }

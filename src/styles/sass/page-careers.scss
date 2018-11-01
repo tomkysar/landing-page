@@ -1,4 +1,4 @@
-.Faq {
+.Careers {
   background-color: $gray;
   padding-top: 6.5rem;
 
@@ -10,13 +10,30 @@
   }
 }
 
-.FaqAnswers {
+.CareerDetails {
   width: 41.75rem;
   padding-right: 4rem;
 }
 
-.FaqAnswer {
+.CareerBreadcrumbs {
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+
+  > a {
+    color: $purple;
+  }
+
+  > a.active {
+    font-weight: bold;
+  }
+}
+
+.CareerDetail {
   padding-bottom: 4rem;
+
+  > p > a {
+    color: $purple;
+  }
 
   > ul {
     font-size: 1.125rem;
@@ -25,7 +42,7 @@
     padding-left: 2.4rem;
 
     > li {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -40,7 +57,7 @@
   }
 }
 
-.FaqIndex {
+.CareerIndex {
   position: relative;
   top: -11.5rem;
   padding: 2.8125rem 2.5rem 2.5rem;
@@ -48,20 +65,48 @@
   background-color: $purple--light;
 }
 
-.FaqIndex__question {
+.CareerIndex__position {
   margin-top: 2rem;
 
   > a {
     font-weight: 700;
     font-size: 1.125rem;
   }
+
+  > a.active {
+    @extend .with-full-line;
+
+    color: $purple;
+  }
+}
+
+.BackToCareers {
+  > a {
+    color: $purple;
+    font-weight: 500;
+    padding-left: 2rem;
+    position: relative;
+
+  &::before {
+    background: url('../images/icon--arrow.svg') center no-repeat;
+    color: $purple;
+    content: '';
+    height: 1rem;
+    margin-top: -0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(0.5turn);
+    width: 1.5rem;
+  }
+  }
 }
 
 @media only screen and (max-width: 900px) {
-  .FaqIndex {
+  .CareerIndex {
     display: none;
   }
-  .FaqAnswers {
+  .CareerDetails {
     width: 100%;
     padding-right: 0;
   }

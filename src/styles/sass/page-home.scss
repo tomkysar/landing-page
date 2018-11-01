@@ -563,7 +563,7 @@
 
 .download-links {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .download-links > a {
@@ -577,6 +577,13 @@
   text-align: center;
   margin-bottom: 1rem;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 1100px) {
+  .download-links {
+    display: flex;
+    flex-flow: row nowrap;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
